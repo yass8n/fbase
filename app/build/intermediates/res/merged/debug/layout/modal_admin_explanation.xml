@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/black"
+        android:alpha="0"
+        android:onClick="dismissModalShower"
+        android:clickable="true"
+        android:id="@+id/overlay"
+        />
+
+    <RelativeLayout
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/modal"
+        android:layout_marginTop="110dp"
+        >
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:id="@+id/ex"
+            android:background="@drawable/close_modal"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="5dp"
+            android:clickable="true"
+            android:onClick="dismissModalShower"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:background="@drawable/rounded_corners_modal"
+            android:orientation="vertical"
+            android:layout_marginTop="100dp"
+            >
+
+            <com.makeramen.RoundedImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/big_star"
+                android:id="@+id/big_star"
+                android:layout_gravity="center"
+                android:layout_centerVertical="true"
+                android:layout_centerInParent="true" />
+
+            <com.gthr.android.view_objects.fTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/what_is_an_admin"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:textColor="@color/black"
+                android:maxLines="1"
+                android:textSize="18sp"
+                custom:typeface="bold"
+                />
+
+            <com.gthr.android.view_objects.fTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:id="@+id/text"
+                android:text="An Admin is someone who can help you manage your list. An admin can view the list and everyone in it, add people, approve join requests and send to the list."
+                android:textSize="16dp"
+                android:textColor="@color/dark_text_color"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="20dp"
+                android:layout_marginTop="10dp"
+                custom:typeface="light"
+                />
+
+            <Button
+                android:layout_width="260dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:background="@drawable/rounded_green_background_less_radius"
+                android:text="@string/got_it"
+                android:id="@+id/button"
+                android:onClick="dismissModalShower"
+                android:clickable="true"
+                android:textColor="@color/white"
+                android:textSize="19dp"
+                android:layout_marginLeft="1dp"
+                android:layout_marginRight="1dp"
+                android:layout_marginBottom="10dp"
+                />
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_centerHorizontal="true"
+            android:focusable="true"
+            >
+
+
+
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

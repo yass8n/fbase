@@ -1,0 +1,40 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:orientation="horizontal"
+    android:weightSum="100"
+    android:id="@+id/action_bar"
+    android:background="@drawable/bottom_border"
+    android:baselineAligned="false"
+    android:clickable="false">
+
+    <com.gthr.android.view_objects.fTextView
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="75"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Gather"
+        android:gravity="left|center_vertical"
+        android:id="@+id/name"
+        android:paddingLeft="10dp"
+        android:textColor="@color/dark_gray"
+        android:textSize="27dp"
+        custom:typeface="light"
+        />
+
+    <ImageButton
+        android:layout_width="0dp"
+        android:layout_height="49dp"
+        android:layout_weight="25"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/action_profile"
+        android:layout_gravity="right"
+        android:layout_marginRight="-25dp"
+        android:text="Save"
+        android:paddingTop="10dp"
+        android:paddingBottom="5dp"
+        android:background="#FFF"
+        android:clickable="true"
+        android:onClick="goToFragmentProfile"/>
+</LinearLayout>

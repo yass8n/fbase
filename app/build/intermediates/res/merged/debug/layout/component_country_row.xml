@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="50dp">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <com.gthr.android.view_objects.fTextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Country +1"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="8dp"
+            custom:typeface="sbold"
+            android:id="@+id/text"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="@color/lighter_gray"
+            android:layout_alignParentBottom="true"
+            android:id="@+id/line"
+            />
+
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,163 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/dark_blue"
+    tools:context="com.gthr.android.WelcomeActivity"
+    android:id="@+id/welcome_activity">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:padding="10dp"
+        >
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/scroll_view"
+            android:layout_alignParentTop="true"
+            android:layout_above="@+id/scroll_view2"
+            android:layout_alignParentBottom="true">
+
+            <RelativeLayout
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                tools:context="com.gthr.android.WelcomeActivity"
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/greeting_container"
+                    android:layout_marginBottom="20dp"
+                    android:orientation="horizontal"
+                    android:weightSum="1"
+                    >
+
+                    <com.gthr.android.view_objects.fTextView
+                        android:text="United States"
+                        android:id="@+id/welcome_desc"
+                        android:layout_width="match_parent"
+                        android:gravity="start"
+                        android:textSize="28sp"
+                        android:textColor="@color/white"
+                        android:layout_centerVertical="true"
+                        android:layout_gravity="center_vertical"
+                        android:textStyle="normal"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        />
+
+                    <ImageButton
+                        android:id="@+id/arrow"
+                        android:background="@drawable/down_arrow"
+                        android:layout_centerVertical="true"
+                        android:layout_toRightOf="@+id/welcome_desc"
+                        android:layout_toEndOf="@+id/welcome_desc"
+                        android:layout_gravity="center_vertical"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:layout_weight="0.1"
+                        />
+
+
+                </LinearLayout>
+
+                <com.gthr.android.view_objects.fEditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="45dp"
+                    android:gravity="start"
+                    android:background="@android:color/transparent"
+                    android:textSize="26sp"
+                    android:inputType="phone"
+                    android:id="@+id/phone"
+                    android:layout_below="@+id/greeting_container"
+                    android:textColor="@color/white"
+                    android:textColorHint="@color/transparent_white"
+                    android:textCursorDrawable="@null"
+                    />
+            </RelativeLayout>
+        </ScrollView>
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/scroll_view2"
+            android:layout_centerInParent="true"
+            android:layout_alignParentBottom="true"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+
+                <com.gthr.android.view_objects.fTextView
+                    android:layout_width="170dp"
+                    android:layout_height="50dp"
+                    android:background="@drawable/very_rounded_white_outline"
+                    android:textColor="@color/white"
+                    android:id="@+id/continue_button_disabled"
+                    android:text="@string/next"
+                    android:textSize="20sp"
+                    android:gravity="center"
+                    android:textAllCaps="true"
+                    android:layout_gravity="right"
+                    android:alpha="0.7"
+                    />
+
+                <com.gthr.android.view_objects.fTextView
+                    android:layout_width="170dp"
+                    android:layout_height="50dp"
+                    android:background="@drawable/very_rounded_white_solid"
+                    android:textColor="@color/dark_blue"
+                    android:id="@+id/continue_button"
+                    android:text="@string/next"
+                    android:textSize="20sp"
+                    android:gravity="center"
+                    android:textAllCaps="true"
+                    android:layout_gravity="right"
+                    android:visibility="gone"
+                    />
+
+            </LinearLayout>
+
+        </ScrollView>
+
+    </RelativeLayout>
+
+
+    <include layout="@layout/layout_contacts_upload_confirm"
+        android:id="@+id/layout_contacts_upload_confirm"/>
+
+    <include layout="@layout/layout_location_permissions_confirm"
+    android:id="@+id/layout_location_permissions_confirm"/>
+
+    <include layout="@layout/layout_sms_permissions_confirm"
+        android:id="@+id/layout_sms_permissions_confirm"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/black"
+        android:id="@+id/faded"
+        android:visibility="gone"
+        android:alpha=".5"
+        />
+
+    <ProgressBar
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:id="@+id/progress"
+        android:visibility="gone"
+        android:background="@drawable/progress_bar"
+        android:progressDrawable="@drawable/progress_bar" />
+
+</RelativeLayout>

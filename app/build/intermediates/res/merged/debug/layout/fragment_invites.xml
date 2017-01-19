@@ -1,0 +1,400 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:id="@+id/fragment_invites">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:clickable="true"
+        android:id="@+id/container">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            android:layout_alignParentTop="true"
+            android:background="@color/white"
+            android:id="@+id/invite_bar"
+            android:clickable="true"
+            android:paddingEnd="16dp"
+            android:elevation="2dp"
+            >
+
+            <RelativeLayout
+                android:layout_width="52dp"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:layout_alignParentTop="true"
+                android:background="@color/white"
+                android:clickable="true"
+                android:id="@+id/invites_top"
+                android:paddingStart="16dp"
+                >
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:clickable="false"
+                    android:id="@+id/top_bar_airplane"
+                    android:layout_alignParentStart="true"
+                    android:layout_centerVertical="true"
+                    />
+
+                </RelativeLayout>
+
+            <com.gthr.android.view_objects.fTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Invites"
+                android:layout_centerVertical="true"
+                android:textColor="@color/red"
+                android:textSize="20sp"
+                custom:typeface="sbold"
+                android:layout_toEndOf="@+id/invites_top"
+                android:id="@+id/invites_text"
+                />
+
+            <RelativeLayout
+                android:layout_width="55dp"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:layout_alignParentEnd="true"
+                android:background="@color/white"
+                android:clickable="true"
+                android:layout_centerInParent="true"
+                android:id="@+id/go_to_profile"
+                >
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:clickable="false"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/profile"
+                    android:id="@+id/top_right_drawable"
+                    />
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+        <android.support.v4.widget.SwipeRefreshLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/swipe_container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/invite_bar"
+            >
+
+            <ListView xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/lighter_gray"
+                android:orientation="vertical"
+                android:id="@+id/invites_scroll"
+                android:weightSum="100"
+                android:clipChildren="false"
+                android:divider="@null"
+                android:dividerHeight="0dp"
+                android:clipToPadding="false"
+                android:paddingBottom="90dp"
+                >
+
+            </ListView>
+
+        </android.support.v4.widget.SwipeRefreshLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/no_events"
+            android:layout_below="@+id/invite_bar"
+            android:background="@color/lighter_gray"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="70dp"
+            android:visibility="gone"
+            >
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                >
+
+                <ImageView
+                    android:layout_width="300dp"
+                    android:layout_height="200dp"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/no_invites_illustration"
+                    android:id="@+id/people"
+                    android:layout_centerHorizontal="true"
+                    android:layout_alignParentTop="true"
+                    />
+
+                <com.gthr.android.view_objects.fTextView
+                    android:text="You Have 0 friends you can send an invite to now"
+                    android:id="@+id/no_events_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="40dp"
+                    android:paddingRight="40dp"
+                    android:gravity="center"
+                    android:textSize="18sp"
+                    android:textColor="@color/black"
+                    android:layout_centerHorizontal="true"
+                    custom:typeface="sbold"
+                    android:layout_below="@+id/people"
+                    android:layout_marginTop="20dp"
+                    />
+
+                <com.gthr.android.view_objects.fTextView
+                    android:text="@string/no_events_new"
+                    android:id="@+id/no_events_text_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="30dp"
+                    android:paddingRight="30dp"
+                    android:gravity="center"
+                    android:textSize="18sp"
+                    android:textColor="@color/black"
+                    android:layout_centerHorizontal="true"
+                    android:layout_below="@+id/no_events_text"
+                    android:layout_marginTop="20dp"
+                    />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:id="@+id/hidden_invite_view"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                >
+
+                <com.gthr.android.view_objects.fTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:minWidth="200dp"
+                    android:id="@+id/showing_text"
+                    android:textSize="16sp"
+                    app:minTextSize="16sp"
+                    android:gravity="center"
+                    android:paddingStart="15dp"
+                    android:paddingEnd="15dp"
+                    android:paddingBottom="10dp"
+                    android:paddingTop="10dp"
+                    android:layout_centerInParent="true"
+                    android:text="Showing"
+                    android:maxLines="1"
+                    android:textColor="@color/light_gray"
+                    custom:typeface="sbold"
+                    />
+
+            </RelativeLayout>
+
+
+
+            <!--<Button-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="60dp"-->
+            <!--android:layout_marginTop="40dp"-->
+            <!--android:layout_marginRight="30dp"-->
+            <!--android:layout_marginLeft="30dp"-->
+            <!--android:layout_marginBottom="100dp"-->
+            <!--android:background="@drawable/rounded_corners_green_button"-->
+            <!--android:textColor="@color/white"-->
+            <!--android:id="@+id/continue_button"-->
+            <!--android:text="@string/create_an_invite"-->
+            <!--android:textSize="20dp"-->
+            <!--android:onClick="startInvites"-->
+            <!--android:layout_above="@+id/gradient"-->
+            <!--android:layout_centerHorizontal="true"-->
+            <!--android:layout_alignParentBottom="true"-->
+            <!--android:textAllCaps="false"-->
+            <!--/>-->
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/onboard_pager"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        >
+    </android.support.v4.view.ViewPager>
+
+    <LinearLayout
+        android:layout_marginBottom="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="10dp"
+        android:id="@+id/view_page_indicator"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:visibility="gone"
+        android:gravity="center_horizontal"
+        />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"
+        android:id="@+id/people_profile_pager_container_fragment_invites">
+        <android.support.v4.view.ViewPager
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/people_profile_pager_fragment_invites"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:background="@drawable/back"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:gravity="left"
+            android:id="@+id/right"
+            android:clickable="true"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            />
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:background="@drawable/back"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:gravity="left"
+            android:id="@+id/left"
+            android:clickable="true"
+            android:layout_centerVertical="true"
+            />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_alignParentBottom="true"
+        android:weightSum="100"
+        android:orientation="vertical"
+        android:id="@+id/action_bar"
+        android:background="@color/white"
+        >
+
+        <com.gthr.android.view_objects.fTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/bottom_bar_top"
+            android:text="@string/what_do_you_want_to_do"
+            android:textColor="@color/gray"
+            android:textSize="14sp"
+            custom:typeface="sbold"
+            android:layout_above="@+id/bottom_bar_bottom"
+            android:textAllCaps="true"
+            android:layout_marginTop="7dp"
+            android:layout_marginBottom="7dp"
+            android:layout_marginStart="9dp"
+            />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:orientation="horizontal"
+            android:clickable="true"
+            android:layout_gravity="center"
+            android:layout_alignParentBottom="true"
+            android:background="@color/white"
+            android:id="@+id/bottom_bar_bottom"
+            >
+
+            <android.support.v7.widget.RecyclerView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clipToPadding="false"
+                android:id="@+id/emoji_recycler_view"
+                android:background="@drawable/people_recycler_gradient_right"
+                android:paddingStart="1dp"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="8dp"
+                />
+
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/people_recycler_gradient_right"
+                android:layout_alignRight="@+id/emoji_recycler_view"
+                android:layout_alignEnd="@+id/emoji_recycler_view"
+                android:id="@+id/_gradient"
+                android:visibility="visible"
+                />
+
+            <RelativeLayout
+                android:layout_width="165dp"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:clickable="true"
+                android:id="@+id/create_invite"
+                android:layout_gravity="center"
+                android:elevation="10dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentEnd="true"
+                android:background="@drawable/very_rounded_corners"
+                android:layout_marginBottom="7dp"
+                android:layout_marginEnd="7dp"
+                android:padding="6dp"
+                >
+
+                <com.gthr.android.view_objects.fTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/create_invite"
+                    android:textColor="@color/white"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="10dp"
+                    android:textSize="17sp"
+                    />
+
+                <ImageButton
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="10dp"
+                    android:layout_alignParentEnd="true"
+                    android:background="@drawable/on_boarding_invite_icon"
+                    android:clickable="false"
+                    />
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/focused_events"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true">
+
+    </RelativeLayout>
+
+    <include layout="@layout/component_tooltip_create_invites"
+        android:id="@+id/tooltip_create_invites"
+        android:visibility="gone"
+        />
+
+    <include layout="@layout/component_tooltip_profile"
+        android:id="@+id/tooltip_profile"
+        android:visibility="gone"
+        />
+
+
+</RelativeLayout>

@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/black"
+        android:alpha="0"
+        android:onClick="dismissModalShower"
+        android:clickable="true"
+        android:id="@+id/overlay"
+        />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/modal_container"
+        android:layout_centerHorizontal="true"
+        >
+
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginTop="25dp"
+            android:id="@+id/action_done"
+            android:background="@color/transparent"
+            android:clickable="true">
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:id="@+id/ex"
+                android:gravity="right"
+                android:background="@drawable/close_modal"
+                android:layout_centerInParent="true"
+                android:layout_marginTop="5dp"
+                android:textColor="@color/light_gray"
+                android:focusableInTouchMode="true"
+                />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/action_done"
+            android:background="@color/white"
+            android:id="@+id/modal"
+            >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_gravity="center_vertical"
+                android:layout_below="@+id/event"
+                android:paddingLeft="2dp"
+                android:paddingStart="2dp"
+                android:paddingTop="3dp"
+                android:paddingBottom="3dp"
+                android:orientation="vertical"
+                android:id="@+id/list_view_holder"
+                android:background="@color/white"
+                >
+
+                <com.gthr.android.view_objects.fTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/list_title"
+                    android:textColor="@color/black"
+                    android:background="@color/white"
+                    android:textSize="18sp"
+                    android:text="List title"
+                    android:gravity="center"
+                    android:layout_centerHorizontal="true"
+                    android:clickable="false"
+                    android:layout_alignParentTop="true"
+                    />
+
+                <include layout="@layout/component_recycler_view"
+                    android:id="@+id/component_recycler_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:background="@color/white"
+                    android:clipChildren="false"
+                    android:divider="@null"
+                    android:dividerHeight="0dp"
+                    android:layout_below="@+id/list_title"
+                    />
+
+
+                <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:layout_width="match_parent"
+                    android:layout_alignParentBottom="true"
+                    android:background="@drawable/bottom_listview_gradient"
+                    android:layout_height="60dp"
+                    >
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:id="@+id/chat_gradient"
+                        android:visibility="visible"
+                        />
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dp"
+                        android:id="@+id/add_to_list_button"
+                        android:layout_marginRight="50dp"
+                        android:layout_marginEnd="50dp"
+                        android:layout_marginLeft="50dp"
+                        android:layout_marginStart="50dp"
+                        android:paddingStart="25dp"
+                        android:paddingLeft="25dp"
+                        android:paddingRight="25dp"
+                        android:paddingEnd="25dp"
+                        android:background="@drawable/very_rounded_corners"
+                        android:layout_centerHorizontal="true"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginBottom="5dp"
+                        >
+
+                        <com.gthr.android.view_objects.fTextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/add_to_lists_title"
+                            android:text="@string/add_to_invite_lists"
+                            android:textAllCaps="true"
+                            android:textColor="@color/white"
+                            android:layout_centerInParent="true"
+                            android:textSize="14sp"
+                            custom:typeface="sbold"
+                            />
+                        <ProgressBar
+                            android:id="@+id/progress_bar"
+                            style="?android:attr/progressBarStyleSmall"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerHorizontal="true"
+                            android:layout_centerVertical="true"
+                            android:visibility="gone"
+                            android:background="@drawable/progress_bar"
+                            android:progressDrawable="@drawable/progress_bar" />
+
+                    </RelativeLayout>
+
+                </RelativeLayout>
+            </RelativeLayout>
+
+        </RelativeLayout>
+    </RelativeLayout>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/black"
+        android:id="@+id/faded"
+        android:visibility="gone"
+        android:onClick="doNothing"
+        android:alpha=".5" />
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"
+        android:id="@+id/people_profile_pager_container">
+        <android.support.v4.view.ViewPager
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/people_profile_pager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:background="@drawable/back"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:gravity="left"
+            android:id="@+id/right"
+            android:clickable="true"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            />
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:background="@drawable/back"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:gravity="left"
+            android:id="@+id/left"
+            android:clickable="true"
+            android:layout_centerVertical="true"
+            />
+
+    </RelativeLayout>
+
+</RelativeLayout>

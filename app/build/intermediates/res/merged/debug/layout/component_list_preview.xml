@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:id="@+id/list_card_preview"
+    android:padding="10dp"
+    android:background="@color/red"
+    android:visibility="gone"
+    >
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="70dp"
+        android:layout_marginRight="70dp"
+        >
+        <com.gthr.android.view_objects.fTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/preview_list_title"
+            android:textColor="@color/white"
+            android:textSize="13sp"
+            android:text="This is a dope dope dope asss event yo! Check it! It's dope!"
+            android:layout_below="@+id/preview_event_date"
+            android:ellipsize="end"
+            />
+
+    </RelativeLayout>
+    <ImageView
+        android:layout_width="16dp"
+        android:layout_height="16dp"
+        android:id="@+id/lock_icon"
+        android:layout_gravity="center"
+        android:src="@drawable/lock"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="3dp"
+        android:layout_marginEnd="3dp"
+        android:visibility="invisible"
+        android:layout_toLeftOf="@+id/seen_icon"
+        android:layout_toStartOf="@+id/seen_icon"/>
+
+    <ImageView
+        android:layout_width="16dp"
+        android:layout_height="16dp"
+        android:id="@+id/seen_icon"
+        android:layout_centerVertical="true"
+        android:layout_gravity="center"
+        android:src="@drawable/black_cross_eye"
+        android:layout_marginRight="3dp"
+        android:layout_marginEnd="3dp"
+        android:visibility="invisible"
+        android:layout_toLeftOf="@+id/arrow"
+        android:layout_toStartOf="@+id/arrow" />
+    <ImageView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:id="@+id/arrow"
+        android:src="@drawable/down_arrow"
+        android:layout_centerVertical="true" />
+</RelativeLayout>
+

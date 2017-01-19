@@ -1,0 +1,78 @@
+<!--IF YOU CHANGE TAG STICKY IT WILL BREAK JOINING_ADAPTER -->
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="30dp"
+    android:tag="sticky"
+    android:background="@color/lighter_gray"
+    android:focusable="false"
+    android:focusableInTouchMode="false"
+    android:orientation="horizontal">
+    <!--IF YOU CHANGE TAG STICKY IT WILL BREAK JOINING_ADAPTER -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal"
+        android:animateLayoutChanges="true"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:weightSum="3" >
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:layout_gravity="center" >
+
+            <com.gthr.android.view_objects.fTextView
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:id="@+id/header"
+                android:textColor="@color/purple"
+                android:text="@string/friends"
+                android:textSize="14sp"
+                android:gravity="start|center"
+                android:layout_gravity="center"
+                android:textAllCaps="true"
+                custom:typeface="sbold"
+                android:layout_marginRight="5dp"
+                android:layout_marginEnd="5dp"
+                />
+
+
+            <com.gthr.android.view_objects.fTextView
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:id="@+id/header_hint"
+                android:textColor="@color/light_gray"
+                android:text="(Select One)"
+                android:textSize="12sp"
+                android:gravity="start|center"
+                android:layout_gravity="center"
+                custom:typeface="light"
+                android:layout_marginRight="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_toRightOf="@+id/header"
+                />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1px"
+                android:background="@color/gray"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@id/header_hint"
+                android:layout_toEndOf="@id/header_hint"
+                />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>
+

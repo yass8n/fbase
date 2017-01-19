@@ -1,0 +1,102 @@
+[
+    {
+        "outputFile": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-en-rSS/values-en-rSS.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 61,
+                    "endOffset": 112
+                },
+                "from": {
+                    "file": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/exploded-aar/com.twitter.sdk.android/twitter-core/1.6.4/res/values-en-rSS/values-en-rSS.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 238,
+                        "endColumn": 61,
+                        "endOffset": 295
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 117,
+                    "endColumn": 75,
+                    "endOffset": 188
+                },
+                "from": {
+                    "file": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/exploded-aar/com.twitter.sdk.android/twitter-core/1.6.4/res/values-en-rSS/values-en-rSS.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 300,
+                        "endColumn": 75,
+                        "endOffset": 371
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 193,
+                    "endColumn": 65,
+                    "endOffset": 254
+                },
+                "from": {
+                    "file": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/exploded-aar/com.twitter.sdk.android/twitter-core/1.6.4/res/values-en-rSS/values-en-rSS.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 376,
+                        "endColumn": 65,
+                        "endOffset": 437
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 259,
+                    "endColumn": 279,
+                    "endOffset": 534
+                },
+                "from": {
+                    "file": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/exploded-aar/com.twitter.sdk.android/twitter-core/1.6.4/res/values-en-rSS/values-en-rSS.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 442,
+                        "endColumn": 279,
+                        "endOffset": 717
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 539,
+                    "endColumn": 84,
+                    "endOffset": 619
+                },
+                "from": {
+                    "file": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/exploded-aar/com.twitter.sdk.android/twitter-core/1.6.4/res/values-en-rSS/values-en-rSS.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 722,
+                        "endColumn": 84,
+                        "endOffset": 802
+                    }
+                }
+            }
+        ]
+    }
+]

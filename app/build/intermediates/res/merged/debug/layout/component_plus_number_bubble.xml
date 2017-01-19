@@ -1,0 +1,45 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        >
+
+        <com.makeramen.RoundedImageView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/circle_imageview"
+            android:layout_gravity="center|end"
+            android:src="@color/transparent"
+            android:gravity="end"
+            android:scaleType="centerCrop"
+            app:riv_oval="true"
+            app:riv_border_color="@color/grayish"
+            app:riv_border_width="1dp"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:cropToPadding="false"
+            />
+
+        <com.gthr.android.view_objects.fTextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/list_number"
+            android:text="66"
+            android:textSize="14sp"
+            android:gravity="center"
+            android:layout_centerInParent="true"
+            android:textColor="@color/white"
+            android:maxLines="1"
+            custom:typeface="sbold"
+            />
+    </RelativeLayout>
+
+</RelativeLayout>

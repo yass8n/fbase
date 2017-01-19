@@ -1,0 +1,74 @@
+[
+    {
+        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/menu/menu_main_activity2.xml",
+        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/src/main/res/menu/menu_main_activity2.xml"
+    },
+    {
+        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/menu/squarecamera__menu_main.xml",
+        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/src/main/res/menu/squarecamera__menu_main.xml"
+    },
+    {
+        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/menu/menu_sign_up.xml",
+        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/src/main/res/menu/menu_sign_up.xml"
+    },
+    {
+        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/menu/menu_sign_in.xml",
+        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/src/main/res/menu/menu_sign_in.xml"
+    },
+    {
+        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/menu/menu_dialog_sent_invites.xml",
+        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/src/main/res/menu/menu_dialog_sent_invites.xml"
+    },
+    {
+        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/menu/menu_chat_picture_options.xml",
+        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/src/main/res/menu/menu_chat_picture_options.xml"
+    },
+    {
+        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/menu/menu_welcome.xml",
+        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/src/main/res/menu/menu_welcome.xml"
+    },
+    {
+        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/menu/menu_invite_more.xml",
+        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/src/main/res/menu/menu_invite_more.xml"
+    },
+    {
+        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/menu/menu_update_list.xml",
+        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/src/main/res/menu/menu_update_list.xml"
+    },
+    {
+        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/menu/squarecamera__menu_blank.xml",
+        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/src/main/res/menu/squarecamera__menu_blank.xml"
+    },
+    {
+        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/menu/menu_create_list.xml",
+        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/src/main/res/menu/menu_create_list.xml"
+    },
+    {
+        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/menu/menu_contact.xml",
+        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/src/main/res/menu/menu_contact.xml"
+    },
+    {
+        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/menu/menu_update_event.xml",
+        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/src/main/res/menu/menu_update_event.xml"
+    },
+    {
+        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/menu/menu_create_event.xml",
+        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/src/main/res/menu/menu_create_event.xml"
+    },
+    {
+        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/menu/menu_chat_options.xml",
+        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/src/main/res/menu/menu_chat_options.xml"
+    },
+    {
+        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/menu/menu_testing.xml",
+        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/src/main/res/menu/menu_testing.xml"
+    },
+    {
+        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/menu/menu_main.xml",
+        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/src/main/res/menu/menu_main.xml"
+    },
+    {
+        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/menu/popup.xml",
+        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/src/main/res/menu/popup.xml"
+    }
+]

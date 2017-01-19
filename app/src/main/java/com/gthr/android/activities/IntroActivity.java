@@ -1,29 +1,15 @@
 package com.gthr.android.activities;
 
-import android.content.Context;
-import android.content.Intent;
-import android.content.res.AssetFileDescriptor;
-import android.graphics.SurfaceTexture;
-import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.util.Log;
-import android.view.Surface;
-import android.view.TextureView;
-import android.view.View;
 
+import com.google.android.gms.tasks.OnCompleteListener;
+import com.google.android.gms.tasks.Task;
+import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
-import com.google.firebase.database.FirebaseDatabase;
-import com.gthr.android.R;
-import com.gthr.android.animations.Techniques;
-import com.gthr.android.animations.YoYo;
-import com.gthr.android.application.App;
-import com.gthr.android.application.Helper;
-import com.gthr.android.singleton.FirebaseSingleton;
 
-import java.util.HashMap;
-import java.util.Map;
 
 /**
  * Created by yaseen on 3/16/16.
@@ -33,8 +19,6 @@ public class IntroActivity extends ApplicationActivity  {
     private FirebaseAuth mAuth;
     private FirebaseAuth.AuthStateListener mAuthListener;
 
-    private MediaPlayer mMediaPlayer;
-    private TextureView mTextureView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -47,49 +31,32 @@ public class IntroActivity extends ApplicationActivity  {
                 FirebaseUser user = firebaseAuth.getCurrentUser();
                 if (user != null) {
                     // User is signed in
-                    final Map<String, Object> post = new HashMap<>();
+                    Log.d("YEYYY", "YESSS");
 
-
-                    post.put("user_id", 1);
-                    post.put("fname", "test");
-                    post.put("lname", "test");
-                    post.put("picture", "test");
-                    post.put("timestamp", "test");
-                    post.put("comment", "test");
-                    post.put("flagged", "test");;
-                    post.put("comment_picture", "test");
-
-
-                    final String path = "/comments" ;
-
-                    FirebaseDatabase.getInstance().getReferenceFromUrl(App.FB_DATABASE_URL + path).push().setValue(post);
-                    Log.d("TAG", "onAuthStateChanged:signed_in:" + user.getUid());
                 } else {
                     // User is signed out
-                    final Map<String, Object> post = new HashMap<>();
-
-
-                    post.put("user_id", 1);
-                    post.put("fname", "test");
-                    post.put("lname", "test");
-                    post.put("picture", "test");
-                    post.put("timestamp", "test");
-                    post.put("comment", "test");
-                    post.put("flagged", "test");;
-                    post.put("comment_picture", "test");
-
-
-                    final String path = "/comments" ;
-
-                    FirebaseDatabase.getInstance().getReferenceFromUrl(App.FB_DATABASE_URL + path).push().setValue(post);
-                    Log.d("TAG", "onAuthStateChanged:signed_out");
+                    Log.d("NO", ":(");
                 }
-                // ...
             }
         };
 
-        FirebaseSingleton firebaseSingleton = new FirebaseSingleton();
-        firebaseSingleton.signIn(this);
+        mAuth.signInAnonymously()
+                .addOnCompleteListener(activity, new OnCompleteListener<AuthResult>()
+                {
+                    @Override
+                    public void onComplete(@NonNull Task<AuthResult> task) {
+
+                        // If sign in fails, display a message to the user. If sign in succeeds
+                        // the auth state listener will be notified and logic to handle the
+                        // signed in user can be handled in the listener.
+                        if (!task.isSuccessful()){
+                            Log.d("NO", ":(");
+                        } else {
+                            Log.d("YEYYY", "YESSS");
+
+                        }
+                    }
+                });
     }
 
     @Override

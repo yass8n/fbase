@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    >
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:id="@+id/line_top_thick"
+        android:background="@color/lighter_gray"/>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true">
+
+        <com.makeramen.RoundedImageView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:id="@+id/checkmark"
+            android:src="@drawable/joined_green"
+            android:layout_gravity="center|end"
+            android:gravity="end"
+            android:scaleType="centerCrop"
+            app:riv_oval="true"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:cropToPadding="false"
+            android:layout_marginStart="10dp"
+            android:visibility="gone"
+            />
+
+        <com.makeramen.RoundedImageView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:id="@+id/white_circle"
+            android:src="@color/white"
+            android:scaleType="centerCrop"
+            app:riv_oval="true"
+            app:riv_border_color="@color/grayish"
+            app:riv_border_width="1px"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:cropToPadding="false"
+            android:layout_marginStart="10dp"
+            />
+
+        <com.gthr.android.view_objects.fTextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/name"
+            android:layout_gravity="center"
+            android:textColor="@color/dark_gray"
+            android:text="@string/first_name_hint"
+            android:textSize="17sp"
+            android:gravity="center|start"
+            android:ellipsize="marquee"
+            android:maxLines="1"
+            android:layout_marginStart="40dp"
+            custom:typeface="sbold"
+            />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:id="@+id/line_bottom_thin"
+            android:layout_alignParentBottom="true"
+            android:background="@color/lighter_gray"/>
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

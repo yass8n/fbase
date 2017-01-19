@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:layout_height="100dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:id="@+id/open_invite"
+        android:layout_height="50dp">
+
+        <com.gthr.android.view_objects.fTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Make it open and see who's down"
+            android:textColor="@color/gray"
+            android:textSize="14dp"
+            android:textStyle="bold"
+            android:gravity="left|center_vertical"
+            android:alpha="1"
+            custom:typeface="sbold"
+            android:layout_marginStart="10dp"
+            android:layout_centerVertical="true"
+            />
+
+        <com.makeramen.RoundedImageView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:id="@+id/white_circle_open"
+            android:layout_gravity="center|end"
+            android:src="@color/white"
+            android:gravity="end"
+            android:scaleType="centerCrop"
+            app:riv_oval="true"
+            app:riv_border_color="@color/grayish"
+            app:riv_border_width="1px"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:cropToPadding="false"
+            android:layout_marginEnd="10dp"
+            />
+
+        <com.makeramen.RoundedImageView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:id="@+id/checkmark_open_active"
+            android:src="@drawable/joined_green"
+            android:layout_gravity="center|end"
+            android:gravity="end"
+            android:scaleType="centerCrop"
+            app:riv_oval="true"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:cropToPadding="false"
+            android:layout_marginEnd="10dp"
+            android:visibility="gone"
+            />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_below="@+id/open_invite"
+        android:id="@+id/closed_invite"
+        android:layout_height="50dp">
+
+        <com.gthr.android.view_objects.fTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Select friends to invite"
+            android:textColor="@color/gray"
+            android:textSize="14dp"
+            android:textStyle="bold"
+            android:gravity="left|center_vertical"
+            android:alpha="1"
+            android:layout_weight="1"
+            custom:typeface="sbold"
+            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_centerVertical="true"
+            />
+
+        <com.makeramen.RoundedImageView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:id="@+id/white_circle_closed"
+            android:layout_gravity="center|end"
+            android:src="@color/white"
+            android:gravity="end"
+            android:scaleType="centerCrop"
+            app:riv_oval="true"
+            app:riv_border_color="@color/grayish"
+            app:riv_border_width="1px"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:cropToPadding="false"
+            android:layout_marginEnd="10dp"
+            />
+
+        <com.makeramen.RoundedImageView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:id="@+id/checkmark_closed_active"
+            android:src="@drawable/joined_green"
+            android:layout_gravity="center|end"
+            android:gravity="end"
+            android:scaleType="centerCrop"
+            app:riv_oval="true"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:cropToPadding="false"
+            android:layout_marginEnd="10dp"
+            android:visibility="gone"
+            />
+
+    </RelativeLayout>
+
+</RelativeLayout>

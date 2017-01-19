@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:visibility="gone"
+    >
+    <LinearLayout
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:background="@color/dark_blue"
+        android:weightSum="100"
+        >
+
+        <com.gthr.android.view_objects.fTextView
+            android:text="@string/contacts_access_header"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            custom:typeface="bold"
+            android:gravity="center|top"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="25dp"
+            android:textColor="@color/white"
+            android:textAllCaps="true"
+            />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="190"
+            >
+
+            <ImageView
+                android:layout_width="160dp"
+                android:layout_height="match_parent"
+                android:maxWidth="155dp"
+                android:src="@drawable/promise_icon"
+                android:layout_centerInParent="true"
+                android:id="@+id/promise_icon"
+                />
+
+        </RelativeLayout>
+
+        <com.gthr.android.view_objects.fTextView
+            android:text="@string/contact_access_main"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            custom:typeface="reg"
+            android:textSize="19sp"
+            android:textColor="@color/lightest_gray"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            />
+
+        <com.gthr.android.view_objects.fTextView
+            custom:typeface="reg"
+            android:text="@string/contact_access_second"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingTop="7dp"
+            android:layout_margin="20dp"
+            android:textSize="17sp"
+            android:textColor="@color/lightest_gray"
+            />
+
+    </LinearLayout>
+
+    <com.gthr.android.view_objects.fTextView
+        android:layout_width="230dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="90dp"
+        android:background="@drawable/very_rounded_white_solid"
+        android:textColor="@color/dark_blue"
+        android:id="@+id/grant_access"
+        android:text="@string/grant_access"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:textAllCaps="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        custom:typeface="sbold"
+        />
+
+    <com.gthr.android.view_objects.fTextView
+        android:text="Skip and do this later"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="@color/lightest_gray"
+        android:id="@+id/skip_contacts_agreement"
+        android:textSize="16sp"
+        android:layout_marginBottom="20dp"
+        android:maxLines="1"
+        android:clickable="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:textAllCaps="true"
+        android:alpha="0.7"
+        custom:typeface="sbold"
+        />
+
+</RelativeLayout>

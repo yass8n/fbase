@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gthr.android.view_objects.AnimationRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:animateLayoutChanges="true"
+    android:clickable="true"
+    android:layout_alignParentTop="true">
+
+    <com.gthr.android.view_objects.ViewPagers.ApplicationViewPager
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2"
+
+        android:id="@+id/event_headers"
+        >
+
+        <com.gthr.android.view_objects.fTextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/chars_remaining"
+            android:text="@string/other"
+            android:textColor="@color/white"
+            android:textSize="13sp"
+            android:gravity="start"
+            android:alpha="0.6"
+            android:layout_weight="2"
+            android:layout_marginEnd="10dp"
+            android:layout_marginStart="17dp"
+            android:visibility="gone"
+            />
+
+    </LinearLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_below="@+id/event_headers"
+        android:focusable="true"
+        android:id="@+id/title_holders"
+        android:focusableInTouchMode="true"
+        android:layout_height="wrap_content">
+
+    <com.gthr.android.view_objects.fEditText
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:id="@+id/invite_title"
+        android:textColor="@color/white"
+        android:hint="@string/event_title_edit"
+        android:textSize="19sp"
+        android:textColorHint="@color/faded_hint"
+        android:imeOptions="actionDone"
+        android:inputType="textMultiLine|textNoSuggestions|textFilter"
+        android:maxLength="80"
+        android:gravity="center"
+        android:background="@null"
+        android:layout_centerHorizontal="true"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="5dp"
+        />
+
+    <com.gthr.android.view_objects.fEditText
+        android:layout_width="wrap_content"
+        android:layout_height="90dp"
+        android:id="@+id/invite_title_create"
+        android:textColor="@color/white"
+        android:hint="@string/event_title_edit"
+        android:textSize="26sp"
+        android:textColorHint="@color/faded_hint"
+        android:inputType="textImeMultiLine"
+        android:imeOptions="actionDone"
+        android:maxLength="80"
+        android:background="@null"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="5dp"
+        />
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:id="@+id/date_section"
+        android:orientation="horizontal"
+        android:alpha="0"
+        android:onClick="doNothing"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_below="@+id/title_holders"
+        android:visibility="invisible"
+        >
+
+        <com.gthr.android.view_objects.fTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:textSize="17dp"
+            android:textAllCaps="true"
+            android:layout_marginStart="20dp"
+            android:text="@string/pick_date"
+            custom:typeface="sbold"
+            android:layout_marginBottom="10dp"
+            android:layout_above="@+id/date_section_2"
+            android:maxLines="1"
+            android:id="@+id/when"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginLeft="20dp"
+            android:layout_marginStart="20dp"
+            android:id="@+id/date_section_2"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            android:weightSum="99"
+            >
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_weight="33"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginEnd="8dp"
+                android:id="@+id/today"
+                android:maxLines="1"
+                android:layout_height="wrap_content">
+
+                <com.gthr.android.view_objects.fTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:id="@+id/today_text"
+                    android:textSize="16dp"
+                    android:paddingBottom="10dp"
+                    android:paddingTop="10dp"
+                    android:maxLines="1"
+                    android:text="@string/Today"
+                    android:gravity="center"
+                    android:layout_gravity="center_vertical"
+                    custom:typeface="sbold"
+                    android:layout_centerInParent="true"
+                    />
+
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_weight="33"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginEnd="8dp"
+                android:id="@+id/tbd"
+                android:layout_height="wrap_content">
+
+                <com.gthr.android.view_objects.fTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:id="@+id/tbd_text"
+                    android:textSize="16dp"
+                    android:paddingBottom="10dp"
+                    android:paddingTop="10dp"
+                    android:maxLines="1"
+                    android:text="@string/soon"
+                    android:gravity="center"
+                    android:layout_gravity="center_vertical"
+                    custom:typeface="sbold"
+                    android:layout_centerInParent="true"
+                    />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_weight="33"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginEnd="8dp"
+                android:id="@+id/other"
+                android:layout_height="wrap_content">
+
+                <com.gthr.android.view_objects.fTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:id="@+id/other_text"
+                    android:maxLines="1"
+                    android:textSize="16dp"
+                    android:paddingBottom="10dp"
+                    android:paddingTop="10dp"
+                    android:text="@string/other"
+                    android:gravity="center"
+                    android:layout_gravity="center_vertical"
+                    custom:typeface="sbold"
+                    android:layout_centerInParent="true"
+                    />
+
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:id="@+id/more_options"
+        android:gravity="center"
+        android:alpha="0.6"
+        android:layout_centerHorizontal="true"
+        android:paddingBottom="7dp"
+        android:paddingTop="6dp"
+        android:layout_below="@+id/date_section"
+        android:visibility="gone"
+        >
+
+        <ImageView
+            android:id="@+id/dots"
+            android:layout_width="15dp"
+            android:layout_height="20dp"
+            android:gravity="top"
+            android:src="@drawable/kebab_horizontal"
+            android:animateLayoutChanges="false"
+            android:layout_marginTop="2dp"
+            />
+
+    </RelativeLayout>
+
+    <include layout="@layout/component_invite_more_options"
+        android:id="@+id/component_invite_more_options"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+</com.gthr.android.view_objects.AnimationRelativeLayout>

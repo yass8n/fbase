@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:background="@color/green"
+    android:paddingStart="10dp"
+    android:paddingLeft="10dp"
+    android:layout_alignParentBottom="true"
+    >
+    <com.gthr.android.view_objects.fTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/friends"
+        android:textColor="@color/white"
+        android:layout_centerVertical="true"
+        android:textSize="16dp"
+        android:id="@+id/people_number"
+        android:layout_marginTop="7dp"
+        android:textStyle="bold"
+        android:gravity="left|center"
+        android:alpha="1"
+        custom:typeface="sbold"
+
+        />
+    <RelativeLayout
+        android:layout_width="115dp"
+        android:layout_height="50dp"
+        android:id="@+id/next"
+        android:background="@color/green"
+        android:paddingEnd="10dp"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true">
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/on_boarding_invite_icon"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="115dp"
+        android:layout_height="50dp"
+        android:paddingEnd="7dp"
+        android:id="@+id/next_text_container"
+        android:layout_alignParentEnd="true">
+        <com.gthr.android.view_objects.fTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:text="@string/update"
+            android:textColor="@color/green"
+            android:textSize="14dp"
+            android:id="@+id/next_text"
+            android:alpha="1"
+            custom:typeface="sbold"
+            android:clickable="false"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/rounded_corners_with_border"
+            android:paddingLeft="14dp"
+            android:paddingStart="14dp"
+            android:paddingEnd="14dp"
+            android:paddingRight="14dp"
+            android:paddingTop="7dp"
+            android:paddingBottom="7dp"
+            android:layout_alignParentEnd="true"
+            />
+    </RelativeLayout>
+
+
+</RelativeLayout>

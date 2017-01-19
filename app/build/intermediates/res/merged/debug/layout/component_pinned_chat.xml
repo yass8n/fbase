@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:id="@+id/pinned_chat"
+    android:layout_marginTop="3dp"
+    android:paddingBottom="6dp"
+    android:animateLayoutChanges="true"
+    android:clickable="true"
+    android:layout_marginEnd="6dp"
+    android:layout_marginStart="6dp"
+    android:layout_below="@+id/invite_card_preview"
+    android:visibility="gone"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="fill"
+        android:paddingEnd="40dp"
+        android:layout_marginTop="3dp"
+        android:paddingBottom="6dp"
+        android:id="@+id/chat_content"
+        >
+
+        <RelativeLayout
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="6dp"
+            android:layout_marginTop="3dp"
+            android:id="@+id/left_side"
+            >
+
+            <ImageView
+                android:layout_width="17dp"
+                android:layout_height="17dp"
+                android:layout_centerInParent="true"
+                android:src="@drawable/pin_yellow"
+                />
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="8dp"
+            android:id="@+id/right_side"
+            >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <com.gthr.android.view_objects.fTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/pinned_chat_name"
+                    android:textColor="@color/dark_gray"
+                    android:text="Name"
+                    android:textSize="15sp"
+                    android:gravity="start"
+                    android:layout_marginStart="2dp"
+                    android:textStyle="bold"
+                    android:layout_gravity="center_vertical"
+                    custom:typeface="bold"
+                    />
+
+                <com.gthr.android.view_objects.fTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/pinned_chat_time"
+                    android:textColor="@color/dark_gray"
+                    android:text="12:00pm 1/1/11"
+                    android:textSize="12sp"
+                    android:gravity="start"
+                    android:layout_marginStart="8dp"
+                    android:layout_gravity="center_vertical"
+                    custom:typeface="light"
+                    />
+
+            </LinearLayout>
+
+            <com.gthr.android.view_objects.fTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/pinned_text"
+                android:textColor="@color/dark_gray"
+                android:text="This is awesome! This is awesome! This is awesome! This is awesome! This is awesome! This is awesome!"
+                android:autoLink="web"
+                android:textSize="15sp"
+                custom:minTextSize="15sp"
+                android:layout_marginStart="2dp"
+                android:ellipsize="end"
+                android:maxLines="2"
+                />
+
+            <RelativeLayout
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                >
+                <com.makeramen.RoundedImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/chat_image"
+                    android:layout_height="wrap_content"
+                    android:layout_width="40dp"
+                    android:adjustViewBounds="true"
+                    android:visibility="gone"
+                    app:riv_corner_radius="3dip"
+                    />
+
+                <ProgressBar
+                    android:id="@+id/chat_image_progress"
+                    style="?android:attr/progressBarStyleSmallInverse"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:visibility="gone"
+                    android:layout_centerInParent="true"
+                    />
+            </RelativeLayout>
+
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+
+    <RelativeLayout
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:id="@+id/remove_pin"
+        android:layout_alignParentEnd="true"
+        >
+
+        <ImageView
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:src="@drawable/ex"
+            android:alpha=".5"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_centerInParent="true"
+            />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:id="@+id/collapse_container"
+        android:background="@drawable/bottom_listview_gradient_darker"
+        android:layout_below="@+id/chat_content"
+        android:layout_marginStart="3dp"
+        android:layout_marginEnd="3dp"
+        android:layout_marginTop="-35dp"
+        >
+
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:src="@drawable/down_arrow"
+            android:id="@+id/collapse"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_centerHorizontal="true"
+            />
+
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/lighter_gray"
+    android:id="@+id/fragment_single_list_view"
+    android:layout_gravity="center">
+
+    <include layout="@layout/component_list_card_top"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:layout_alignParentTop="true"
+        android:id="@+id/event"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_below="@+id/event"
+        android:layout_height="match_parent">
+        <include layout="@layout/component_contact_listview"
+            android:id="@+id/component_contact_listview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            />
+    </RelativeLayout>
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_height="wrap_content">
+
+        <include layout="@layout/component_list_bottom"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:background="@drawable/bottom_listview_gradient"
+            android:id="@+id/component_list_bottom"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"
+        android:id="@+id/people_profile_pager_container_fragment_single_list_view">
+
+        <android.support.v4.view.ViewPager
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/people_profile_pager_fragment_single_list_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:background="@drawable/back"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:gravity="left"
+            android:id="@+id/right"
+            android:clickable="true"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            />
+
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:background="@drawable/back"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:gravity="left"
+            android:id="@+id/left"
+            android:clickable="true"
+            android:layout_centerVertical="true"
+            />
+
+    </RelativeLayout>
+
+</RelativeLayout>

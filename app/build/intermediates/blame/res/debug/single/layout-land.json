@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/layout-land/squarecamera__fragment_camera.xml",
+        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/src/main/res/layout-land/squarecamera__fragment_camera.xml"
+    },
+    {
+        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/layout-land/squarecamera__fragment_edit_save_photo.xml",
+        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/src/main/res/layout-land/squarecamera__fragment_edit_save_photo.xml"
+    },
+    {
+        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/layout-land/com_mixpanel_android_activity_notification_full.xml",
+        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/exploded-aar/com.mixpanel.android/mixpanel-android/4.9.2/res/layout-land/com_mixpanel_android_activity_notification_full.xml"
+    }
+]

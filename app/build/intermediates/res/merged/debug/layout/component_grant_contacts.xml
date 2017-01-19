@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/component_grant_contacts"
+    android:background="@color/white"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:id="@+id/contacts_access_photo"
+        android:background="@drawable/contacts_access"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"/>
+    <com.gthr.android.view_objects.fTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:text="@string/we_use_your_contact_book_to_allow_you_to_invite_anyone_in_your_contacts_list_and_match_you_with_your_friends_using_the_app"
+        android:textSize="18sp"
+        android:layout_below="@+id/contacts_access_photo"
+        android:paddingTop="20dp"
+        android:paddingLeft="20dp"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp"
+        android:paddingRight="20dp"
+        android:gravity="center"
+        />
+
+    <com.gthr.android.view_objects.fTextView
+        android:layout_width="230dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="40dp"
+        android:background="@drawable/rounded_corners_green_button"
+        android:textColor="@color/white"
+        android:id="@+id/grant_access_button"
+        android:text="Allow Access"
+        android:textSize="18sp"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        custom:typeface="sbold"
+        android:layout_alignParentBottom="true"
+        />
+
+</RelativeLayout>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:background="@color/blue"
+    android:id="@+id/invite_card_preview"
+    android:padding="10dp"
+    android:visibility="gone"
+    >
+
+    <com.makeramen.RoundedImageView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="23dp"
+        android:layout_height="23dp"
+        android:id="@+id/preview_profile_pic"
+        android:src="@drawable/user_placeholder"
+        android:clickable="true"
+        android:scaleType="centerCrop"
+        app:riv_oval="true"
+        android:layout_gravity="center"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="10dp"
+        android:layout_marginEnd="10dp"
+        />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/preview_profile_pic"
+        android:layout_toEndOf="@id/preview_profile_pic"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="25dp"
+        android:layout_marginRight="25dp"
+        >
+
+        <com.gthr.android.view_objects.fTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/preview_event_date"
+            android:text="Date"
+            android:textColor="@color/white"
+            android:textSize="11sp"
+            custom:typeface="sbold"
+            android:textAllCaps="true"
+            android:alpha=".75"
+            android:textIsSelectable="false"
+            />
+
+        <com.gthr.android.view_objects.fTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/preview_event_title"
+            android:textColor="@color/white"
+            android:textSize="13sp"
+            android:text="This is a dope dope dope asss event yo! Check it! It's dope!"
+            android:layout_below="@+id/preview_event_date"
+            android:ellipsize="end"
+            />
+
+    </RelativeLayout>
+    <ImageView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:id="@+id/arrow"
+        android:src="@drawable/down_arrow"
+        android:layout_centerVertical="true" />
+</RelativeLayout>
+
