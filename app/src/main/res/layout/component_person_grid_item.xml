@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/component_person_grid_item"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/profile_circles"
+            android:gravity="center"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentTop="true"
+            >
+
+            <!--<com.makeramen.RoundedImageView-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:id="@+id/green_border"-->
+            <!--android:visibility="invisible"-->
+            <!--android:gravity="center"-->
+            <!--android:src="@drawable/white"-->
+            <!--app:riv_oval="true"-->
+            <!--android:scaleType="centerCrop"-->
+            <!--android:layout_gravity="center"-->
+            <!--android:layout_centerInParent="true"-->
+            <!--app:riv_border_width="2dp"-->
+            <!--app:riv_border_color="@color/green"-->
+            <!--/>-->
+            <!--<RelativeLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:id="@+id/profile_circles_inner"-->
+            <!--android:gravity="center"-->
+            <!--android:layout_centerInParent="true"-->
+            <!--&gt;-->
+            <include layout="@layout/component_profile_rounded"
+                android:layout_centerHorizontal="true"
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:gravity="center"
+                android:id="@+id/component_profile_rounded"
+                android:layout_centerInParent="true"
+                />
+
+            <com.makeramen.RoundedImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/overlay"
+                android:visibility="invisible"
+                android:gravity="center"
+                android:src="@color/transparent"
+                app:riv_oval="true"
+                android:scaleType="centerCrop"
+                android:layout_gravity="center"
+                android:layout_centerInParent="true"
+                app:riv_border_width="2.5dp"
+                app:riv_border_color="@color/green"
+                />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/checkmark"
+                android:src="@drawable/selected_check"
+                android:visibility="invisible"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:scaleType="fitCenter"
+                android:layout_centerInParent="true"
+                />
+            <!--</RelativeLayout>-->
+        </RelativeLayout>
+
+        <com.gthr.android.view_objects.fTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            custom:typeface="sbold"
+            android:textSize="14sp"
+            android:id="@+id/name"
+            android:text="FIRST NAME"
+            android:layout_marginTop="7dp"
+            android:layout_below="@+id/profile_circles"
+            android:layout_centerHorizontal="true"
+            android:gravity="center_horizontal"
+            android:textColor="@color/black"
+            />
+
+    </RelativeLayout>
+
+</RelativeLayout>

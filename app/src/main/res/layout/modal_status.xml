@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:onClick="dismissModalShower"
+    android:layout_width="100dp"
+    android:layout_height="100dp"
+    android:orientation="vertical"
+    android:paddingBottom="15dp"
+    android:layout_marginBottom="50dp"
+    android:layout_gravity="center"
+    android:layout_centerHorizontal="true"
+    android:background="@drawable/rounded_border_share"
+    android:clickable="true"
+    android:id="@id/modal"
+    >
+    <com.gthr.android.view_objects.fTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="HI THERE GUYS"
+        android:id="@+id/status_text"
+        android:textSize="13sp"
+        android:textColor="@color/dark_text_color"
+        android:fontFamily="sans-serif-light"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        />
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:id="@+id/status_view"
+        android:layout_marginTop="10dp"
+        >
+
+        <com.makeramen.RoundedImageView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:layout_width="51dp"
+            android:layout_height="51dp"
+            android:src="@color/lighter_gray"
+            android:scaleType="fitCenter"
+            android:layout_gravity="center"
+            android:layout_centerInParent="true"
+            app:riv_oval="true" />
+
+        <com.makeramen.RoundedImageView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:layout_width="49dp"
+            android:layout_height="49dp"
+            android:src="@color/white"
+            android:scaleType="fitCenter"
+            android:layout_gravity="center"
+            android:layout_centerInParent="true"
+            app:riv_oval="true" />
+        <com.makeramen.RoundedImageView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:layout_width="42dp"
+            android:layout_height="42dp"
+            android:src="@drawable/check"
+            android:scaleType="fitCenter"
+            android:layout_gravity="center"
+            android:layout_centerVertical="true"
+            android:layout_centerInParent="true"
+            android:id="@+id/status_image"
+            app:riv_oval="true" />
+
+    </RelativeLayout>
+
+</LinearLayout>

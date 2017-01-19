@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/extra_section"
+    android:layout_below="@+id/date_section"
+    android:padding="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp">
+            <com.gthr.android.view_objects.fTextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/allow_friends"
+                android:textSize="13dp"
+                android:gravity="center"
+                android:id="@+id/allow_friends"
+                android:textColor="@color/white"
+                android:layout_marginRight="10dp"
+                android:layout_marginEnd="10dp"/>
+            <Switch
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:checked="true"
+                android:id="@+id/can_invite_switch"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"/>
+        </RelativeLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:weightSum="100"
+            android:layout_height="41dp">
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="46"
+                android:orientation="horizontal"
+                android:layout_height="match_parent">
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="-5dp"
+                    android:layout_marginStart="-5dp"
+                    android:checked="true"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:id="@+id/allow_friends_radio" />
+                <com.gthr.android.view_objects.fTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="@string/unlimited_friends"
+                    android:maxLines="1"
+                    android:id="@+id/unlimited_friends"
+                    android:textColor="@color/white"
+                    android:gravity="center" />
+            </LinearLayout>
+
+            <com.gthr.android.view_objects.fTextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/or"
+                android:layout_weight="8"
+                android:gravity="center"
+                android:id="@+id/or"
+                android:textColor="@color/white"
+                android:textSize="13dp" />
+
+            <com.gthr.android.view_objects.fEditText
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:inputType="number"
+                android:padding="8dp"
+                android:textColor="@color/white"
+                android:layout_weight="46"
+                android:id="@+id/set_limit_field"
+                android:hint="@string/set_a_limit"
+                />
+
+        </LinearLayout>
+        <RelativeLayout
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:id="@+id/less_options"
+            android:paddingBottom="7dp"
+            android:layout_gravity="center"
+            android:paddingTop="6dp"
+            android:visibility="gone"
+            >
+
+            <ImageView
+                android:id="@+id/dots"
+                android:layout_width="15dp"
+                android:layout_height="20dp"
+                android:gravity="top"
+                android:src="@drawable/kebab_horizontal"
+                android:animateLayoutChanges="false"
+                android:layout_centerInParent="true"
+                android:layout_marginTop="2dp"
+                />
+
+        </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>

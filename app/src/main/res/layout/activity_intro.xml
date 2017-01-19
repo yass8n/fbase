@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:src="@drawable/intro_photo"
+        android:background="@color/white"
+        android:scaleType="centerCrop"
+        android:id="@+id/intro_photo"
+        android:visibility="gone"
+        />
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/video_container"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <VideoView
+
+            android:id="@+id/video_view"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentBottom="true"
+            android:scaleType="centerCrop"
+            android:visibility="gone"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+        </VideoView>
+
+        <TextureView
+            android:id="@+id/textureView"
+            android:scaleType="centerCrop"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"/>
+
+    </RelativeLayout>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/black"
+        android:id="@+id/faded"
+        android:alpha=".3"
+        />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:paddingBottom="80dp"
+        >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="140dp"
+            android:src="@drawable/gather_splash_screen_logo"
+            android:id="@+id/icon"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="10dp"
+            />
+
+        <com.gthr.android.view_objects.fTextView
+            android:id="@+id/friends_text"
+            android:text="Send it"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:textSize="29sp"
+            android:textColor="@color/white"
+            android:maxLines="1"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/icon"
+            custom:typeface="light"
+            />
+
+    </RelativeLayout>
+
+    <com.gthr.android.fButton
+        android:layout_width="230dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="70dp"
+        android:background="@drawable/rounded_corners_green_button"
+        android:textColor="@color/white"
+        android:id="@+id/continue_button"
+        android:text="@string/get_started"
+        android:textSize="18sp"
+        android:layout_centerHorizontal="true"
+        android:textAllCaps="true"
+        android:gravity="center"
+        custom:typeface="sbold"
+        android:layout_alignParentBottom="true"
+        />
+
+</RelativeLayout>

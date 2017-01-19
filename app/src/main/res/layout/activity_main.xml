@@ -1,0 +1,86 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:id="@+id/container"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    tools:ignore="MergeRootFrame">
+
+    <com.gthr.android.view_objects.ViewPagers.ApplicationViewPager
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/main_pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:id="@+id/content"
+        android:layout_height="match_parent">
+
+
+        <View
+            android:layout_width="25dp"
+            android:layout_height="2dp"
+            android:background="@color/invite_dark_blue"
+            android:layout_marginLeft="25dp"
+            android:layout_marginStart="25dp"
+            android:id="@+id/underline_blue"
+            android:alpha="0"
+            android:layout_alignParentBottom="true"
+            />
+
+        <View
+            android:layout_width="25dp"
+            android:layout_height="2dp"
+            android:background="@color/white"
+            android:layout_marginRight="25dp"
+            android:layout_marginEnd="25dp"
+            android:id="@+id/underline_white"
+            android:alpha="0"
+            android:layout_alignParentBottom="true"
+            />
+
+    </RelativeLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/black"
+        android:id="@+id/faded"
+        android:visibility="gone"
+        android:onClick="hideSpinner"
+        android:alpha=".5"
+        />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"
+        android:id="@+id/prevent_taps"
+        android:clickable="true"
+        android:alpha="0"
+        android:onClick="doNothing"
+        />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:id="@+id/progressBar1"
+        android:visibility="gone"
+        android:layout_height="match_parent">
+        <ProgressBar
+            style="?android:attr/progressBarStyleLarge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_centerInParent="true"
+            />
+    </RelativeLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/start_up"
+        android:background="@color/white"
+        android:id="@+id/start_up"
+        android:visibility="gone"
+        />
+
+</FrameLayout>

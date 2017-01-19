@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_gravity="fill"
+    android:paddingEnd="45dp"
+    android:layout_marginTop="3dp"
+    android:paddingBottom="6dp"
+    >
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="3dp"
+        android:id="@+id/left_side"
+        >
+
+        <com.makeramen.RoundedImageView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:layout_width="37dp"
+            android:layout_height="37dp"
+            android:id="@+id/event_list_text_image"
+            android:layout_gravity="center"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="3dp"
+            android:layout_marginTop="5dp"
+            android:src="@drawable/user_placeholder"
+            android:scaleType="centerCrop"
+            app:riv_oval="true"
+            android:cropToPadding="false"
+            android:layout_alignParentBottom="true"
+            app:riv_border_width="1dp"
+            app:riv_border_color="@color/white"
+            />
+
+        <ProgressBar
+            android:id="@+id/profile_progress"
+            style="?android:attr/progressBarStyleSmallInverse"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:paddingStart="3dp"
+            android:layout_marginBottom="10dp"
+            android:layout_centerInParent="true"
+            android:layout_alignParentBottom="true"
+            />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="8dp"
+        android:id="@+id/right_side"
+        >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            >
+
+            <com.gthr.android.view_objects.fTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/event_list_text_name"
+                android:textColor="@color/gray"
+                android:text="Name"
+                android:textSize="15sp"
+                android:gravity="start"
+                android:layout_marginStart="8sp"
+                android:textStyle="bold"
+                android:layout_gravity="center_vertical"
+                custom:typeface="sbold"
+                />
+
+            <com.gthr.android.view_objects.fTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/event_list_time"
+                android:textColor="@color/gray"
+                android:text="12:00pm 1/1/11"
+                android:textSize="12dp"
+                android:gravity="start"
+                android:layout_marginLeft="8sp"
+                android:layout_marginStart="8sp"
+                android:layout_gravity="center_vertical"
+                custom:typeface="light"
+                />
+
+            <ImageView
+                android:layout_width="10dp"
+                android:layout_height="10dp"
+                android:src="@drawable/pin_yellow"
+                android:layout_marginStart="10dp"
+                android:visibility="gone"
+                android:id="@+id/pinned"
+                />
+
+        </LinearLayout>
+
+        <com.gthr.android.view_objects.fTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/event_list_text_message"
+            android:layout_gravity="fill"
+            android:textColor="@color/dark_gray"
+            android:text="This is awesome! This is awesome! This is awesome! This is awesome! This is awesome! This is awesome!"
+            android:autoLink="web"
+            android:textSize="15sp"
+            android:gravity="start|center"
+            android:layout_marginStart="8sp"
+            android:background="@drawable/chat_background"
+            android:padding="7dp"
+            />
+
+        <RelativeLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            >
+            <com.makeramen.RoundedImageView
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/chat_image"
+                android:layout_height="160dp"
+                android:layout_width="160dp"
+                android:adjustViewBounds="true"
+                android:visibility="gone"
+                app:riv_corner_radius="6dip"
+
+                />
+
+            <ProgressBar
+                android:id="@+id/chat_image_progress"
+                style="?android:attr/progressBarStyleSmallInverse"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="65dp"
+                android:layout_marginTop="65dp"
+                android:visibility="gone"
+                />
+        </RelativeLayout>
+
+
+
+
+    </LinearLayout>
+
+</LinearLayout>

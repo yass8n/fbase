@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/lighter_gray"
+    android:id="@+id/fragment_profile"
+    android:layout_gravity="center">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@color/white"
+            android:id="@+id/profile_header"
+            android:elevation="2dp"
+            >
+
+            <RelativeLayout
+                android:layout_width="52dp"
+                android:layout_height="match_parent"
+                android:id="@+id/back"
+                >
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:id="@+id/top_left_drawable"
+                    android:src="@drawable/back_arrow_grey"
+                    android:layout_marginStart="16dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_centerVertical="true"
+                    android:clickable="false"
+                    />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/person_name"
+                android:layout_centerVertical="true"
+                android:layout_toEndOf="@+id/back"
+                >
+
+                <com.gthr.android.view_objects.fTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="\@noah"
+                    android:id="@+id/username"
+                    custom:typeface="sbold"
+                    android:textColor="@color/purple"
+                    android:textSize="19sp"
+                    android:layout_centerHorizontal="true"
+                    />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:id="@+id/people_search_button"
+                >
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_marginEnd="16dp"
+                    android:src="@drawable/invited_grey"
+                    android:layout_alignParentEnd="true"
+                    android:id="@+id/people_image"
+                    android:layout_centerVertical="true"
+                    />
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+        <!--<include layout="@layout/component_contact_list_header"-->
+        <!--android:id="@+id/list_header"-->
+        <!--android:layout_height="35dp"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_below="@+id/profile_header"-->
+        <!--/>-->
+
+        <android.support.v7.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/grid_view"
+            android:layout_below="@+id/profile_header"
+            android:clipToPadding="false"
+            android:paddingBottom="60dp"
+            android:paddingStart="3dp"
+            android:paddingEnd="3dp"
+            />
+
+        <ProgressBar
+            android:id="@+id/progress"
+            style="?android:attr/progressBarStyleLarge"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:visibility="gone"
+            android:background="@drawable/progress_bar"
+            android:progressDrawable="@drawable/progress_bar"
+            android:layout_centerInParent="true"
+            />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:id="@+id/cant_connect"
+            android:visibility="gone"
+            >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/no_internet_icon"
+                android:id="@+id/no_internet"
+                android:paddingTop="50dp"
+                android:layout_centerInParent="true"
+                />
+
+            <com.gthr.android.view_objects.fTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/can_t_connect"
+                custom:typeface="sbold"
+                android:layout_below="@+id/no_internet"
+                android:layout_centerHorizontal="true"
+                android:id="@+id/cant_connect_image"
+                android:textColor="@color/black"
+                android:layout_marginTop="50dp"
+                />
+
+            <com.gthr.android.view_objects.fTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tap_to_refresh"
+                android:layout_below="@+id/cant_connect_image"
+                android:layout_centerHorizontal="true"
+                android:textColor="@color/gray"
+                />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:id="@+id/create_invite_list"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:background="@color/purple"
+            android:layout_margin="9dp"
+            android:gravity="center"
+            >
+
+            <com.gthr.android.view_objects.fTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="+"
+                android:textSize="30sp"
+                android:textColor="@color/white"
+                custom:typeface="sbold"
+                android:id="@+id/plus"
+                android:layout_centerVertical="true"
+                />
+
+            <com.gthr.android.view_objects.fTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAllCaps="true"
+                android:layout_toEndOf="@+id/plus"
+                android:text="@string/create_invite_list"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="15dp"
+                android:textColor="@color/white"
+                custom:typeface="sbold"
+                />
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:id="@+id/other_no_lists"
+        android:orientation="vertical"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="80dp"
+        android:layout_marginTop="180dp"
+        android:weightSum="100"
+        android:visibility="gone"
+        >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:src="@drawable/empty_user_profile"
+            android:layout_weight="85"
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/imageView3"
+            />
+
+        <com.gthr.android.view_objects.fTextView
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/other_no_list_title"
+            android:text="@string/do_you_like_to_hangout_together"
+            android:textSize="16sp"
+            android:textColor="@color/dark_gray"
+            custom:typeface="sbold"
+            android:gravity="center"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="15"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:id="@+id/personal_no_lists"
+        android:orientation="vertical"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="80dp"
+        android:layout_marginTop="180dp"
+        android:weightSum="100"
+        android:visibility="gone"
+        >
+
+        <com.gthr.android.view_objects.fTextView
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/personal_no_list_title"
+            android:text="@string/what_do_you_like_to_do_with_your_friends"
+            android:textSize="16sp"
+            android:textColor="@color/dark_gray"
+            custom:typeface="sbold"
+            android:gravity="center"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="15"
+            />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:src="@drawable/empty_profile_graphic"
+            android:layout_weight="85"
+            android:layout_gravity="center_horizontal"
+            android:baselineAlignBottom="true"
+            />
+
+    </LinearLayout>
+
+    <include layout="@layout/component_tooltip_profile"
+        android:id="@+id/tooltip_profile"
+        android:visibility="gone"
+        />
+
+</RelativeLayout>

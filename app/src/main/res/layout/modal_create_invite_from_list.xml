@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/black"
+        android:alpha="0"
+        android:onClick="dismissModalShower"
+        android:clickable="true"
+        android:id="@+id/overlay"
+        />
+
+    <RelativeLayout
+        android:layout_width="310dp"
+        android:layout_marginTop="30dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:orientation="vertical"
+        android:paddingTop="5dp"
+        android:paddingBottom="10dp"
+        android:id="@+id/modal"
+        android:clipChildren="true"
+        >
+
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:custom="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:id="@+id/topbar"
+            android:baselineAligned="false"
+            android:clickable="false">
+
+            <RelativeLayout
+                android:layout_width="60dp"
+                android:layout_height="match_parent"
+                android:id="@+id/action_done"
+                android:clickable="true"
+                android:paddingStart="15dp"
+                android:layout_centerVertical="true">
+
+                <ImageView
+                    android:layout_width="15dp"
+                    android:layout_height="15dp"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/ex"
+                    android:id="@+id/action_done_icon"
+                    android:clickable="false"
+                    android:focusable="false" />
+
+            </RelativeLayout>
+
+            <com.gthr.android.view_objects.fTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:id="@+id/topbar_text"
+                android:text="@string/create_invite"
+                android:layout_marginLeft="5dp"
+                android:clickable="false"
+                android:textSize="20sp"
+                custom:typeface="sbold"
+                android:layout_centerInParent="true"
+
+                />
+
+            <com.gthr.android.view_objects.fTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/action_right"
+                android:layout_gravity="center_vertical"
+                android:gravity="right"
+                android:layout_marginEnd="10dp"
+                android:layout_marginRight="10dp"
+                android:paddingTop="15dp"
+                android:paddingBottom="15dp"
+                android:clickable="true"
+                android:textSize="16sp"
+                android:text="Action"
+                custom:typeface="bold"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:textColor="@color/green"
+                android:visibility="gone"
+                />
+        </RelativeLayout>
+
+        <include layout="@layout/component_invite_card"
+            android:layout_marginTop="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="155dp"
+            android:id="@+id/event"
+            />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_below="@+id/event"
+            android:paddingLeft="2dp"
+            android:paddingStart="2dp"
+            android:paddingTop="3dp"
+            android:paddingBottom="3dp"
+            android:orientation="vertical"
+            android:id="@+id/recycler_view_holder"
+            >
+            <view
+                android:id="@+id/people_recycler_view"
+                class="android.support.v7.widget.RecyclerView"
+                android:layout_width="match_parent"
+                android:clipChildren="false"
+                android:layout_height="40dp"
+                android:paddingStart="50dp"
+                android:paddingEnd="80dp"
+                android:paddingTop="5dp"
+                android:layout_centerInParent="true" />
+
+            <RelativeLayout
+                android:layout_width="80dp"
+                android:layout_alignRight="@+id/people_recycler_view"
+                android:layout_alignEnd="@+id/people_recycler_view"
+                android:visibility="visible"
+                android:id="@+id/create_view"
+                android:layout_marginEnd="5dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/rounded_green_background_less_radius"
+                android:layout_height="35dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:id="@+id/next"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:layout_centerInParent="true"
+                        android:background="@drawable/on_boarding_invite_icon"
+                        />
+                </RelativeLayout>
+
+            </RelativeLayout>
+
+            <include layout="@layout/component_list_number_bubble"
+                android:id="@+id/component_list_number_bubble"
+                android:layout_height="35dp"
+                android:layout_width="wrap_content"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="5dp"
+                />
+
+            <!--<ImageView-->
+                <!--android:layout_width="120dp"-->
+                <!--android:layout_height="40dp"-->
+                <!--android:background="@drawable/people_recycler_gradient_right"-->
+                <!--android:layout_alignRight="@+id/people_recycler_view"-->
+                <!--android:layout_alignEnd="@+id/people_recycler_view"-->
+                <!--android:id="@+id/_gradient"-->
+                <!--android:visibility="visible"-->
+                <!--/>-->
+
+        </RelativeLayout>
+        <!--<include layout="@layout/component_create_view"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_below="@+id/recycler_view_holder"-->
+            <!--android:id="@+id/create_view"/>-->
+    </RelativeLayout>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/black"
+        android:id="@+id/faded"
+        android:visibility="gone"
+        android:onClick="doNothing"
+        android:alpha=".5" />
+    <include layout="@layout/component_calendar"
+        android:id="@+id/calendar_holder"/>
+
+    <ProgressBar
+        android:id="@+id/progress_bar"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:visibility="gone"
+        android:background="@drawable/progress_bar"
+        android:progressDrawable="@drawable/progress_bar" />
+</RelativeLayout>

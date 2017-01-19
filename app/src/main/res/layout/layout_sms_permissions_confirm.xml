@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:visibility="gone"
+    >
+
+    <LinearLayout
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:background="@color/dark_blue"
+        android:weightSum="100"
+        >
+
+        <com.gthr.android.view_objects.fTextView
+            android:text="Elimate Group text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            custom:typeface="bold"
+            android:gravity="center|top"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="25dp"
+            android:textColor="@color/white"
+            android:textAllCaps="true"
+            />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="260"
+            >
+
+            <ImageView
+                android:layout_width="130dp"
+                android:layout_height="match_parent"
+                android:maxWidth="130dp"
+                android:src="@drawable/sms_permission"
+                android:layout_centerInParent="true"
+                android:id="@+id/allow_location"
+                />
+
+        </RelativeLayout>
+
+        <com.gthr.android.view_objects.fTextView
+            android:text="Keep all your plans with friends in one place by letting Gather read and send SMS"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            custom:typeface="reg"
+            android:textSize="19sp"
+            android:textColor="@color/lightest_gray"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            />
+
+    </LinearLayout>
+
+    <com.gthr.android.view_objects.fTextView
+        android:layout_width="230dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="90dp"
+        android:background="@drawable/very_rounded_white_solid"
+        android:textColor="@color/dark_blue"
+        android:id="@+id/grant_access"
+        android:text="@string/grant_access"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:textAllCaps="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        custom:typeface="sbold"
+        />
+
+    <com.gthr.android.view_objects.fTextView
+        android:text="Skip and do this later"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="@color/lightest_gray"
+        android:id="@+id/skip_sms_agreement"
+        android:textSize="16sp"
+        android:layout_marginBottom="20dp"
+        android:maxLines="1"
+        android:clickable="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:textAllCaps="true"
+        android:alpha="0.7"
+        custom:typeface="sbold"
+        />
+
+</RelativeLayout>

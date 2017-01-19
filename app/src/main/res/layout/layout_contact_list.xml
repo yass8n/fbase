@@ -1,0 +1,282 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingLeft="10dp"
+    android:paddingStart="10dp"
+    android:paddingRight="10dp"
+    android:paddingEnd="10dp"
+    android:id="@+id/container"
+    >
+
+    <com.gthr.android.view_objects.fTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/name_desc"
+        android:textColor="@color/light_gray"
+        android:text="@string/first_name_hint"
+        android:textSize="12sp"
+        android:gravity="center|start"
+        android:layout_marginStart="53dp"
+        android:layout_marginTop="7dp"
+        android:visibility="gone"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal"
+        android:animateLayoutChanges="true"
+        android:layout_marginRight="31dp"
+        android:layout_marginEnd="31dp"
+        android:id="@+id/content"
+        android:weightSum="3">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:id="@+id/left_side"
+            android:layout_gravity="center" >
+
+            <com.makeramen.RoundedImageView
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:id="@+id/under_image"
+                android:layout_gravity="center"
+                android:visibility="gone"
+                app:riv_oval="true" />
+
+            <com.makeramen.RoundedImageView
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:id="@+id/display_pic"
+                android:layout_gravity="center"
+                android:src="@drawable/user_placeholder"
+                android:scaleType="centerCrop"
+                app:riv_oval="true"
+                android:cropToPadding="false" />
+
+            <ProgressBar
+                android:id="@+id/profile_progress"
+                style="?android:attr/progressBarStyleSmallInverse"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_centerInParent="true"
+                android:paddingLeft="2dp"
+                android:paddingStart="2dp"
+                android:background="@drawable/progress_bar"
+                android:progressDrawable="@drawable/progress_bar" />
+
+            <com.gthr.android.view_objects.fTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/first_letter"
+                android:textSize="17dp"
+                android:gravity="center"
+                android:layout_centerInParent="true"
+                android:textColor="@color/white"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:weightSum="2"
+            android:id="@+id/name_no_username"
+            android:visibility="gone"
+            android:layout_height="match_parent">
+
+            <com.gthr.android.view_objects.fTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/name"
+                android:layout_gravity="left"
+                android:textColor="@color/dark_gray"
+                android:text="@string/first_name_hint"
+                android:textSize="18sp"
+                android:gravity="center|start"
+                android:layout_weight="1"
+                android:layout_marginLeft="8sp"
+                android:layout_marginStart="8sp"
+                android:layout_centerVertical="true"
+                />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:weightSum="2"
+            android:id="@+id/name_with_username"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:visibility="visible"
+            >
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_marginStart="8sp"
+                >
+
+                <com.gthr.android.view_objects.fTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/invite_creator"
+                    android:text="Invite Creator"
+                    android:textSize="12sp"
+                    android:visibility="invisible"
+                    />
+
+                <com.gthr.android.view_objects.fTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/name_bold"
+                    android:layout_gravity="left"
+                    android:textColor="@color/dark_gray"
+                    android:text="@string/first_name_hint"
+                    android:textSize="17sp"
+                    android:layout_centerVertical="true"
+                    custom:typeface="sbold"
+                    />
+
+
+            </RelativeLayout>
+
+            <!--<com.gthr.android.view_objects.fTextView-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="20dp"-->
+                <!--android:id="@+id/username"-->
+                <!--android:layout_gravity="left"-->
+                <!--android:textColor="@color/light_gray"-->
+                <!--android:text="@string/first_name_hint"-->
+                <!--android:textSize="14sp"-->
+                <!--android:gravity="top"-->
+                <!--android:layout_weight="1"-->
+                <!--android:layout_marginLeft="8sp"-->
+                <!--android:layout_marginStart="8sp"-->
+                <!--android:visibility="gone"-->
+                <!--/>-->
+
+        </LinearLayout>
+
+        <com.gthr.android.view_objects.fTextView
+            android:id="@+id/share_view"
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/share"
+            android:layout_gravity="center_vertical"
+            android:padding="6dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginEnd="5dp"
+            android:textSize="14sp"
+            android:textColor="@color/dark_text_color"
+            android:background="@drawable/rounded_border_share"
+            android:clickable="true"
+            />
+    </LinearLayout>
+    <com.makeramen.RoundedImageView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:id="@+id/checkmark"
+        android:src="@drawable/joined_green"
+        android:layout_gravity="center|end"
+        android:gravity="end"
+        android:scaleType="centerCrop"
+        app:riv_oval="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:cropToPadding="false"
+        android:visibility="gone"
+        />
+    <ImageView
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:id="@+id/small_star"
+        android:src="@drawable/big_star"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="35dp"
+        android:layout_marginEnd="35dp"
+        android:padding="6dp"
+        android:visibility="invisible"
+        />
+
+    <com.makeramen.RoundedImageView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:id="@+id/white_circle"
+        android:layout_gravity="center|end"
+        android:src="@color/white"
+        android:gravity="end"
+        android:scaleType="centerCrop"
+        app:riv_oval="true"
+        app:riv_border_color="@color/grayish"
+        app:riv_border_width="1px"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:cropToPadding="false"
+        android:visibility="gone"
+        />
+
+    <ProgressBar
+        android:id="@+id/friend_loader"
+        style="?android:attr/progressBarStyleSmallInverse"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginEnd="5dp"
+        android:background="@drawable/progress_bar"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:visibility="gone"
+        android:progressDrawable="@drawable/progress_bar" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:src="@drawable/invite_seen"
+        android:id="@+id/invite_seen"
+        android:layout_toLeftOf="@+id/action_right"
+        android:layout_toStartOf="@+id/action_right"
+        android:visibility="gone"
+        />
+
+
+    <RelativeLayout
+        android:layout_width="74dp"
+        android:layout_height="30dp"
+        android:background="@drawable/rounded_border"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:id="@+id/action_right"
+        android:layout_marginLeft="15dp"
+        android:layout_marginStart="15dp"
+        android:visibility="gone"
+        >
+
+        <com.gthr.android.view_objects.fTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:id="@+id/action_right_text"
+            android:text="Add Friend"
+            android:textSize="12sp"
+            custom:typeface="sbold"
+            android:textColor="@color/light_gray"
+            />
+
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/invite_list_item"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:layout_marginBottom="3dp"
+        android:layout_marginStart="3dp"
+        android:layout_marginEnd="3dp"
+        android:padding="7dp"
+        android:background="@drawable/invite_list_item_background"
+        android:id="@+id/invite_list_container"
+        >
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:id="@+id/indicator"
+            android:src="@drawable/create_invite"
+            android:visibility="invisible"
+            />
+
+        <include layout="@layout/component_layered_profile_pics"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="7dp"
+            android:layout_centerHorizontal="true"
+            />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="7dp"
+            >
+
+            <com.gthr.android.view_objects.fTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/title"
+                android:text="This is a test title"
+                android:textSize="21sp"
+                custom:typeface="bold"
+                android:textColor="@color/orange"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:lines="2"
+                android:maxLines="2"
+                android:lineSpacingMultiplier=".8"
+                android:ellipsize="marquee"
+                />
+
+            <include layout="@layout/component_list_number_bubble_profile_view"
+                android:layout_height="27dp"
+                android:layout_width="wrap_content"
+                android:layout_below="@+id/title"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+            />
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>

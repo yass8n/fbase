@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.makeramen.RoundedImageView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="16dp"
+        android:layout_height="16dp"
+        android:id="@+id/check"
+        android:layout_gravity="center"
+        android:src="@drawable/check"
+        android:scaleType="centerCrop"
+        app:riv_oval="true"
+        android:layout_marginRight="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_centerVertical="true"
+        android:visibility="invisible"
+        android:cropToPadding="false" />
+
+    <ImageView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="16dp"
+        android:layout_height="16dp"
+        android:id="@+id/icon"
+        android:layout_gravity="center"
+        android:layout_centerVertical="true"
+        android:src="@drawable/only_i_can_send_black"
+        android:layout_toRightOf="@+id/check"
+        android:layout_toEndOf="@+id/check"/>
+    <com.gthr.android.view_objects.fTextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center|left"
+        android:text="@string/select_friendz"
+        android:textColor="@color/black"
+        android:textSize="14dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_toRightOf="@+id/icon"
+        android:layout_toEndOf="@+id/icon"
+        android:id="@+id/text"
+        custom:typeface="light"
+        />
+</RelativeLayout>

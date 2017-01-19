@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:background="@drawable/bottom_listview_gradient_darker"
+    android:layout_height="75dp">
+
+    <LinearLayout
+        android:layout_width="250dp"
+        android:layout_height="55dp"
+        android:layout_centerInParent="true"
+        android:orientation="horizontal"
+        android:weightSum="9"
+        >
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:id="@+id/add_friend_to_list"
+            android:layout_weight="2">
+
+            <com.makeramen.RoundedImageView
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_gravity="left"
+                android:src="@drawable/add_friend_to_list"
+                android:scaleType="centerCrop"
+                app:riv_oval="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:cropToPadding="false" />
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:id="@+id/create_invite"
+            android:layout_weight="5">
+
+            <com.makeramen.RoundedImageView
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:layout_width="55dp"
+                android:layout_height="55dp"
+                android:layout_gravity="center"
+                android:src="@drawable/create_invite"
+                android:scaleType="centerCrop"
+                app:riv_oval="true"
+                android:id="@+id/center_button"
+                android:layout_centerInParent="true"
+                android:cropToPadding="false" />
+
+            <com.gthr.android.fButton
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:background="@drawable/rounded_corners_green_button"
+                android:textColor="@color/white"
+                android:id="@+id/action_button"
+                android:text="@string/get_started"
+                android:textSize="15sp"
+                android:layout_centerHorizontal="true"
+                android:gravity="center"
+                custom:typeface="sbold"
+                android:layout_centerInParent="true"
+                android:textAllCaps="false"
+                android:visibility="gone"
+                />
+            <ProgressBar
+                android:id="@+id/action_loader"
+                style="?android:attr/progressBarStyleSmallInverse"
+                android:layout_width="10dp"
+                android:layout_height="10dp"
+                android:background="@drawable/progress_bar"
+                android:layout_centerInParent="true"
+                android:visibility="gone"
+                android:progressDrawable="@drawable/progress_bar" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:id="@+id/share_secondary"
+            android:layout_weight="2">
+
+            <com.makeramen.RoundedImageView
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:src="@drawable/share_secondary"
+                android:scaleType="centerCrop"
+                app:riv_oval="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:cropToPadding="false" />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

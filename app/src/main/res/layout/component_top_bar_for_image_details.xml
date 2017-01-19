@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:id="@+id/topbar"
+    android:baselineAligned="false"
+    android:background="@color/transparent"
+    android:clickable="false">
+
+    <!--<RelativeLayout-->
+        <!--android:layout_width="60dp"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:id="@+id/action_done"-->
+        <!--android:clickable="true"-->
+        <!--android:layout_centerVertical="true">-->
+
+        <!--<ImageView-->
+            <!--android:layout_width="35dp"-->
+            <!--android:layout_height="35dp"-->
+            <!--android:background="@drawable/back"-->
+            <!--android:layout_centerVertical="true"-->
+            <!--android:id="@+id/action_done_image"-->
+            <!--android:clickable="false"-->
+            <!--android:focusable="false" />-->
+
+    <!--</RelativeLayout>-->
+
+
+    <RelativeLayout
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:id="@+id/kabob"
+        android:layout_alignParentEnd="true"
+        android:padding="10dp"
+        >
+
+        <ImageView
+            android:id="@+id/dots"
+            android:layout_width="8.8dp"
+            android:layout_height="18dp"
+            android:gravity="top"
+            android:src="@drawable/kebab"
+            android:layout_alignParentEnd="true"
+            android:animateLayoutChanges="false"
+            android:layout_marginTop="2dp"
+            />
+
+    </RelativeLayout>
+</RelativeLayout>

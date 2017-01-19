@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="@color/lighter_gray"
+    android:padding="10dp"
+    android:layout_height="150dp">
+    <com.gthr.android.view_objects.fTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:paddingTop="20dp"
+        custom:typeface="sbold"
+        android:id="@+id/text_top"
+        android:textSize="14sp"
+        android:text="This is the end of your feed"/>
+    <com.gthr.android.view_objects.fTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        custom:typeface="bold"
+        android:id="@+id/seperator"
+        android:layout_below="@+id/text_top"
+        android:textSize="14sp"
+        android:text="_______"/>
+    <com.gthr.android.view_objects.fTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:paddingTop="10dp"
+        custom:typeface="bold"
+        android:textColor="@color/black"
+        android:layout_below="@+id/seperator"
+        android:id="@+id/send_invites"
+        android:textSize="16sp"
+        android:text="SEND IT"/>
+    <com.gthr.android.view_objects.fTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:paddingTop="10dp"
+        custom:typeface="sbold"
+        android:layout_below="@+id/send_invites"
+        android:id="@+id/text"
+        android:textSize="14sp"
+        android:text="Just tap on an invite and pick your friends to send it"/>
+</RelativeLayout>

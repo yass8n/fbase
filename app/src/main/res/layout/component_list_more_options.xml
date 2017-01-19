@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/extra_section"
+    android:layout_below="@+id/date_section"
+    android:background="@color/lightest_gray">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <include layout="@layout/component_list_header_with_hint"
+            android:layout_width="match_parent"
+            android:layout_height="33dp"
+            android:id="@+id/who_can_see_header" />
+        <LinearLayout
+            android:padding="5dp"
+            android:orientation="vertical"
+            android:id="@+id/group_who_can_see"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <include layout="@layout/component_list_setting_option"
+                android:layout_width="match_parent"
+                android:layout_height="26dp"
+                android:id="@+id/anyone" />
+            <include layout="@layout/component_list_setting_option"
+                android:layout_width="match_parent"
+                android:layout_height="26dp"
+                android:id="@+id/only_me" />
+            <include layout="@layout/component_list_setting_option"
+                android:layout_width="match_parent"
+                android:layout_height="26dp"
+                android:id="@+id/anyone_in_list" />
+        </LinearLayout>
+        <include layout="@layout/component_list_header_with_hint"
+            android:layout_width="match_parent"
+            android:layout_height="33dp"
+            android:id="@+id/who_can_be_part_header" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:id="@+id/group_who_can_be_part"
+            android:orientation="vertical">
+
+            <include layout="@layout/component_list_setting_option"
+                android:layout_width="match_parent"
+                android:layout_height="26dp"
+                android:id="@+id/anyone" />
+            <include layout="@layout/component_list_setting_option"
+                android:layout_width="match_parent"
+                android:layout_height="26dp"
+                android:id="@+id/only_me" />
+            <include layout="@layout/component_list_setting_option"
+                android:layout_width="match_parent"
+                android:layout_height="26dp"
+                android:id="@+id/anyone_in_list" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@drawable/bottom_listview_gradient_darker"
+    android:layout_height="70dp">
+
+    <LinearLayout
+        android:layout_width="220dp"
+        android:layout_height="60dp"
+        android:layout_centerInParent="true"
+        android:orientation="horizontal"
+        android:weightSum="3"
+        >
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:id="@+id/create_list_list_item"
+            android:visibility="invisible"
+            android:layout_weight="1">
+
+            <com.makeramen.RoundedImageView
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:src="@drawable/create_list_from_invitees_secondary"
+                android:scaleType="centerCrop"
+                app:riv_oval="true"
+                android:layout_centerInParent="true"
+                android:cropToPadding="false" />
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:id="@+id/invite_more_list_item"
+            android:layout_weight="1">
+
+            <com.makeramen.RoundedImageView
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:src="@drawable/add_user_primary"
+                android:scaleType="centerCrop"
+                app:riv_oval="true"
+                android:layout_centerInParent="true"
+                android:cropToPadding="false" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:id="@+id/share_view_list_item"
+            android:visibility="invisible"
+            android:layout_weight="1">
+
+            <com.makeramen.RoundedImageView
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:src="@drawable/share_secondary"
+                android:scaleType="centerCrop"
+                app:riv_oval="true"
+                android:layout_centerInParent="true"
+                android:cropToPadding="false" />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

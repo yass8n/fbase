@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:layout_height="20dp">
+    <com.gthr.android.view_objects.fTextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="ASD"
+        android:gravity="center"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="8dp"
+        custom:typeface="sbold"
+        android:id="@+id/text"/>
+
+</LinearLayout>

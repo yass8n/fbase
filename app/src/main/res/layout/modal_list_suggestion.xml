@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/black"
+        android:alpha="0"
+        android:onClick="hideSoftKeyboard"
+        android:clickable="true"
+        android:id="@+id/overlay"
+        />
+
+    <RelativeLayout
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:orientation="vertical"
+        android:id="@+id/modal"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:background="@drawable/rounded_corners_modal"
+            android:orientation="vertical"
+            android:layout_marginTop="50dp"
+            android:onClick="hideSoftKeyboard"
+            >
+
+            <com.gthr.android.view_objects.fTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:id="@+id/text"
+                android:text="@string/list_siggestion_friends_text"
+                android:textSize="18dp"
+                android:textColor="@color/dark_text_color"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="15dp"
+                android:layout_marginTop="35dp"
+                />
+
+            <com.gthr.android.view_objects.fEditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textSize="16dp"
+                android:textColor="@color/dark_text_color"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="20dp"
+                android:id="@+id/list_name"
+                android:hint="@string/movies"
+                />
+
+            <Button
+                android:layout_width="276dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:background="@drawable/rounded_corners_button_modal"
+                android:text="@string/next"
+                android:id="@+id/button"
+                android:clickable="true"
+                android:textColor="@color/white"
+                android:textSize="19dp"
+                android:layout_marginLeft="1dp"
+                android:layout_marginRight="1dp"
+                android:layout_marginBottom="1dp"
+                android:alpha=".5"
+                />
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_centerHorizontal="true"
+            android:focusable="true"
+            >
+
+            <com.makeramen.RoundedImageView
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:layout_width="53dp"
+                android:layout_height="53dp"
+                android:src="@color/white"
+                android:scaleType="fitCenter"
+                android:layout_gravity="center"
+                android:layout_centerVertical="true"
+                android:layout_centerInParent="true"
+                android:layout_marginRight="3dp"
+                android:layout_marginEnd="3dp"
+                app:riv_oval="true" />
+
+            <com.makeramen.RoundedImageView
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/new_list"
+                android:id="@+id/image"
+                android:scaleType="fitCenter"
+                android:layout_gravity="center"
+                android:layout_centerVertical="true"
+                android:layout_centerInParent="true"
+                android:layout_marginRight="3dp"
+                android:layout_marginEnd="3dp"
+                app:riv_oval="true" />
+
+            <com.makeramen.RoundedImageView
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:src="@drawable/check"
+                android:scaleType="fitCenter"
+                android:layout_gravity="center"
+                android:visibility="invisible"
+                android:layout_centerVertical="true"
+                android:layout_centerInParent="true"
+                android:id="@+id/status_image"
+                app:riv_oval="true" />
+
+            <ProgressBar
+                android:id="@+id/progress"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="?android:attr/android:progressBarStyleSmall"
+                android:background="@drawable/progress_bar"
+                android:visibility="invisible"
+                android:progressDrawable="@drawable/progress_bar"
+                android:layout_centerInParent="true"/>
+
+            <com.gthr.android.view_objects.fTextView
+                android:layout_width="50dp"
+                android:layout_height="30dp"
+                android:text="@string/later"
+                android:gravity="right"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="5dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginTop="30dp"
+                android:textColor="@color/blue"
+                android:clickable="true"
+                android:focusableInTouchMode="true"
+                android:onClick="dismissModalShower"
+                />
+
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

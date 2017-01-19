@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/people_joining"
+    android:background="@color/lightest_gray"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:focusableInTouchMode="true"
+        >
+
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/people_joining_list"
+            android:transcriptMode="normal"
+            android:divider="@null"
+            android:dividerHeight="0dp"
+            android:layout_above="@+id/event_chat_list_text_container"
+            android:layout_alignParentTop="true"
+            android:paddingBottom="70dp"
+            android:clipToPadding="false"
+            >
+        </ListView>
+
+    </RelativeLayout>
+</RelativeLayout>

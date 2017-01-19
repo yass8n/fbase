@@ -1,0 +1,382 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    <include layout="@layout/component_topbar"
+        android:id="@+id/topbar"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_width="match_parent"/>
+
+    <ScrollView
+        xmlns:custom="http://schemas.android.com/apk/res-auto"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/topbar"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/activity_settings"
+            android:background="@color/lighter_gray"
+            >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="30dp"
+                android:paddingStart="30dp"
+                android:paddingRight="30dp"
+                android:paddingEnd="30dp"
+                android:id="@+id/page_container"
+                >
+
+                <RelativeLayout
+                    android:layout_width="125dp"
+                    android:layout_height="125dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="7dp"
+                    android:id="@+id/profile_image_container"
+                    >
+
+                    <com.makeramen.RoundedImageView
+                        xmlns:app="http://schemas.android.com/apk/res-auto"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:id="@+id/profile_pic"
+                        android:clickable="true"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/user_placeholder"
+                        app:riv_oval="true"
+                        />
+
+                    <com.makeramen.RoundedImageView
+                        xmlns:app="http://schemas.android.com/apk/res-auto"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:id="@+id/profile_pic2"
+                        android:clickable="true"
+                        android:scaleType="centerCrop"
+                        app:riv_oval="true"
+                        />
+
+                </RelativeLayout>
+
+                <com.gthr.android.view_objects.fTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="42dp"
+                    android:textSize="13sp"
+                    android:text="@string/change_photo"
+                    android:id="@+id/change_profile_image_button"
+                    android:clickable="true"
+                    android:layout_below="@+id/profile_image_container"
+                    android:layout_centerHorizontal="true"
+                    android:textAllCaps="true"
+                    android:textColor="@color/light_gray"
+                    />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:weightSum="2"
+                    android:orientation="horizontal"
+                    android:id="@+id/name_container"
+                    android:layout_below="@+id/change_profile_image_button"
+                    android:focusable="true"
+                    android:focusableInTouchMode="true"
+                    android:layout_height="wrap_content">
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:id="@+id/first_name_container"
+                        android:orientation="vertical"
+                        android:layout_height="wrap_content">
+                        <com.gthr.android.view_objects.fTextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textSize="13sp"
+                            android:layout_above="@+id/first_name"
+                            android:textAllCaps="true"
+                            android:text="@string/first_name"
+                            android:textColor="@color/light_gray"
+                            />
+                        <com.gthr.android.view_objects.fEditText
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:inputType="textPersonName|textNoSuggestions"
+                            android:ems="10"
+                            android:id="@+id/first_name"
+                            android:paddingTop="7dp"
+                            android:layout_marginBottom="40dp"
+                            android:layout_marginLeft="-3dp"
+                            android:layout_marginStart="-3dp"
+                            android:layout_marginEnd="3dp"
+                            />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_below="@+id/first_name_container"
+                        android:id="@+id/last_name_container"
+                        android:orientation="vertical"
+                        android:layout_height="wrap_content">
+                        <com.gthr.android.view_objects.fTextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textSize="13sp"
+                            android:layout_above="@+id/last_name"
+                            android:textAllCaps="true"
+                            android:text="@string/last_name_hint"
+                            android:layout_marginStart="7dp"
+                            android:textColor="@color/light_gray"
+                            />
+
+                        <com.gthr.android.view_objects.fEditText
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:inputType="textPersonName|textNoSuggestions"
+                            android:ems="10"
+                            android:id="@+id/last_name"
+                            android:paddingTop="7dp"
+                            android:layout_below="@+id/first_name_container"
+                            android:layout_marginBottom="40dp"
+                            android:layout_marginStart="3dp"
+                            />
+                    </LinearLayout>
+                </LinearLayout>
+
+
+                <com.gthr.android.view_objects.fTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="13sp"
+                    android:layout_above="@+id/username"
+                    android:textAllCaps="true"
+                    android:text="@string/username"
+                    android:textColor="@color/light_gray"
+                    />
+
+                <com.gthr.android.view_objects.fEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:inputType="text|textNoSuggestions"
+                    android:ems="10"
+                    android:id="@+id/username"
+                    android:paddingTop="7dp"
+                    android:layout_marginBottom="40dp"
+                    android:layout_marginStart="-3dp"
+                    android:layout_below="@+id/name_container"
+                    />
+
+
+                <com.gthr.android.view_objects.fTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="13sp"
+                    android:layout_above="@+id/color_picker_scroll"
+                    android:textAllCaps="true"
+                    android:text="@string/change_color"
+                    android:textColor="@color/light_gray"
+                    />
+
+                <HorizontalScrollView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/username"
+                    android:id="@+id/color_picker_scroll"
+                    android:layout_marginBottom="25dp"
+                    >
+
+                    <LinearLayout
+                        android:layout_height="wrap_content"
+                        android:layout_width="wrap_content"
+                        android:orientation="horizontal"
+                        android:id="@+id/color_picker"
+                        />
+
+                </HorizontalScrollView>
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/color_picker_scroll"
+                    >
+
+                    <com.gthr.android.view_objects.fTextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="13sp"
+                        android:textAllCaps="true"
+                        android:text="@string/display_location_on_profile"
+                        android:textColor="@color/light_gray"
+                        android:layout_centerVertical="true"
+                        />
+
+                    <Switch
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:checked="true"
+                        android:id="@+id/location_on_profile_switch"
+                        android:layout_alignParentEnd="true"
+                        android:layout_centerVertical="true"
+                        />
+
+                </RelativeLayout>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/page_container"
+                android:layout_marginTop="50dp"
+                android:layout_marginBottom="50dp"
+                android:id="@+id/about_gather_container"
+                >
+
+                <com.gthr.android.view_objects.fTextView
+                    android:text="About Gather"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp"
+                    custom:typeface="sbold"
+                    android:textColor="@color/black"
+                    android:layout_alignParentTop="true"
+                    android:id="@+id/about_gather"
+                    android:layout_marginStart="10dp"
+                    android:textAllCaps="true" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@color/white"
+                    android:paddingBottom="1dp"
+                    android:paddingTop="1dp"
+                    android:layout_below="@+id/about_gather"
+                    android:layout_height="wrap_content">
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:id="@+id/feedback"
+                        android:background="@color/white"
+                        >
+                        <com.gthr.android.view_objects.fTextView
+                            android:text="@string/feedback"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="18sp"
+                            custom:typeface="light"
+                            android:textColor="@color/black"
+                            android:layout_centerVertical="true"
+                            android:paddingLeft="10dp"
+                            android:paddingStart="10dp"/>
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1px"
+                            android:background="@color/light_gray"
+                            android:layout_alignParentBottom="true"/>
+                    </RelativeLayout>
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:id="@+id/privacy_policy"
+                        android:background="@color/white">
+                        <com.gthr.android.view_objects.fTextView
+                            android:text="@string/privacy_policy"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="18sp"
+                            custom:typeface="light"
+                            android:textColor="@color/black"
+                            android:layout_centerVertical="true"
+                            android:paddingLeft="10dp"
+                            android:paddingStart="10dp"/>
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1px"
+                            android:background="@color/light_gray"
+                            android:layout_alignParentBottom="true"/>
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:id="@+id/terms_of_service"
+                        android:background="@color/white"
+                        >
+                        <com.gthr.android.view_objects.fTextView
+                            android:text="@string/terms_of_service"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="18sp"
+                            custom:typeface="light"
+                            android:textColor="@color/black"
+                            android:layout_centerVertical="true"
+                            android:paddingLeft="10dp"
+                            android:paddingStart="10dp"/>
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1px"
+                            android:background="@color/light_gray"
+                            android:layout_alignParentBottom="true"/>
+                    </RelativeLayout>
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:id="@+id/download_agreement"
+                        android:background="@color/white"
+                        >
+                        <com.gthr.android.view_objects.fTextView
+                            android:text="@string/download_agreement"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="18sp"
+                            custom:typeface="light"
+                            android:textColor="@color/black"
+                            android:layout_centerVertical="true"
+                            android:paddingLeft="10dp"
+                            android:paddingStart="10dp"/>
+                    </RelativeLayout>
+
+                </LinearLayout>
+
+            </RelativeLayout>
+            <com.gthr.android.view_objects.fTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                custom:typeface="sbold"
+                android:text="GATHER V1.4.1"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:textSize="15sp"
+                android:id="@+id/version"
+                android:textAllCaps="true"
+                android:paddingBottom="20dp"
+                />
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+    <ProgressBar
+        android:id="@+id/profile_progress"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_centerInParent="true"
+        android:visibility="visible"
+        android:background="@drawable/progress_bar"
+        android:layout_centerVertical="true"
+        android:progressDrawable="@drawable/progress_bar" />
+</RelativeLayout>

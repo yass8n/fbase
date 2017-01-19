@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:orientation="horizontal"
+    android:baselineAligned="false"
+    android:background="@drawable/profile_bottom_bar_gradient"
+    android:layout_alignParentBottom="true"
+    android:weightSum="2"
+    android:alpha="0"
+    android:id="@+id/bottom_bar_profile"
+    >
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:layout_gravity="center_vertical"
+        android:id="@+id/home_container"
+        android:clickable="true"
+        android:layout_marginLeft="25dp"
+        android:layout_marginStart="25dp"
+        android:alpha=".8"
+        android:onClick="goToFragmentInvites"
+        >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:background="@drawable/home"
+            android:id="@+id/action_home"
+            android:layout_centerInParent="true"
+            />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_vertical"
+        android:id="@+id/profile_container"
+        android:clickable="true"
+        android:layout_weight="1"
+        android:layout_marginRight="25dp"
+        android:layout_marginEnd="25dp"
+        android:onClick="goToFragmentProfile"
+        >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/action_profile"
+            android:background="@drawable/user_active"
+            android:layout_centerInParent="true"
+            />
+
+    </RelativeLayout>
+
+</LinearLayout>

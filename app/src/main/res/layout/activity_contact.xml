@@ -1,0 +1,178 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/content">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        >
+
+        <com.gthr.android.view_objects.ViewPagers.ApplicationViewPager
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/large_pager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:id="@+id/activity_contact"
+            >
+
+            <!-- Contains the whole layout-->
+            <include layout="@layout/component_topbar_invite"
+                android:id="@+id/action_bar"/>
+
+
+            <include layout="@layout/component_invite_card"
+                android:id="@+id/event"/>
+
+
+            <!--<include layout="@layout/component_invite_more_options"-->
+            <!--android:id="@+id/component_invite_more_options"-->
+            <!--/>-->
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="@color/white"
+                android:id="@+id/select_friends_tab"
+                android:paddingEnd="5dp"
+                android:paddingRight="5dp"
+                >
+
+                <com.gthr.android.view_objects.fTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="@string/select_friendz"
+                    android:textColor="@color/light_gray"
+                    android:textSize="14dp"
+                    android:layout_marginTop="7dp"
+                    android:textStyle="bold"
+                    android:gravity="left|center_vertical"
+                    android:alpha="1"
+                    android:layout_weight="1"
+                    custom:typeface="sbold"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_centerVertical="true"
+                    android:id="@+id/select_friends_text"
+                    />
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:background="@color/white"
+                    android:layout_alignParentEnd="true"
+                    android:id="@+id/select_friends_arrow"
+                    android:layout_centerVertical="true"
+                    />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:id="@+id/list_view_container"
+                android:layout_height="match_parent"
+                >
+
+                <include layout="@layout/component_contact_listview"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    />
+
+            </RelativeLayout>
+
+            <!-- Contains the whole layout end-->
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/black"
+            android:id="@+id/faded"
+            android:visibility="gone"
+            android:onClick="doNothing"
+            android:alpha=".5"
+            />
+
+        <ProgressBar
+            android:id="@+id/progressBar1"
+            style="?android:attr/progressBarStyleLarge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:visibility="gone"
+            android:background="@drawable/progress_bar"
+            android:progressDrawable="@drawable/progress_bar"
+            />
+        <!--<ImageView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="300dp"-->
+        <!--android:background="@color/white"-->
+        <!--android:animateLayoutChanges="true"-->
+        <!--android:layout_alignParentBottom="true"-->
+        <!--android:id="@+id/calendar_background"-->
+        <!--android:visibility="gone"-->
+        <!--android:alpha="0.3"-->
+        <!--/>-->
+
+        <include layout="@layout/component_open_or_closed_invite"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_alignParentBottom="true"
+            android:visibility="invisible"
+            android:id="@+id/component_open_or_closed_invite"/>
+
+        <include layout="@layout/component_calendar"
+            android:id="@+id/calendar_holder"/>
+
+        <ProgressBar
+            android:id="@+id/progress_bar"
+            style="?android:attr/progressBarStyleLarge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:visibility="gone"
+            android:background="@drawable/progress_bar"
+            android:progressDrawable="@drawable/progress_bar" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:id="@+id/carousel_container"
+        android:layout_height="70dp"
+        android:layout_alignParentBottom="true"
+        android:visibility="invisible"
+        >
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:id="@+id/carousel_arrow"
+            android:src="@drawable/filter_caret"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            />
+
+        <android.support.v7.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/carousel_recycler_view"
+            android:clipToPadding="false"
+            android:layout_alignParentBottom="true"
+            />
+
+    </RelativeLayout>
+
+</RelativeLayout>

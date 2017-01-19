@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:alpha="0.8"
+    android:background="@color/blue"
+    android:layout_alignParentBottom="true"
+    >
+
+    <com.gthr.android.view_objects.fTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:gravity="center_horizontal"
+        android:layout_alignParentTop="true"
+        android:textColor="@color/white"
+        android:id="@+id/onboard_desc"
+        android:text="To edit this event just press edit"
+        android:textSize="20dp"
+        />
+
+</RelativeLayout>

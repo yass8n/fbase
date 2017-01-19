@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "727481785506",
+    "firebase_url": "https://blinding-torch-5580.firebaseio.com",
+    "project_id": "blinding-torch-5580",
+    "storage_bucket": "blinding-torch-5580.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:727481785506:android:46aa613dfec98a53",
+        "android_client_info": {
+          "package_name": "com.gthr.android"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "727481785506-6ffmli4f1soqm9d4shkmo0mbmmfsb8jf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCHkvmL_DG9xMWFmpnfLJtZpWk4GQUXVgw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

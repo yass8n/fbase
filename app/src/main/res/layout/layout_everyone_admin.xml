@@ -1,0 +1,67 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="50dp"
+    android:background="@color/lighter_gray">
+
+    <com.gthr.android.view_objects.fTextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:id="@+id/name"
+        android:layout_gravity="center"
+        android:layout_centerVertical="true"
+        android:textColor="@color/dark_gray"
+        android:text="@string/make_everyone_admin"
+        android:textSize="12sp"
+        android:gravity="center|start"
+        android:layout_marginLeft="8sp"
+        android:layout_marginStart="8sp"
+        custom:typeface="light"
+        />
+
+    <!--<com.gthr.android.view_objects.fTextView-->
+    <!--android:id="@+id/share_view"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:text="@string/share"-->
+    <!--android:layout_gravity="center_vertical"-->
+    <!--android:padding="6dp"-->
+    <!--android:layout_marginRight="5dp"-->
+    <!--android:layout_marginEnd="5dp"-->
+    <!--android:textSize="14sp"-->
+    <!--android:textColor="@color/dark_text_color"-->
+    <!--android:background="@drawable/rounded_border_share"-->
+    <!--android:clickable="true"-->
+    <!--/>-->
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:id="@+id/info_blue"
+        android:src="@drawable/info_blue"
+        android:scaleType="centerCrop"
+        android:layout_centerVertical="true"
+        android:cropToPadding="false"
+        android:layout_toRightOf="@+id/name"
+        android:layout_toEndOf="@+id/name"
+        android:padding="6dp"
+
+        />
+
+    <ImageView
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:id="@+id/big_star"
+        android:layout_gravity="center|end"
+        android:src="@drawable/big_star"
+        android:gravity="center"
+        android:scaleType="centerCrop"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="6dp"
+        android:layout_marginEnd="6dp"
+        android:cropToPadding="false" />
+
+</RelativeLayout>

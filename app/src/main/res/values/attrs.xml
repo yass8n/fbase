@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="typeface" format="enum">
+        <enum name="reg" value="0"/>
+        <enum name="bold" value="1"/>
+        <enum name="sbold" value="2"/>
+        <enum name="light" value="3"/>
+        <enum name="black" value="4"/>
+    </attr>
+
+    <declare-styleable name="fTextView">
+        <attr name="typeface"/>
+        <!-- Minimum size of the text. -->
+        <attr name="minTextSize" format="dimension" />
+        <!-- Amount of precision used to calculate the correct text size to fit within its
+        bounds. Lower precision is more precise and takes more time. -->
+        <attr name="precision" format="float" />
+        <!-- Defines whether to automatically resize text to fit to the view's bounds. -->
+        <attr name="sizeToFit" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="fEditText">
+        <attr name="typeface"/>
+    </declare-styleable>
+
+
+</resources>

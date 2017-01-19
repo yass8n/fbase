@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/event_chat_view"
+    android:background="@color/white"
+    android:orientation="vertical"
+    >
+
+    <include layout="@layout/component_invite_preview" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/event_chat_text"
+        android:focusableInTouchMode="true"
+        android:layout_below="@+id/invite_card_preview"
+        android:background="@color/lightest_gray"
+        >
+
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/event_chat_list"
+            android:transcriptMode="alwaysScroll"
+            android:divider="@null"
+            android:dividerHeight="0dp"
+            android:layout_above="@+id/event_chat_list_text_container"
+            android:layout_alignParentTop="true"
+            android:clipToPadding="false"
+
+            >
+        </ListView>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:id="@+id/chat_spinner"
+            android:visibility="invisible"
+            android:layout_centerHorizontal="true"
+            android:layout_height="wrap_content">
+
+            <ProgressBar
+                style="?android:attr/progressBarStyleLarge"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="@color/lighter_gray"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:id="@+id/event_chat_list_text_container"
+            android:clickable="true"
+            android:weightSum="100"
+            android:visibility="gone"
+            >
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/chat_image_picker_view"
+                android:padding="3dp"
+                android:layout_weight="4"
+                android:layout_gravity="center"
+                >
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="24dp"
+                    android:layout_centerInParent="true"
+                    android:background="@drawable/camera"
+                    android:id="@+id/chat_image_picker"
+                    android:gravity="center"
+                    />
+
+            </RelativeLayout>
+
+
+            <com.gthr.android.view_objects.fEditText
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:ems="10"
+                android:id="@+id/event_chat_list_text"
+                android:layout_gravity="center"
+                android:layout_weight="89"
+                android:src="@color/white"
+                android:background="@drawable/chat_edittext_background"
+                android:paddingTop="6dp"
+                android:paddingBottom="6dp"
+                android:paddingStart="10dp"
+                android:paddingEnd="10dp"
+                android:inputType="textMultiLine"
+                android:isScrollContainer="true"
+                />
+
+            <com.gthr.android.view_objects.fTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="7"
+                android:text="@string/event_chat_send"
+                android:id="@+id/event_chat_send"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textSize="15sp"
+                android:textColor="@color/dark_blue"
+                custom:typeface="sbold"
+                android:padding="2dp"
+                />
+
+        </LinearLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="300dp"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/invite_not_joined"
+        >
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/chat_gradient"
+            android:id="@+id/chat_gradient"
+            android:layout_marginBottom="40dp"
+            />
+
+        <com.gthr.android.fButton
+            android:layout_width="175dp"
+            android:layout_height="50dp"
+            android:background="@drawable/rounded_corners_green_button"
+            android:textColor="@color/white"
+            android:id="@+id/join_button_bottom"
+            android:text="@string/join"
+            android:textSize="22sp"
+            android:layout_centerHorizontal="true"
+            android:textAllCaps="false"
+            android:layout_alignParentBottom="true"
+            android:gravity="center"
+            android:visibility="visible"
+            android:layout_marginBottom="40dp"
+            />
+
+        <com.gthr.android.view_objects.fTextView
+            android:layout_width="290dp"
+            android:layout_height="wrap_content"
+            android:text="@string/join_the_invite_and_be_a_part_of_the_conversation"
+            android:layout_above="@id/join_button_bottom"
+            android:id="@+id/join_button_bottom_text"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textSize="21sp"
+            custom:typeface="sbold"
+            android:layout_marginBottom="10dp"
+            />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@color/white"
+            android:layout_alignParentBottom="true"
+            />
+
+    </RelativeLayout>
+
+    <include layout="@layout/component_pinned_chat" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:clickable="true"
+        android:id="@+id/full_invite_view"
+        android:layout_centerInParent="true"
+        android:visibility="gone"
+        >
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            >
+
+            <ImageView
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:layout_marginTop="30dp"
+                android:src="@drawable/private_chat"
+                android:id="@+id/private_chat"
+                android:layout_centerHorizontal="true"
+                />
+
+            <com.gthr.android.view_objects.fTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/private_chat"
+                android:text="@string/invite_full_title"
+                android:id="@+id/invite_full_title"
+                android:layout_marginTop="20dp"
+                android:textSize="20sp"
+                custom:typeface="bold"
+                />
+
+            <com.gthr.android.view_objects.fTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/invite_full_title"
+                android:text="@string/invite_full_desc"
+                android:textSize="15sp"
+                android:layout_marginTop="15sp"
+                android:paddingStart="30dp"
+                android:paddingEnd="40dp"
+                android:gravity="center"
+                />
+
+            </RelativeLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>
+

@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/lighter_gray">
+
+    <RelativeLayout
+        android:layout_width="150dp"
+        android:layout_height="176dp"
+        android:layout_centerHorizontal="true"
+        android:orientation="vertical"
+        android:id="@+id/modal"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/rounded_corners_person_modal"
+            android:orientation="vertical"
+            android:paddingTop="10dp"
+            android:paddingBottom="15dp"
+            android:id="@+id/container"
+            android:layout_alignParentTop="true"
+            >
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:focusable="true"
+                >
+
+                <include layout="@layout/component_profile_rounded"
+                    android:layout_width="58dp"
+                    android:layout_height="58dp"
+                    />
+
+            </RelativeLayout>
+
+            <com.gthr.android.view_objects.fTextView
+                android:layout_gravity="center_horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:id="@+id/name"
+                android:text="Joe Biden"
+                android:gravity="center"
+                android:textSize="16sp"
+                custom:typeface="sbold"
+                android:paddingEnd="4dp"
+                android:paddingStart="4dp"
+                android:textColor="@color/white"
+                android:paddingTop="10dp"
+                android:maxLines="1"
+                />
+
+            <com.gthr.android.view_objects.fTextView
+                android:layout_gravity="center_horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="19sp"
+                android:layout_centerInParent="true"
+                android:id="@+id/note"
+                android:text="X mutual friends"
+                android:gravity="center"
+                android:textSize="12sp"
+                custom:typeface="sbold"
+                android:paddingEnd="4dp"
+                android:paddingStart="4dp"
+                android:textColor="@color/white"
+                android:layout_marginTop="3dp"
+                />
+
+
+            <RelativeLayout
+                android:layout_gravity="center_horizontal"
+                android:layout_width="106dp"
+                android:layout_height="34dp"
+                android:layout_marginTop="8dp"
+                android:clickable="true"
+                android:id="@+id/action_button"
+                >
+
+                <com.gthr.android.view_objects.fTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:id="@+id/action_button_text"
+                    android:text="Add Friend"
+                    android:textSize="14sp"
+                    android:gravity="center"
+                    android:textColor="@color/white"
+                    />
+
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+
+        <RelativeLayout
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:id="@+id/action_done"
+            >
+
+            <ImageView
+                android:layout_width="13dp"
+                android:layout_height="13dp"
+                android:padding="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginTop="10dp"
+                android:id="@+id/ex"
+                android:background="@drawable/ex"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentTop="true"
+                />
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>
