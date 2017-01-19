@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<instant-run
+    abi="x86"
+    api-level="22"
+    density="560dpi"
+    format="8"
+    plugin-version="2.2.2"
+    timestamp="654456187103"
+    token="-176930989046158689"
+    verifier="FULL_BUILD_REQUESTED" >
+
+    <task
+        name="javac"
+        duration="607" />
+    <task
+        name="instant-run-dex"
+        duration="0" />
+    <task
+        name="instant-run-transform"
+        duration="528" />
+    <task
+        name="verifier"
+        duration="65" />
+
+    <artifact
+        location="/Users/yaseen/CSCI/Gather-App/gather-android/app/build/outputs/apk/app-debug.apk"
+        type="MAIN" />
+
+    <build
+        timestamp="654456187103"
+        verifier="FULL_BUILD_REQUESTED" >
+        <artifact
+            location="/Users/yaseen/CSCI/Gather-App/gather-android/app/build/outputs/apk/app-debug.apk"
+            type="MAIN" />
+    </build>
+
+</instant-run>

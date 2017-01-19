@@ -612,12 +612,12 @@
         "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/src/main/res/drawable-mdpi/joined.png"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable-mdpi/activity_dark.png",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/src/main/res/drawable-mdpi/activity_dark.png"
-    },
-    {
         "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable-mdpi/com_mixpanel_android_ic_rocket.png",
         "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/exploded-aar/com.mixpanel.android/mixpanel-android/4.9.2/res/drawable-mdpi/com_mixpanel_android_ic_rocket.png"
+    },
+    {
+        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable-mdpi/activity_dark.png",
+        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/src/main/res/drawable-mdpi/activity_dark.png"
     },
     {
         "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable-mdpi/icon.png",

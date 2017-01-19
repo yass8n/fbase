@@ -236,12 +236,12 @@
         "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/src/main/res/drawable-hdpi/increment.png"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable-hdpi/kebab_grey.png",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/src/main/res/drawable-hdpi/kebab_grey.png"
-    },
-    {
         "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable-hdpi/com_mixpanel_android_ic_coin.png",
         "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/exploded-aar/com.mixpanel.android/mixpanel-android/4.9.2/res/drawable-hdpi/com_mixpanel_android_ic_coin.png"
+    },
+    {
+        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable-hdpi/kebab_grey.png",
+        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/src/main/res/drawable-hdpi/kebab_grey.png"
     },
     {
         "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable-hdpi/com_mixpanel_android_square_dropshadow.9.png",

@@ -41,7 +41,7 @@ public class IntroActivity extends ApplicationActivity  {
         };
 
         mAuth.signInAnonymously()
-                .addOnCompleteListener(activity, new OnCompleteListener<AuthResult>()
+                .addOnCompleteListener(this, new OnCompleteListener<AuthResult>()
                 {
                     @Override
                     public void onComplete(@NonNull Task<AuthResult> task) {
