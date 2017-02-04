@@ -1,10 +1,10 @@
 [
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/raw/tw__cacerts",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/exploded-aar/com.twitter.sdk.android/twitter-core/1.6.4/res/raw/tw__cacerts"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/raw/tw__cacerts",
+        "source": "/Users/yaseen/fbase/app/build/intermediates/exploded-aar/com.twitter.sdk.android/twitter-core/1.6.4/res/raw/tw__cacerts"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/raw/gatherclip.webm",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/src/main/res/raw/gatherclip.webm"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/raw/gatherclip.webm",
+        "source": "/Users/yaseen/fbase/app/src/main/res/raw/gatherclip.webm"
     }
 ]

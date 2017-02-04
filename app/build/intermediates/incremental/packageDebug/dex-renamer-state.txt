@@ -1,7 +1,7 @@
-#Wed Jan 18 18:38:10 PST 2017
-base.0=/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_3b16d55a6a1f918cb5f390f454848bebf005ae4c
-renamed.1=classes2.dex
-renamed.0=classes.dex
-file.1=/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_9d60aa5daaabc5bd88a38848d10181a2afb40b52/classes.dex
-base.1=/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_9d60aa5daaabc5bd88a38848d10181a2afb40b52
-file.0=/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_3b16d55a6a1f918cb5f390f454848bebf005ae4c/classes.dex
+#Sat Feb 04 01:49:22 PST 2017
+base.0=/Users/yaseen/fbase/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_d503c33679329a739a3a518667c7639204b2e00c
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=/Users/yaseen/fbase/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_b5b0ef1bb81ac31dde17a3ee8268ab215b0fc9a6/classes.dex
+base.1=/Users/yaseen/fbase/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_b5b0ef1bb81ac31dde17a3ee8268ab215b0fc9a6
+file.0=/Users/yaseen/fbase/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_d503c33679329a739a3a518667c7639204b2e00c/classes.dex

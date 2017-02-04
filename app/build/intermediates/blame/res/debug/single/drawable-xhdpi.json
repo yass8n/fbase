@@ -1,734 +1,734 @@
 [
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable-xhdpi/unlocked.png",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/src/main/res/drawable-xhdpi/unlocked.png"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable-xhdpi/create_arrow_green.png",
+        "source": "/Users/yaseen/fbase/app/src/main/res/drawable-xhdpi/create_arrow_green.png"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable-xhdpi/tw__composer_logo_blue.png",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/exploded-aar/com.twitter.sdk.android/tweet-composer/1.0.3/res/drawable-xhdpi/tw__composer_logo_blue.png"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable-xhdpi/invited_grey.png",
+        "source": "/Users/yaseen/fbase/app/src/main/res/drawable-xhdpi/invited_grey.png"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable-xhdpi/com_mixpanel_android_ic_coin.png",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/exploded-aar/com.mixpanel.android/mixpanel-android/4.9.2/res/drawable-xhdpi/com_mixpanel_android_ic_coin.png"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable-xhdpi/white_cross_eye.png",
+        "source": "/Users/yaseen/fbase/app/src/main/res/drawable-xhdpi/white_cross_eye.png"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable-xhdpi/com_mixpanel_android_ic_flag.png",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/exploded-aar/com.mixpanel.android/mixpanel-android/4.9.2/res/drawable-xhdpi/com_mixpanel_android_ic_flag.png"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable-xhdpi/direction.png",
+        "source": "/Users/yaseen/fbase/app/src/main/res/drawable-xhdpi/direction.png"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable-xhdpi/invited.png",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/src/main/res/drawable-xhdpi/invited.png"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable-xhdpi/invited.png",
+        "source": "/Users/yaseen/fbase/app/src/main/res/drawable-xhdpi/invited.png"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable-xhdpi/user_active.png",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/src/main/res/drawable-xhdpi/user_active.png"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable-xhdpi/triangle.png",
+        "source": "/Users/yaseen/fbase/app/src/main/res/drawable-xhdpi/triangle.png"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable-xhdpi/invite_more.png",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/src/main/res/drawable-xhdpi/invite_more.png"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable-xhdpi/anyone_on_list_can_send_black.png",
+        "source": "/Users/yaseen/fbase/app/src/main/res/drawable-xhdpi/anyone_on_list_can_send_black.png"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable-xhdpi/com_mixpanel_android_checkmark.png",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/exploded-aar/com.mixpanel.android/mixpanel-android/4.9.2/res/drawable-xhdpi/com_mixpanel_android_checkmark.png"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable-xhdpi/share_secondary.png",
+        "source": "/Users/yaseen/fbase/app/src/main/res/drawable-xhdpi/share_secondary.png"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable-xhdpi/triangle.png",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/src/main/res/drawable-xhdpi/triangle.png"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable-xhdpi/only_i_can_send_black.png",
+        "source": "/Users/yaseen/fbase/app/src/main/res/drawable-xhdpi/only_i_can_send_black.png"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable-xhdpi/kebab_horizontal.png",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/src/main/res/drawable-xhdpi/kebab_horizontal.png"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable-xhdpi/user.png",
+        "source": "/Users/yaseen/fbase/app/src/main/res/drawable-xhdpi/user.png"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable-xhdpi/hidden_lists.png",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/src/main/res/drawable-xhdpi/hidden_lists.png"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable-xhdpi/back_button.png",
+        "source": "/Users/yaseen/fbase/app/src/main/res/drawable-xhdpi/back_button.png"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable-xhdpi/search.png",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/src/main/res/drawable-xhdpi/search.png"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable-xhdpi/unlocked.png",
+        "source": "/Users/yaseen/fbase/app/src/main/res/drawable-xhdpi/unlocked.png"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable-xhdpi/grey_radio.png",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/src/main/res/drawable-xhdpi/grey_radio.png"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable-xhdpi/happy_hour_full.png",
+        "source": "/Users/yaseen/fbase/app/src/main/res/drawable-xhdpi/happy_hour_full.png"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable-xhdpi/promise_icon.png",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/src/main/res/drawable-xhdpi/promise_icon.png"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable-xhdpi/back.png",
+        "source": "/Users/yaseen/fbase/app/src/main/res/drawable-xhdpi/back.png"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable-xhdpi/profile_nav_deselected.png",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/src/main/res/drawable-xhdpi/profile_nav_deselected.png"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable-xhdpi/icon.png",
+        "source": "/Users/yaseen/fbase/app/src/main/res/drawable-xhdpi/icon.png"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable-xhdpi/com_mixpanel_android_ic_sale_tag.png",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/exploded-aar/com.mixpanel.android/mixpanel-android/4.9.2/res/drawable-xhdpi/com_mixpanel_android_ic_sale_tag.png"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable-xhdpi/collapsed_invite_halloween_illustration.png",
+        "source": "/Users/yaseen/fbase/app/src/main/res/drawable-xhdpi/collapsed_invite_halloween_illustration.png"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable-xhdpi/contacts_access.png",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/src/main/res/drawable-xhdpi/contacts_access.png"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable-xhdpi/tw__composer_close.png",
+        "source": "/Users/yaseen/fbase/app/build/intermediates/exploded-aar/com.twitter.sdk.android/tweet-composer/1.0.3/res/drawable-xhdpi/tw__composer_close.png"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable-xhdpi/pin_yellow.png",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/src/main/res/drawable-xhdpi/pin_yellow.png"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable-xhdpi/back_white.png",
+        "source": "/Users/yaseen/fbase/app/src/main/res/drawable-xhdpi/back_white.png"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable-xhdpi/com_mixpanel_android_ic_rocket.png",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/exploded-aar/com.mixpanel.android/mixpanel-android/4.9.2/res/drawable-xhdpi/com_mixpanel_android_ic_rocket.png"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable-xhdpi/shuffle.png",
+        "source": "/Users/yaseen/fbase/app/src/main/res/drawable-xhdpi/shuffle.png"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable-xhdpi/cancel.png",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/src/main/res/drawable-xhdpi/cancel.png"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable-xhdpi/add_user_primary.png",
+        "source": "/Users/yaseen/fbase/app/src/main/res/drawable-xhdpi/add_user_primary.png"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable-xhdpi/empty_user_profile.png",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/src/main/res/drawable-xhdpi/empty_user_profile.png"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable-xhdpi/open_invite_illustration.png",
+        "source": "/Users/yaseen/fbase/app/src/main/res/drawable-xhdpi/open_invite_illustration.png"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable-xhdpi/com_mixpanel_android_ic_gear.png",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/exploded-aar/com.mixpanel.android/mixpanel-android/4.9.2/res/drawable-xhdpi/com_mixpanel_android_ic_gear.png"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable-xhdpi/profile_kebab.png",
+        "source": "/Users/yaseen/fbase/app/src/main/res/drawable-xhdpi/profile_kebab.png"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable-xhdpi/gather_plus_logo.png",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/src/main/res/drawable-xhdpi/gather_plus_logo.png"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable-xhdpi/tbd_icon.png",
+        "source": "/Users/yaseen/fbase/app/src/main/res/drawable-xhdpi/tbd_icon.png"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable-xhdpi/increment.png",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/src/main/res/drawable-xhdpi/increment.png"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable-xhdpi/selected_check.png",
+        "source": "/Users/yaseen/fbase/app/src/main/res/drawable-xhdpi/selected_check.png"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable-xhdpi/adventure_full.png",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/src/main/res/drawable-xhdpi/adventure_full.png"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable-xhdpi/ccdate_cancel.png",
+        "source": "/Users/yaseen/fbase/app/src/main/res/drawable-xhdpi/ccdate_cancel.png"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable-xhdpi/tw__ic_logo_default.png",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/exploded-aar/com.twitter.sdk.android/twitter-core/1.6.4/res/drawable-xhdpi/tw__ic_logo_default.png"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable-xhdpi/link.png",
+        "source": "/Users/yaseen/fbase/app/src/main/res/drawable-xhdpi/link.png"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable-xhdpi/check.png",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/src/main/res/drawable-xhdpi/check.png"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable-xhdpi/grey_radio.png",
+        "source": "/Users/yaseen/fbase/app/src/main/res/drawable-xhdpi/grey_radio.png"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable-xhdpi/share_secondary.png",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/src/main/res/drawable-xhdpi/share_secondary.png"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable-xhdpi/filter_halloween_illustration.png",
+        "source": "/Users/yaseen/fbase/app/src/main/res/drawable-xhdpi/filter_halloween_illustration.png"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable-xhdpi/addressbook.png",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/src/main/res/drawable-xhdpi/addressbook.png"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable-xhdpi/only_i_can_send_white.png",
+        "source": "/Users/yaseen/fbase/app/src/main/res/drawable-xhdpi/only_i_can_send_white.png"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable-xhdpi/happy_hour_full.png",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/src/main/res/drawable-xhdpi/happy_hour_full.png"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable-xhdpi/view_comments.png",
+        "source": "/Users/yaseen/fbase/app/src/main/res/drawable-xhdpi/view_comments.png"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable-xhdpi/com_mixpanel_android_arrowright.png",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/exploded-aar/com.mixpanel.android/mixpanel-android/4.9.2/res/drawable-xhdpi/com_mixpanel_android_arrowright.png"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable-xhdpi/add_friend.png",
+        "source": "/Users/yaseen/fbase/app/src/main/res/drawable-xhdpi/add_friend.png"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable-xhdpi/user.png",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/src/main/res/drawable-xhdpi/user.png"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable-xhdpi/no_friends_found.png",
+        "source": "/Users/yaseen/fbase/app/src/main/res/drawable-xhdpi/no_friends_found.png"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable-xhdpi/create_invite_list.png",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/src/main/res/drawable-xhdpi/create_invite_list.png"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable-xhdpi/com_mixpanel_android_ic_gear.png",
+        "source": "/Users/yaseen/fbase/app/build/intermediates/exploded-aar/com.mixpanel.android/mixpanel-android/4.9.2/res/drawable-xhdpi/com_mixpanel_android_ic_gear.png"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable-xhdpi/list_members.png",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/src/main/res/drawable-xhdpi/list_members.png"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable-xhdpi/com_mixpanel_android_checkmark.png",
+        "source": "/Users/yaseen/fbase/app/build/intermediates/exploded-aar/com.mixpanel.android/mixpanel-android/4.9.2/res/drawable-xhdpi/com_mixpanel_android_checkmark.png"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable-xhdpi/shuffle.png",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/src/main/res/drawable-xhdpi/shuffle.png"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable-xhdpi/com_mixpanel_android_ic_clipboard_checkmark.png",
+        "source": "/Users/yaseen/fbase/app/build/intermediates/exploded-aar/com.mixpanel.android/mixpanel-android/4.9.2/res/drawable-xhdpi/com_mixpanel_android_ic_clipboard_checkmark.png"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable-xhdpi/settings.png",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/src/main/res/drawable-xhdpi/settings.png"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable-xhdpi/profile_settings.png",
+        "source": "/Users/yaseen/fbase/app/src/main/res/drawable-xhdpi/profile_settings.png"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable-xhdpi/com_mixpanel_android_ic_inbox.png",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/exploded-aar/com.mixpanel.android/mixpanel-android/4.9.2/res/drawable-xhdpi/com_mixpanel_android_ic_inbox.png"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable-xhdpi/com_mixpanel_android_ic_phone.png",
+        "source": "/Users/yaseen/fbase/app/build/intermediates/exploded-aar/com.mixpanel.android/mixpanel-android/4.9.2/res/drawable-xhdpi/com_mixpanel_android_ic_phone.png"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable-xhdpi/invite_seen.png",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/src/main/res/drawable-xhdpi/invite_seen.png"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable-xhdpi/on_boarding_invite_icon.png",
+        "source": "/Users/yaseen/fbase/app/src/main/res/drawable-xhdpi/on_boarding_invite_icon.png"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable-xhdpi/check_white.png",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/src/main/res/drawable-xhdpi/check_white.png"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable-xhdpi/com_mixpanel_android_square_nodropshadow.9.png",
+        "source": "/Users/yaseen/fbase/app/build/intermediates/exploded-aar/com.mixpanel.android/mixpanel-android/4.9.2/res/drawable-xhdpi/com_mixpanel_android_square_nodropshadow.9.png"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable-xhdpi/signup_gradient.png",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/src/main/res/drawable-xhdpi/signup_gradient.png"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable-xhdpi/com_mixpanel_android_arrowright.png",
+        "source": "/Users/yaseen/fbase/app/build/intermediates/exploded-aar/com.mixpanel.android/mixpanel-android/4.9.2/res/drawable-xhdpi/com_mixpanel_android_arrowright.png"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable-xhdpi/private_chat.png",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/src/main/res/drawable-xhdpi/private_chat.png"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable-xhdpi/big_star.png",
+        "source": "/Users/yaseen/fbase/app/src/main/res/drawable-xhdpi/big_star.png"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable-xhdpi/big_star.png",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/src/main/res/drawable-xhdpi/big_star.png"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable-xhdpi/down_arrow.png",
+        "source": "/Users/yaseen/fbase/app/src/main/res/drawable-xhdpi/down_arrow.png"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable-xhdpi/not_attending.png",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/src/main/res/drawable-xhdpi/not_attending.png"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable-xhdpi/movies_list_selected.png",
+        "source": "/Users/yaseen/fbase/app/src/main/res/drawable-xhdpi/movies_list_selected.png"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable-xhdpi/back_button.png",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/src/main/res/drawable-xhdpi/back_button.png"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable-xhdpi/add_photo_icon.png",
+        "source": "/Users/yaseen/fbase/app/src/main/res/drawable-xhdpi/add_photo_icon.png"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable-xhdpi/add_user_primary.png",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/src/main/res/drawable-xhdpi/add_user_primary.png"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable-xhdpi/tw__share_email_header.png",
+        "source": "/Users/yaseen/fbase/app/build/intermediates/exploded-aar/com.twitter.sdk.android/twitter-core/1.6.4/res/drawable-xhdpi/tw__share_email_header.png"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable-xhdpi/icon.png",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/src/main/res/drawable-xhdpi/icon.png"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable-xhdpi/com_mixpanel_android_arrowright_faded.png",
+        "source": "/Users/yaseen/fbase/app/build/intermediates/exploded-aar/com.mixpanel.android/mixpanel-android/4.9.2/res/drawable-xhdpi/com_mixpanel_android_arrowright_faded.png"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable-xhdpi/com_mixpanel_android_ic_warning.png",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/exploded-aar/com.mixpanel.android/mixpanel-android/4.9.2/res/drawable-xhdpi/com_mixpanel_android_ic_warning.png"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable-xhdpi/new_list_add.png",
+        "source": "/Users/yaseen/fbase/app/src/main/res/drawable-xhdpi/new_list_add.png"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable-xhdpi/group.png",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/src/main/res/drawable-xhdpi/group.png"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable-xhdpi/list_members.png",
+        "source": "/Users/yaseen/fbase/app/src/main/res/drawable-xhdpi/list_members.png"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable-xhdpi/on_boarding_invite_icon.png",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/src/main/res/drawable-xhdpi/on_boarding_invite_icon.png"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable-xhdpi/com_mixpanel_android_ic_sale_tag.png",
+        "source": "/Users/yaseen/fbase/app/build/intermediates/exploded-aar/com.mixpanel.android/mixpanel-android/4.9.2/res/drawable-xhdpi/com_mixpanel_android_ic_sale_tag.png"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable-xhdpi/new_card_activity.png",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/src/main/res/drawable-xhdpi/new_card_activity.png"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable-xhdpi/black_eye.png",
+        "source": "/Users/yaseen/fbase/app/src/main/res/drawable-xhdpi/black_eye.png"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable-xhdpi/back_white.png",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/src/main/res/drawable-xhdpi/back_white.png"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable-xhdpi/music_full.png",
+        "source": "/Users/yaseen/fbase/app/src/main/res/drawable-xhdpi/music_full.png"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable-xhdpi/happy_hour_list_selected.png",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/src/main/res/drawable-xhdpi/happy_hour_list_selected.png"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable-xhdpi/profile_nav_deselected.png",
+        "source": "/Users/yaseen/fbase/app/src/main/res/drawable-xhdpi/profile_nav_deselected.png"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable-xhdpi/coffee_list_selected.png",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/src/main/res/drawable-xhdpi/coffee_list_selected.png"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable-xhdpi/com_mixpanel_android_ic_coin.png",
+        "source": "/Users/yaseen/fbase/app/build/intermediates/exploded-aar/com.mixpanel.android/mixpanel-android/4.9.2/res/drawable-xhdpi/com_mixpanel_android_ic_coin.png"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable-xhdpi/caret.png",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/src/main/res/drawable-xhdpi/caret.png"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable-xhdpi/gather_plus_logo.png",
+        "source": "/Users/yaseen/fbase/app/src/main/res/drawable-xhdpi/gather_plus_logo.png"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable-xhdpi/close_icon.png",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/src/main/res/drawable-xhdpi/close_icon.png"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable-xhdpi/invite_illustration.png",
+        "source": "/Users/yaseen/fbase/app/src/main/res/drawable-xhdpi/invite_illustration.png"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable-xhdpi/close_modal.png",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/src/main/res/drawable-xhdpi/close_modal.png"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable-xhdpi/new_card_activity.png",
+        "source": "/Users/yaseen/fbase/app/src/main/res/drawable-xhdpi/new_card_activity.png"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable-xhdpi/kebab_grey.png",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/src/main/res/drawable-xhdpi/kebab_grey.png"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable-xhdpi/com_mixpanel_android_ic_bell.png",
+        "source": "/Users/yaseen/fbase/app/build/intermediates/exploded-aar/com.mixpanel.android/mixpanel-android/4.9.2/res/drawable-xhdpi/com_mixpanel_android_ic_bell.png"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable-xhdpi/allow_location.png",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/src/main/res/drawable-xhdpi/allow_location.png"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable-xhdpi/promise_icon.png",
+        "source": "/Users/yaseen/fbase/app/src/main/res/drawable-xhdpi/promise_icon.png"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable-xhdpi/profile_settings.png",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/src/main/res/drawable-xhdpi/profile_settings.png"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable-xhdpi/activity_light.png",
+        "source": "/Users/yaseen/fbase/app/src/main/res/drawable-xhdpi/activity_light.png"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable-xhdpi/check_black.png",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/src/main/res/drawable-xhdpi/check_black.png"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable-xhdpi/home.png",
+        "source": "/Users/yaseen/fbase/app/src/main/res/drawable-xhdpi/home.png"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable-xhdpi/people_kebab.png",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/src/main/res/drawable-xhdpi/people_kebab.png"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable-xhdpi/joined_active_icon.png",
+        "source": "/Users/yaseen/fbase/app/src/main/res/drawable-xhdpi/joined_active_icon.png"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable-xhdpi/black_cross_eye.png",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/src/main/res/drawable-xhdpi/black_cross_eye.png"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable-xhdpi/close_icon.png",
+        "source": "/Users/yaseen/fbase/app/src/main/res/drawable-xhdpi/close_icon.png"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable-xhdpi/empty_profile_graphic.png",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/src/main/res/drawable-xhdpi/empty_profile_graphic.png"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable-xhdpi/tw__ic_logo_default.png",
+        "source": "/Users/yaseen/fbase/app/build/intermediates/exploded-aar/com.twitter.sdk.android/twitter-core/1.6.4/res/drawable-xhdpi/tw__ic_logo_default.png"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable-xhdpi/com_mixpanel_android_arrowleft_faded.png",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/exploded-aar/com.mixpanel.android/mixpanel-android/4.9.2/res/drawable-xhdpi/com_mixpanel_android_arrowleft_faded.png"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable-xhdpi/com_mixpanel_android_ic_flag.png",
+        "source": "/Users/yaseen/fbase/app/build/intermediates/exploded-aar/com.mixpanel.android/mixpanel-android/4.9.2/res/drawable-xhdpi/com_mixpanel_android_ic_flag.png"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable-xhdpi/direction.png",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/src/main/res/drawable-xhdpi/direction.png"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable-xhdpi/no_comments.png",
+        "source": "/Users/yaseen/fbase/app/src/main/res/drawable-xhdpi/no_comments.png"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable-xhdpi/user_placeholder.png",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/src/main/res/drawable-xhdpi/user_placeholder.png"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable-xhdpi/joined_large.png",
+        "source": "/Users/yaseen/fbase/app/src/main/res/drawable-xhdpi/joined_large.png"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable-xhdpi/back_arrow_grey.png",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/src/main/res/drawable-xhdpi/back_arrow_grey.png"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable-xhdpi/dance_full.png",
+        "source": "/Users/yaseen/fbase/app/src/main/res/drawable-xhdpi/dance_full.png"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable-xhdpi/down_arrow.png",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/src/main/res/drawable-xhdpi/down_arrow.png"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable-xhdpi/photo_icon.png",
+        "source": "/Users/yaseen/fbase/app/src/main/res/drawable-xhdpi/photo_icon.png"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable-xhdpi/new_list_add.png",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/src/main/res/drawable-xhdpi/new_list_add.png"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable-xhdpi/com_mixpanel_android_ic_trophy.png",
+        "source": "/Users/yaseen/fbase/app/build/intermediates/exploded-aar/com.mixpanel.android/mixpanel-android/4.9.2/res/drawable-xhdpi/com_mixpanel_android_ic_trophy.png"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable-xhdpi/joined_large.png",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/src/main/res/drawable-xhdpi/joined_large.png"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable-xhdpi/tw_icon.png",
+        "source": "/Users/yaseen/fbase/app/src/main/res/drawable-xhdpi/tw_icon.png"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable-xhdpi/create_arrow_white.png",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/src/main/res/drawable-xhdpi/create_arrow_white.png"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable-xhdpi/com_mixpanel_android_ic_sync.png",
+        "source": "/Users/yaseen/fbase/app/build/intermediates/exploded-aar/com.mixpanel.android/mixpanel-android/4.9.2/res/drawable-xhdpi/com_mixpanel_android_ic_sync.png"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable-xhdpi/home_active.png",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/src/main/res/drawable-xhdpi/home_active.png"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable-xhdpi/photo_placeholder.png",
+        "source": "/Users/yaseen/fbase/app/src/main/res/drawable-xhdpi/photo_placeholder.png"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable-xhdpi/no_internet_icon.png",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/src/main/res/drawable-xhdpi/no_internet_icon.png"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable-xhdpi/able_to_send.png",
+        "source": "/Users/yaseen/fbase/app/src/main/res/drawable-xhdpi/able_to_send.png"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable-xhdpi/gather_splash_screen_logo.png",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/src/main/res/drawable-xhdpi/gather_splash_screen_logo.png"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable-xhdpi/close_modal.png",
+        "source": "/Users/yaseen/fbase/app/src/main/res/drawable-xhdpi/close_modal.png"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable-xhdpi/back.png",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/src/main/res/drawable-xhdpi/back.png"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable-xhdpi/signup_gradient.png",
+        "source": "/Users/yaseen/fbase/app/src/main/res/drawable-xhdpi/signup_gradient.png"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable-xhdpi/add_friend.png",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/src/main/res/drawable-xhdpi/add_friend.png"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable-xhdpi/settings.png",
+        "source": "/Users/yaseen/fbase/app/src/main/res/drawable-xhdpi/settings.png"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable-xhdpi/invited_grey.png",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/src/main/res/drawable-xhdpi/invited_grey.png"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable-xhdpi/people_kebab.png",
+        "source": "/Users/yaseen/fbase/app/src/main/res/drawable-xhdpi/people_kebab.png"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable-xhdpi/world_share.png",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/src/main/res/drawable-xhdpi/world_share.png"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable-xhdpi/search.png",
+        "source": "/Users/yaseen/fbase/app/src/main/res/drawable-xhdpi/search.png"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable-xhdpi/tw__share_email_header.png",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/exploded-aar/com.twitter.sdk.android/twitter-core/1.6.4/res/drawable-xhdpi/tw__share_email_header.png"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable-xhdpi/empty_profile_graphic.png",
+        "source": "/Users/yaseen/fbase/app/src/main/res/drawable-xhdpi/empty_profile_graphic.png"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable-xhdpi/invites_light.png",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/src/main/res/drawable-xhdpi/invites_light.png"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable-xhdpi/no_invites_illustration.png",
+        "source": "/Users/yaseen/fbase/app/src/main/res/drawable-xhdpi/no_invites_illustration.png"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable-xhdpi/create_arrow_green.png",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/src/main/res/drawable-xhdpi/create_arrow_green.png"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable-xhdpi/warning_icon.png",
+        "source": "/Users/yaseen/fbase/app/src/main/res/drawable-xhdpi/warning_icon.png"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable-xhdpi/add.png",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/src/main/res/drawable-xhdpi/add.png"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable-xhdpi/text_icon.png",
+        "source": "/Users/yaseen/fbase/app/src/main/res/drawable-xhdpi/text_icon.png"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable-xhdpi/com_mixpanel_android_square_dropshadow.9.png",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/exploded-aar/com.mixpanel.android/mixpanel-android/4.9.2/res/drawable-xhdpi/com_mixpanel_android_square_dropshadow.9.png"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable-xhdpi/mute.png",
+        "source": "/Users/yaseen/fbase/app/src/main/res/drawable-xhdpi/mute.png"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable-xhdpi/com_mixpanel_android_logo.png",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/exploded-aar/com.mixpanel.android/mixpanel-android/4.9.2/res/drawable-xhdpi/com_mixpanel_android_logo.png"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable-xhdpi/create_invite.png",
+        "source": "/Users/yaseen/fbase/app/src/main/res/drawable-xhdpi/create_invite.png"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable-xhdpi/com_mixpanel_android_ic_bell.png",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/exploded-aar/com.mixpanel.android/mixpanel-android/4.9.2/res/drawable-xhdpi/com_mixpanel_android_ic_bell.png"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable-xhdpi/on_boarding_list_create.png",
+        "source": "/Users/yaseen/fbase/app/src/main/res/drawable-xhdpi/on_boarding_list_create.png"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable-xhdpi/com_mixpanel_android_ic_trophy.png",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/exploded-aar/com.mixpanel.android/mixpanel-android/4.9.2/res/drawable-xhdpi/com_mixpanel_android_ic_trophy.png"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable-xhdpi/activity_inactive.png",
+        "source": "/Users/yaseen/fbase/app/src/main/res/drawable-xhdpi/activity_inactive.png"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable-xhdpi/info_blue.png",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/src/main/res/drawable-xhdpi/info_blue.png"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable-xhdpi/coffee_full.png",
+        "source": "/Users/yaseen/fbase/app/src/main/res/drawable-xhdpi/coffee_full.png"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable-xhdpi/tw_icon.png",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/src/main/res/drawable-xhdpi/tw_icon.png"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable-xhdpi/new_invite.png",
+        "source": "/Users/yaseen/fbase/app/src/main/res/drawable-xhdpi/new_invite.png"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable-xhdpi/ex.png",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/src/main/res/drawable-xhdpi/ex.png"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable-xhdpi/gather_splash_screen_logo.png",
+        "source": "/Users/yaseen/fbase/app/src/main/res/drawable-xhdpi/gather_splash_screen_logo.png"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable-xhdpi/profile_light.png",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/src/main/res/drawable-xhdpi/profile_light.png"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable-xhdpi/no_internet_icon.png",
+        "source": "/Users/yaseen/fbase/app/src/main/res/drawable-xhdpi/no_internet_icon.png"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable-xhdpi/com_mixpanel_android_ic_sync.png",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/exploded-aar/com.mixpanel.android/mixpanel-android/4.9.2/res/drawable-xhdpi/com_mixpanel_android_ic_sync.png"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable-xhdpi/invites_light.png",
+        "source": "/Users/yaseen/fbase/app/src/main/res/drawable-xhdpi/invites_light.png"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable-xhdpi/tbd_icon.png",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/src/main/res/drawable-xhdpi/tbd_icon.png"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable-xhdpi/com_mixpanel_android_logo.png",
+        "source": "/Users/yaseen/fbase/app/build/intermediates/exploded-aar/com.mixpanel.android/mixpanel-android/4.9.2/res/drawable-xhdpi/com_mixpanel_android_logo.png"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable-xhdpi/no_invites_illustration.png",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/src/main/res/drawable-xhdpi/no_invites_illustration.png"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable-xhdpi/comments.png",
+        "source": "/Users/yaseen/fbase/app/src/main/res/drawable-xhdpi/comments.png"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable-xhdpi/on_boarding_list_create.png",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/src/main/res/drawable-xhdpi/on_boarding_list_create.png"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable-xhdpi/private_chat.png",
+        "source": "/Users/yaseen/fbase/app/src/main/res/drawable-xhdpi/private_chat.png"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable-xhdpi/able_to_send.png",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/src/main/res/drawable-xhdpi/able_to_send.png"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable-xhdpi/happy_hour_list_selected.png",
+        "source": "/Users/yaseen/fbase/app/src/main/res/drawable-xhdpi/happy_hour_list_selected.png"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable-xhdpi/ccdate_ok.png",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/src/main/res/drawable-xhdpi/ccdate_ok.png"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable-xhdpi/kebab.png",
+        "source": "/Users/yaseen/fbase/app/src/main/res/drawable-xhdpi/kebab.png"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable-xhdpi/comments.png",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/src/main/res/drawable-xhdpi/comments.png"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable-xhdpi/search_user.png",
+        "source": "/Users/yaseen/fbase/app/src/main/res/drawable-xhdpi/search_user.png"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable-xhdpi/view_comments.png",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/src/main/res/drawable-xhdpi/view_comments.png"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable-xhdpi/profile_light.png",
+        "source": "/Users/yaseen/fbase/app/src/main/res/drawable-xhdpi/profile_light.png"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable-xhdpi/anyone_on_list_can_send_black.png",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/src/main/res/drawable-xhdpi/anyone_on_list_can_send_black.png"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable-xhdpi/facebook.png",
+        "source": "/Users/yaseen/fbase/app/src/main/res/drawable-xhdpi/facebook.png"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable-xhdpi/create_invite.png",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/src/main/res/drawable-xhdpi/create_invite.png"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable-xhdpi/com_mixpanel_android_arrowleft_faded.png",
+        "source": "/Users/yaseen/fbase/app/build/intermediates/exploded-aar/com.mixpanel.android/mixpanel-android/4.9.2/res/drawable-xhdpi/com_mixpanel_android_arrowleft_faded.png"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable-xhdpi/transparent.png",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/src/main/res/drawable-xhdpi/transparent.png"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable-xhdpi/world_share.png",
+        "source": "/Users/yaseen/fbase/app/src/main/res/drawable-xhdpi/world_share.png"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable-xhdpi/adventure_list_selected.png",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/src/main/res/drawable-xhdpi/adventure_list_selected.png"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable-xhdpi/caret.png",
+        "source": "/Users/yaseen/fbase/app/src/main/res/drawable-xhdpi/caret.png"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable-xhdpi/globe.png",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/src/main/res/drawable-xhdpi/globe.png"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable-xhdpi/increment.png",
+        "source": "/Users/yaseen/fbase/app/src/main/res/drawable-xhdpi/increment.png"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable-xhdpi/joined.png",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/src/main/res/drawable-xhdpi/joined.png"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable-xhdpi/black_cross_eye.png",
+        "source": "/Users/yaseen/fbase/app/src/main/res/drawable-xhdpi/black_cross_eye.png"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable-xhdpi/anyone_on_list_can_send_white.png",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/src/main/res/drawable-xhdpi/anyone_on_list_can_send_white.png"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable-xhdpi/location.png",
+        "source": "/Users/yaseen/fbase/app/src/main/res/drawable-xhdpi/location.png"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable-xhdpi/create_list_from_invitees_secondary.png",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/src/main/res/drawable-xhdpi/create_list_from_invitees_secondary.png"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable-xhdpi/not_attending.png",
+        "source": "/Users/yaseen/fbase/app/src/main/res/drawable-xhdpi/not_attending.png"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable-xhdpi/mute.png",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/src/main/res/drawable-xhdpi/mute.png"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable-xhdpi/coffee_list_selected.png",
+        "source": "/Users/yaseen/fbase/app/src/main/res/drawable-xhdpi/coffee_list_selected.png"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable-xhdpi/black_eye.png",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/src/main/res/drawable-xhdpi/black_eye.png"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable-xhdpi/com_mixpanel_android_square_dropshadow.9.png",
+        "source": "/Users/yaseen/fbase/app/build/intermediates/exploded-aar/com.mixpanel.android/mixpanel-android/4.9.2/res/drawable-xhdpi/com_mixpanel_android_square_dropshadow.9.png"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable-xhdpi/invites_grey.png",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/src/main/res/drawable-xhdpi/invites_grey.png"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable-xhdpi/coffee_icon.png",
+        "source": "/Users/yaseen/fbase/app/src/main/res/drawable-xhdpi/coffee_icon.png"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable-xhdpi/dance_icon.png",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/src/main/res/drawable-xhdpi/dance_icon.png"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable-xhdpi/info_blue.png",
+        "source": "/Users/yaseen/fbase/app/src/main/res/drawable-xhdpi/info_blue.png"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable-xhdpi/activity_dark.png",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/src/main/res/drawable-xhdpi/activity_dark.png"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable-xhdpi/com_mixpanel_android_ic_inbox.png",
+        "source": "/Users/yaseen/fbase/app/build/intermediates/exploded-aar/com.mixpanel.android/mixpanel-android/4.9.2/res/drawable-xhdpi/com_mixpanel_android_ic_inbox.png"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable-xhdpi/home.png",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/src/main/res/drawable-xhdpi/home.png"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable-xhdpi/adventure_icon.png",
+        "source": "/Users/yaseen/fbase/app/src/main/res/drawable-xhdpi/adventure_icon.png"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable-xhdpi/photo_placeholder.png",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/src/main/res/drawable-xhdpi/photo_placeholder.png"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable-xhdpi/addressbook.png",
+        "source": "/Users/yaseen/fbase/app/src/main/res/drawable-xhdpi/addressbook.png"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable-xhdpi/movies_list_selected.png",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/src/main/res/drawable-xhdpi/movies_list_selected.png"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable-xhdpi/attending.png",
+        "source": "/Users/yaseen/fbase/app/src/main/res/drawable-xhdpi/attending.png"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable-xhdpi/com_mixpanel_android_square_nodropshadow.9.png",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/exploded-aar/com.mixpanel.android/mixpanel-android/4.9.2/res/drawable-xhdpi/com_mixpanel_android_square_nodropshadow.9.png"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable-xhdpi/people_section.png",
+        "source": "/Users/yaseen/fbase/app/src/main/res/drawable-xhdpi/people_section.png"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable-xhdpi/warning_icon.png",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/src/main/res/drawable-xhdpi/warning_icon.png"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable-xhdpi/cancel.png",
+        "source": "/Users/yaseen/fbase/app/src/main/res/drawable-xhdpi/cancel.png"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable-xhdpi/movies_full.png",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/src/main/res/drawable-xhdpi/movies_full.png"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable-xhdpi/com_mixpanel_android_ic_warning.png",
+        "source": "/Users/yaseen/fbase/app/build/intermediates/exploded-aar/com.mixpanel.android/mixpanel-android/4.9.2/res/drawable-xhdpi/com_mixpanel_android_ic_warning.png"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable-xhdpi/adventure_icon.png",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/src/main/res/drawable-xhdpi/adventure_icon.png"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable-xhdpi/create_invite_list.png",
+        "source": "/Users/yaseen/fbase/app/src/main/res/drawable-xhdpi/create_invite_list.png"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable-xhdpi/com_mixpanel_android_ic_megaphone.png",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/exploded-aar/com.mixpanel.android/mixpanel-android/4.9.2/res/drawable-xhdpi/com_mixpanel_android_ic_megaphone.png"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable-xhdpi/com_mixpanel_android_ic_megaphone.png",
+        "source": "/Users/yaseen/fbase/app/build/intermediates/exploded-aar/com.mixpanel.android/mixpanel-android/4.9.2/res/drawable-xhdpi/com_mixpanel_android_ic_megaphone.png"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable-xhdpi/location.png",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/src/main/res/drawable-xhdpi/location.png"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable-xhdpi/check_black.png",
+        "source": "/Users/yaseen/fbase/app/src/main/res/drawable-xhdpi/check_black.png"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable-xhdpi/happy_hour_icon.png",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/src/main/res/drawable-xhdpi/happy_hour_icon.png"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable-xhdpi/mute_icon.png",
+        "source": "/Users/yaseen/fbase/app/src/main/res/drawable-xhdpi/mute_icon.png"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable-xhdpi/com_mixpanel_android_ic_phone.png",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/exploded-aar/com.mixpanel.android/mixpanel-android/4.9.2/res/drawable-xhdpi/com_mixpanel_android_ic_phone.png"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable-xhdpi/user_placeholder.png",
+        "source": "/Users/yaseen/fbase/app/src/main/res/drawable-xhdpi/user_placeholder.png"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable-xhdpi/invite_illustration.png",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/src/main/res/drawable-xhdpi/invite_illustration.png"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable-xhdpi/com_mixpanel_android_arrowleft.png",
+        "source": "/Users/yaseen/fbase/app/build/intermediates/exploded-aar/com.mixpanel.android/mixpanel-android/4.9.2/res/drawable-xhdpi/com_mixpanel_android_arrowleft.png"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable-xhdpi/no_comments.png",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/src/main/res/drawable-xhdpi/no_comments.png"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable-xhdpi/kebab_horizontal.png",
+        "source": "/Users/yaseen/fbase/app/src/main/res/drawable-xhdpi/kebab_horizontal.png"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable-xhdpi/profile.png",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/src/main/res/drawable-xhdpi/profile.png"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable-xhdpi/back_arrow_grey.png",
+        "source": "/Users/yaseen/fbase/app/src/main/res/drawable-xhdpi/back_arrow_grey.png"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable-xhdpi/activity_inactive.png",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/src/main/res/drawable-xhdpi/activity_inactive.png"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable-xhdpi/kebab_grey.png",
+        "source": "/Users/yaseen/fbase/app/src/main/res/drawable-xhdpi/kebab_grey.png"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable-xhdpi/facebook.png",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/src/main/res/drawable-xhdpi/facebook.png"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable-xhdpi/movies_full.png",
+        "source": "/Users/yaseen/fbase/app/src/main/res/drawable-xhdpi/movies_full.png"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable-xhdpi/activity_light.png",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/src/main/res/drawable-xhdpi/activity_light.png"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable-xhdpi/profile.png",
+        "source": "/Users/yaseen/fbase/app/src/main/res/drawable-xhdpi/profile.png"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable-xhdpi/ccdate_cancel.png",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/src/main/res/drawable-xhdpi/ccdate_cancel.png"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable-xhdpi/movies_icon.png",
+        "source": "/Users/yaseen/fbase/app/src/main/res/drawable-xhdpi/movies_icon.png"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable-xhdpi/lock.png",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/src/main/res/drawable-xhdpi/lock.png"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable-xhdpi/add_friend_to_list.png",
+        "source": "/Users/yaseen/fbase/app/src/main/res/drawable-xhdpi/add_friend_to_list.png"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable-xhdpi/filter_halloween_illustration.png",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/src/main/res/drawable-xhdpi/filter_halloween_illustration.png"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable-xhdpi/group.png",
+        "source": "/Users/yaseen/fbase/app/src/main/res/drawable-xhdpi/group.png"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable-xhdpi/text_icon.png",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/src/main/res/drawable-xhdpi/text_icon.png"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable-xhdpi/home_active.png",
+        "source": "/Users/yaseen/fbase/app/src/main/res/drawable-xhdpi/home_active.png"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable-xhdpi/collapsed_invite_halloween_illustration.png",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/src/main/res/drawable-xhdpi/collapsed_invite_halloween_illustration.png"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable-xhdpi/ex.png",
+        "source": "/Users/yaseen/fbase/app/src/main/res/drawable-xhdpi/ex.png"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable-xhdpi/decrement.png",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/src/main/res/drawable-xhdpi/decrement.png"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable-xhdpi/back_arrow.png",
+        "source": "/Users/yaseen/fbase/app/src/main/res/drawable-xhdpi/back_arrow.png"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable-xhdpi/com_mixpanel_android_ic_vip.png",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/exploded-aar/com.mixpanel.android/mixpanel-android/4.9.2/res/drawable-xhdpi/com_mixpanel_android_ic_vip.png"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable-xhdpi/com_mixpanel_android_close_new.png",
+        "source": "/Users/yaseen/fbase/app/build/intermediates/exploded-aar/com.mixpanel.android/mixpanel-android/4.9.2/res/drawable-xhdpi/com_mixpanel_android_close_new.png"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable-xhdpi/only_i_can_send_white.png",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/src/main/res/drawable-xhdpi/only_i_can_send_white.png"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable-xhdpi/pin_yellow.png",
+        "source": "/Users/yaseen/fbase/app/src/main/res/drawable-xhdpi/pin_yellow.png"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable-xhdpi/com_mixpanel_android_close_new.png",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/exploded-aar/com.mixpanel.android/mixpanel-android/4.9.2/res/drawable-xhdpi/com_mixpanel_android_close_new.png"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable-xhdpi/user_active.png",
+        "source": "/Users/yaseen/fbase/app/src/main/res/drawable-xhdpi/user_active.png"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable-xhdpi/photo_icon.png",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/src/main/res/drawable-xhdpi/photo_icon.png"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable-xhdpi/filter_caret.png",
+        "source": "/Users/yaseen/fbase/app/src/main/res/drawable-xhdpi/filter_caret.png"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable-xhdpi/coffee_full.png",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/src/main/res/drawable-xhdpi/coffee_full.png"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable-xhdpi/invite_more.png",
+        "source": "/Users/yaseen/fbase/app/src/main/res/drawable-xhdpi/invite_more.png"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable-xhdpi/music_list_selected.png",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/src/main/res/drawable-xhdpi/music_list_selected.png"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable-xhdpi/music_list_selected.png",
+        "source": "/Users/yaseen/fbase/app/src/main/res/drawable-xhdpi/music_list_selected.png"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable-xhdpi/mute_icon.png",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/src/main/res/drawable-xhdpi/mute_icon.png"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable-xhdpi/allow_location.png",
+        "source": "/Users/yaseen/fbase/app/src/main/res/drawable-xhdpi/allow_location.png"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable-xhdpi/kebab.png",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/src/main/res/drawable-xhdpi/kebab.png"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable-xhdpi/globe.png",
+        "source": "/Users/yaseen/fbase/app/src/main/res/drawable-xhdpi/globe.png"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable-xhdpi/new_list.png",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/src/main/res/drawable-xhdpi/new_list.png"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable-xhdpi/happy_hour_icon.png",
+        "source": "/Users/yaseen/fbase/app/src/main/res/drawable-xhdpi/happy_hour_icon.png"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable-xhdpi/only_i_can_send_black.png",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/src/main/res/drawable-xhdpi/only_i_can_send_black.png"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable-xhdpi/com_mixpanel_android_ic_rocket.png",
+        "source": "/Users/yaseen/fbase/app/build/intermediates/exploded-aar/com.mixpanel.android/mixpanel-android/4.9.2/res/drawable-xhdpi/com_mixpanel_android_ic_rocket.png"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable-xhdpi/coffee_icon.png",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/src/main/res/drawable-xhdpi/coffee_icon.png"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable-xhdpi/decrement.png",
+        "source": "/Users/yaseen/fbase/app/src/main/res/drawable-xhdpi/decrement.png"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable-xhdpi/music_icon.png",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/src/main/res/drawable-xhdpi/music_icon.png"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable-xhdpi/contacts_access.png",
+        "source": "/Users/yaseen/fbase/app/src/main/res/drawable-xhdpi/contacts_access.png"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable-xhdpi/search_user.png",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/src/main/res/drawable-xhdpi/search_user.png"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable-xhdpi/squad_icon.png",
+        "source": "/Users/yaseen/fbase/app/src/main/res/drawable-xhdpi/squad_icon.png"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable-xhdpi/profile_kebab.png",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/src/main/res/drawable-xhdpi/profile_kebab.png"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable-xhdpi/joined_green.png",
+        "source": "/Users/yaseen/fbase/app/src/main/res/drawable-xhdpi/joined_green.png"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable-xhdpi/filter_caret.png",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/src/main/res/drawable-xhdpi/filter_caret.png"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable-xhdpi/joined.png",
+        "source": "/Users/yaseen/fbase/app/src/main/res/drawable-xhdpi/joined.png"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable-xhdpi/com_mixpanel_android_ic_clipboard_checkmark.png",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/exploded-aar/com.mixpanel.android/mixpanel-android/4.9.2/res/drawable-xhdpi/com_mixpanel_android_ic_clipboard_checkmark.png"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable-xhdpi/add.png",
+        "source": "/Users/yaseen/fbase/app/src/main/res/drawable-xhdpi/add.png"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable-xhdpi/sms_permission.png",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/src/main/res/drawable-xhdpi/sms_permission.png"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable-xhdpi/fb_icon.png",
+        "source": "/Users/yaseen/fbase/app/src/main/res/drawable-xhdpi/fb_icon.png"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable-xhdpi/invited_white.png",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/src/main/res/drawable-xhdpi/invited_white.png"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable-xhdpi/invites_nav_selected_profile.png",
+        "source": "/Users/yaseen/fbase/app/src/main/res/drawable-xhdpi/invites_nav_selected_profile.png"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable-xhdpi/twitter.png",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/src/main/res/drawable-xhdpi/twitter.png"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable-xhdpi/lock.png",
+        "source": "/Users/yaseen/fbase/app/src/main/res/drawable-xhdpi/lock.png"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable-xhdpi/add_friend_to_list.png",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/src/main/res/drawable-xhdpi/add_friend_to_list.png"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable-xhdpi/hidden_lists.png",
+        "source": "/Users/yaseen/fbase/app/src/main/res/drawable-xhdpi/hidden_lists.png"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable-xhdpi/dance_list_selected.png",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/src/main/res/drawable-xhdpi/dance_list_selected.png"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable-xhdpi/invited_white.png",
+        "source": "/Users/yaseen/fbase/app/src/main/res/drawable-xhdpi/invited_white.png"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable-xhdpi/white_cross_eye.png",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/src/main/res/drawable-xhdpi/white_cross_eye.png"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable-xhdpi/check_white.png",
+        "source": "/Users/yaseen/fbase/app/src/main/res/drawable-xhdpi/check_white.png"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable-xhdpi/movies_icon.png",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/src/main/res/drawable-xhdpi/movies_icon.png"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable-xhdpi/checkmark.png",
+        "source": "/Users/yaseen/fbase/app/src/main/res/drawable-xhdpi/checkmark.png"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable-xhdpi/checkmark.png",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/src/main/res/drawable-xhdpi/checkmark.png"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable-xhdpi/adventure_list_selected.png",
+        "source": "/Users/yaseen/fbase/app/src/main/res/drawable-xhdpi/adventure_list_selected.png"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable-xhdpi/dance_full.png",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/src/main/res/drawable-xhdpi/dance_full.png"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable-xhdpi/anyone_on_list_can_send_white.png",
+        "source": "/Users/yaseen/fbase/app/src/main/res/drawable-xhdpi/anyone_on_list_can_send_white.png"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable-xhdpi/new_invite.png",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/src/main/res/drawable-xhdpi/new_invite.png"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable-xhdpi/invites_grey.png",
+        "source": "/Users/yaseen/fbase/app/src/main/res/drawable-xhdpi/invites_grey.png"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable-xhdpi/attending.png",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/src/main/res/drawable-xhdpi/attending.png"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable-xhdpi/camera.png",
+        "source": "/Users/yaseen/fbase/app/src/main/res/drawable-xhdpi/camera.png"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable-xhdpi/link.png",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/src/main/res/drawable-xhdpi/link.png"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable-xhdpi/tw__composer_logo_blue.png",
+        "source": "/Users/yaseen/fbase/app/build/intermediates/exploded-aar/com.twitter.sdk.android/tweet-composer/1.0.3/res/drawable-xhdpi/tw__composer_logo_blue.png"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable-xhdpi/com_mixpanel_android_arrowleft.png",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/exploded-aar/com.mixpanel.android/mixpanel-android/4.9.2/res/drawable-xhdpi/com_mixpanel_android_arrowleft.png"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable-xhdpi/tw__composer_logo_white.png",
+        "source": "/Users/yaseen/fbase/app/build/intermediates/exploded-aar/com.twitter.sdk.android/tweet-composer/1.0.3/res/drawable-xhdpi/tw__composer_logo_white.png"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable-xhdpi/squad_icon.png",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/src/main/res/drawable-xhdpi/squad_icon.png"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable-xhdpi/activity_dark.png",
+        "source": "/Users/yaseen/fbase/app/src/main/res/drawable-xhdpi/activity_dark.png"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable-xhdpi/tw__composer_logo_white.png",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/exploded-aar/com.twitter.sdk.android/tweet-composer/1.0.3/res/drawable-xhdpi/tw__composer_logo_white.png"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable-xhdpi/launcher_icon.png",
+        "source": "/Users/yaseen/fbase/app/src/main/res/drawable-xhdpi/launcher_icon.png"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable-xhdpi/people_section.png",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/src/main/res/drawable-xhdpi/people_section.png"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable-xhdpi/new_list.png",
+        "source": "/Users/yaseen/fbase/app/src/main/res/drawable-xhdpi/new_list.png"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable-xhdpi/camera.png",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/src/main/res/drawable-xhdpi/camera.png"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable-xhdpi/invites_dark.png",
+        "source": "/Users/yaseen/fbase/app/src/main/res/drawable-xhdpi/invites_dark.png"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable-xhdpi/add_photo_icon.png",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/src/main/res/drawable-xhdpi/add_photo_icon.png"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable-xhdpi/invite_seen.png",
+        "source": "/Users/yaseen/fbase/app/src/main/res/drawable-xhdpi/invite_seen.png"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable-xhdpi/music_full.png",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/src/main/res/drawable-xhdpi/music_full.png"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable-xhdpi/dance_list_selected.png",
+        "source": "/Users/yaseen/fbase/app/src/main/res/drawable-xhdpi/dance_list_selected.png"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable-xhdpi/joined_green.png",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/src/main/res/drawable-xhdpi/joined_green.png"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable-xhdpi/halloween_card_activity.png",
+        "source": "/Users/yaseen/fbase/app/src/main/res/drawable-xhdpi/halloween_card_activity.png"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable-xhdpi/tw__composer_close.png",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/exploded-aar/com.twitter.sdk.android/tweet-composer/1.0.3/res/drawable-xhdpi/tw__composer_close.png"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable-xhdpi/friend_added.png",
+        "source": "/Users/yaseen/fbase/app/src/main/res/drawable-xhdpi/friend_added.png"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable-xhdpi/invites_nav_selected_profile.png",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/src/main/res/drawable-xhdpi/invites_nav_selected_profile.png"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable-xhdpi/adventure_full.png",
+        "source": "/Users/yaseen/fbase/app/src/main/res/drawable-xhdpi/adventure_full.png"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable-xhdpi/back_arrow.png",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/src/main/res/drawable-xhdpi/back_arrow.png"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable-xhdpi/ccdate_ok.png",
+        "source": "/Users/yaseen/fbase/app/src/main/res/drawable-xhdpi/ccdate_ok.png"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable-xhdpi/no_friends_found.png",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/src/main/res/drawable-xhdpi/no_friends_found.png"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable-xhdpi/music_icon.png",
+        "source": "/Users/yaseen/fbase/app/src/main/res/drawable-xhdpi/music_icon.png"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable-xhdpi/com_mixpanel_android_arrowright_faded.png",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/exploded-aar/com.mixpanel.android/mixpanel-android/4.9.2/res/drawable-xhdpi/com_mixpanel_android_arrowright_faded.png"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable-xhdpi/dance_icon.png",
+        "source": "/Users/yaseen/fbase/app/src/main/res/drawable-xhdpi/dance_icon.png"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable-xhdpi/fb_icon.png",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/src/main/res/drawable-xhdpi/fb_icon.png"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable-xhdpi/empty_user_profile.png",
+        "source": "/Users/yaseen/fbase/app/src/main/res/drawable-xhdpi/empty_user_profile.png"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable-xhdpi/open_invite_illustration.png",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/src/main/res/drawable-xhdpi/open_invite_illustration.png"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable-xhdpi/create_list_from_invitees_secondary.png",
+        "source": "/Users/yaseen/fbase/app/src/main/res/drawable-xhdpi/create_list_from_invitees_secondary.png"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable-xhdpi/launcher_icon.png",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/src/main/res/drawable-xhdpi/launcher_icon.png"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable-xhdpi/check.png",
+        "source": "/Users/yaseen/fbase/app/src/main/res/drawable-xhdpi/check.png"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable-xhdpi/joined_active_icon.png",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/src/main/res/drawable-xhdpi/joined_active_icon.png"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable-xhdpi/com_mixpanel_android_ic_vip.png",
+        "source": "/Users/yaseen/fbase/app/build/intermediates/exploded-aar/com.mixpanel.android/mixpanel-android/4.9.2/res/drawable-xhdpi/com_mixpanel_android_ic_vip.png"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable-xhdpi/invites_dark.png",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/src/main/res/drawable-xhdpi/invites_dark.png"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable-xhdpi/create_arrow_white.png",
+        "source": "/Users/yaseen/fbase/app/src/main/res/drawable-xhdpi/create_arrow_white.png"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable-xhdpi/selected_check.png",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/src/main/res/drawable-xhdpi/selected_check.png"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable-xhdpi/transparent.png",
+        "source": "/Users/yaseen/fbase/app/src/main/res/drawable-xhdpi/transparent.png"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable-xhdpi/friend_added.png",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/src/main/res/drawable-xhdpi/friend_added.png"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable-xhdpi/sms_permission.png",
+        "source": "/Users/yaseen/fbase/app/src/main/res/drawable-xhdpi/sms_permission.png"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable-xhdpi/halloween_card_activity.png",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/src/main/res/drawable-xhdpi/halloween_card_activity.png"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable-xhdpi/twitter.png",
+        "source": "/Users/yaseen/fbase/app/src/main/res/drawable-xhdpi/twitter.png"
     }
 ]

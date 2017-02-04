@@ -1,146 +1,146 @@
 [
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/anim/right_out.xml",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/src/main/res/anim/right_out.xml"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/anim/bounce.xml",
+        "source": "/Users/yaseen/fbase/app/src/main/res/anim/bounce.xml"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/anim/slide_in_from_bottom.xml",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/src/main/res/anim/slide_in_from_bottom.xml"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/anim/fade_out.xml",
+        "source": "/Users/yaseen/fbase/app/src/main/res/anim/fade_out.xml"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/anim/abc_popup_enter.xml",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/anim/abc_popup_enter.xml"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/anim/fade_in.xml",
+        "source": "/Users/yaseen/fbase/app/src/main/res/anim/fade_in.xml"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/anim/slide_bottom_fade.xml",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/src/main/res/anim/slide_bottom_fade.xml"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/anim/slide_out_from_bottom.xml",
+        "source": "/Users/yaseen/fbase/app/src/main/res/anim/slide_out_from_bottom.xml"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/anim/abc_fade_out.xml",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/anim/abc_fade_out.xml"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/anim/nothing.xml",
+        "source": "/Users/yaseen/fbase/app/src/main/res/anim/nothing.xml"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/anim/abc_popup_exit.xml",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/anim/abc_popup_exit.xml"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/anim/fade_out_with_duration.xml",
+        "source": "/Users/yaseen/fbase/app/src/main/res/anim/fade_out_with_duration.xml"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/anim/slide_top_fade.xml",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/src/main/res/anim/slide_top_fade.xml"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/anim/abc_slide_out_bottom.xml",
+        "source": "/Users/yaseen/fbase/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/anim/abc_slide_out_bottom.xml"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/anim/slide_up_fast_with_fade.xml",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/src/main/res/anim/slide_up_fast_with_fade.xml"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/anim/shake.xml",
+        "source": "/Users/yaseen/fbase/app/src/main/res/anim/shake.xml"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/anim/event_focus.xml",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/src/main/res/anim/event_focus.xml"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/anim/right_in.xml",
+        "source": "/Users/yaseen/fbase/app/src/main/res/anim/right_in.xml"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/anim/slide_in_right.xml",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/src/main/res/anim/slide_in_right.xml"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/anim/slide_up_fast_with_fade.xml",
+        "source": "/Users/yaseen/fbase/app/src/main/res/anim/slide_up_fast_with_fade.xml"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/anim/left_out.xml",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/src/main/res/anim/left_out.xml"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/anim/left_out.xml",
+        "source": "/Users/yaseen/fbase/app/src/main/res/anim/left_out.xml"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/anim/abc_grow_fade_in_from_bottom.xml",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/anim/abc_grow_fade_in_from_bottom.xml"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/anim/abc_fade_out.xml",
+        "source": "/Users/yaseen/fbase/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/anim/abc_fade_out.xml"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/anim/fade_in.xml",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/src/main/res/anim/fade_in.xml"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/anim/abc_popup_enter.xml",
+        "source": "/Users/yaseen/fbase/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/anim/abc_popup_enter.xml"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/anim/com_mixpanel_android_fade_out.xml",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/exploded-aar/com.mixpanel.android/mixpanel-android/4.9.2/res/anim/com_mixpanel_android_fade_out.xml"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/anim/right_out.xml",
+        "source": "/Users/yaseen/fbase/app/src/main/res/anim/right_out.xml"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/anim/slide_out_right.xml",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/src/main/res/anim/slide_out_right.xml"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/anim/abc_slide_in_top.xml",
+        "source": "/Users/yaseen/fbase/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/anim/abc_slide_in_top.xml"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/anim/slide_down.xml",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/src/main/res/anim/slide_down.xml"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/anim/layout_top_to_bottom_slide.xml",
+        "source": "/Users/yaseen/fbase/app/src/main/res/anim/layout_top_to_bottom_slide.xml"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/anim/slide_down_fast_with_fade.xml",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/src/main/res/anim/slide_down_fast_with_fade.xml"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/anim/com_mixpanel_android_fade_in.xml",
+        "source": "/Users/yaseen/fbase/app/build/intermediates/exploded-aar/com.mixpanel.android/mixpanel-android/4.9.2/res/anim/com_mixpanel_android_fade_in.xml"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/anim/bounce.xml",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/src/main/res/anim/bounce.xml"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/anim/slide_up.xml",
+        "source": "/Users/yaseen/fbase/app/src/main/res/anim/slide_up.xml"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/anim/fade_out.xml",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/src/main/res/anim/fade_out.xml"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/anim/abc_slide_out_top.xml",
+        "source": "/Users/yaseen/fbase/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/anim/abc_slide_out_top.xml"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/anim/com_mixpanel_android_slide_down.xml",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/exploded-aar/com.mixpanel.android/mixpanel-android/4.9.2/res/anim/com_mixpanel_android_slide_down.xml"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/anim/slide_bottom_fade.xml",
+        "source": "/Users/yaseen/fbase/app/src/main/res/anim/slide_bottom_fade.xml"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/anim/layout_top_to_bottom_slide.xml",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/src/main/res/anim/layout_top_to_bottom_slide.xml"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/anim/slide_down_fast_with_fade.xml",
+        "source": "/Users/yaseen/fbase/app/src/main/res/anim/slide_down_fast_with_fade.xml"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/anim/right_in.xml",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/src/main/res/anim/right_in.xml"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/anim/com_mixpanel_android_slide_down.xml",
+        "source": "/Users/yaseen/fbase/app/build/intermediates/exploded-aar/com.mixpanel.android/mixpanel-android/4.9.2/res/anim/com_mixpanel_android_slide_down.xml"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/anim/slide_top_gone.xml",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/src/main/res/anim/slide_top_gone.xml"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/anim/slide_in_from_bottom.xml",
+        "source": "/Users/yaseen/fbase/app/src/main/res/anim/slide_in_from_bottom.xml"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/anim/shake.xml",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/src/main/res/anim/shake.xml"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/anim/abc_slide_in_bottom.xml",
+        "source": "/Users/yaseen/fbase/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/anim/abc_slide_in_bottom.xml"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/anim/abc_slide_in_bottom.xml",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/anim/abc_slide_in_bottom.xml"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/anim/slide_top_fade.xml",
+        "source": "/Users/yaseen/fbase/app/src/main/res/anim/slide_top_fade.xml"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/anim/abc_fade_in.xml",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/anim/abc_fade_in.xml"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/anim/abc_grow_fade_in_from_bottom.xml",
+        "source": "/Users/yaseen/fbase/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/anim/abc_grow_fade_in_from_bottom.xml"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/anim/abc_slide_in_top.xml",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/anim/abc_slide_in_top.xml"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/anim/abc_fade_in.xml",
+        "source": "/Users/yaseen/fbase/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/anim/abc_fade_in.xml"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/anim/slide_out_from_bottom.xml",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/src/main/res/anim/slide_out_from_bottom.xml"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/anim/com_mixpanel_android_fade_out.xml",
+        "source": "/Users/yaseen/fbase/app/build/intermediates/exploded-aar/com.mixpanel.android/mixpanel-android/4.9.2/res/anim/com_mixpanel_android_fade_out.xml"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/anim/left_in.xml",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/src/main/res/anim/left_in.xml"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/anim/abc_shrink_fade_out_from_bottom.xml",
+        "source": "/Users/yaseen/fbase/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/anim/abc_shrink_fade_out_from_bottom.xml"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/anim/abc_slide_out_top.xml",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/anim/abc_slide_out_top.xml"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/anim/slide_top_gone.xml",
+        "source": "/Users/yaseen/fbase/app/src/main/res/anim/slide_top_gone.xml"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/anim/slide_up.xml",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/src/main/res/anim/slide_up.xml"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/anim/slide_out_right.xml",
+        "source": "/Users/yaseen/fbase/app/src/main/res/anim/slide_out_right.xml"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/anim/fade_out_with_duration.xml",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/src/main/res/anim/fade_out_with_duration.xml"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/anim/left_in.xml",
+        "source": "/Users/yaseen/fbase/app/src/main/res/anim/left_in.xml"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/anim/com_mixpanel_android_fade_in.xml",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/exploded-aar/com.mixpanel.android/mixpanel-android/4.9.2/res/anim/com_mixpanel_android_fade_in.xml"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/anim/abc_popup_exit.xml",
+        "source": "/Users/yaseen/fbase/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/anim/abc_popup_exit.xml"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/anim/nothing.xml",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/src/main/res/anim/nothing.xml"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/anim/event_focus.xml",
+        "source": "/Users/yaseen/fbase/app/src/main/res/anim/event_focus.xml"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/anim/abc_slide_out_bottom.xml",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/anim/abc_slide_out_bottom.xml"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/anim/slide_in_right.xml",
+        "source": "/Users/yaseen/fbase/app/src/main/res/anim/slide_in_right.xml"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/anim/abc_shrink_fade_out_from_bottom.xml",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/anim/abc_shrink_fade_out_from_bottom.xml"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/anim/slide_down.xml",
+        "source": "/Users/yaseen/fbase/app/src/main/res/anim/slide_down.xml"
     }
 ]

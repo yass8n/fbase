@@ -1,590 +1,590 @@
 [
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable/com_facebook_auth_dialog_background.xml",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.15.0/res/drawable/com_facebook_auth_dialog_background.xml"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable/rounded_corners_button_update.xml",
+        "source": "/Users/yaseen/fbase/app/src/main/res/drawable/rounded_corners_button_update.xml"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable/bottom_border_light.xml",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/src/main/res/drawable/bottom_border_light.xml"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable/chat_gradient.xml",
+        "source": "/Users/yaseen/fbase/app/src/main/res/drawable/chat_gradient.xml"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable/com_facebook_send_button_icon.xml",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.15.0/res/drawable/com_facebook_send_button_icon.xml"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable/rounded_corners_white.xml",
+        "source": "/Users/yaseen/fbase/app/src/main/res/drawable/rounded_corners_white.xml"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable/tooltip_background.xml",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/src/main/res/drawable/tooltip_background.xml"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable/abc_vector_test.xml",
+        "source": "/Users/yaseen/fbase/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/drawable/abc_vector_test.xml"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable/abc_item_background_holo_dark.xml",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/drawable/abc_item_background_holo_dark.xml"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable/rounded_corner_green.xml",
+        "source": "/Users/yaseen/fbase/app/src/main/res/drawable/rounded_corner_green.xml"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable/abc_btn_borderless_material.xml",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/drawable/abc_btn_borderless_material.xml"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable/messenger_button_blue_bg_selector.xml",
+        "source": "/Users/yaseen/fbase/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.15.0/res/drawable/messenger_button_blue_bg_selector.xml"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable/com_mixpanel_android_cta_button.xml",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/exploded-aar/com.mixpanel.android/mixpanel-android/4.9.2/res/drawable/com_mixpanel_android_cta_button.xml"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable/chat_background.xml",
+        "source": "/Users/yaseen/fbase/app/src/main/res/drawable/chat_background.xml"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable/abc_item_background_holo_light.xml",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/drawable/abc_item_background_holo_light.xml"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable/abc_btn_radio_material.xml",
+        "source": "/Users/yaseen/fbase/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/drawable/abc_btn_radio_material.xml"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_holo_light.xml",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/drawable/abc_list_selector_holo_light.xml"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_holo_light.xml",
+        "source": "/Users/yaseen/fbase/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/drawable/abc_list_selector_holo_light.xml"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable/abc_btn_check_material.xml",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/drawable/abc_btn_check_material.xml"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable/abc_ratingbar_material.xml",
+        "source": "/Users/yaseen/fbase/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/drawable/abc_ratingbar_material.xml"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable/rounded_corner_open_invite_view.xml",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/src/main/res/drawable/rounded_corner_open_invite_view.xml"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable/chat_edittext_background.xml",
+        "source": "/Users/yaseen/fbase/app/src/main/res/drawable/chat_edittext_background.xml"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable/tw__app_info_layout_border.xml",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/exploded-aar/com.twitter.sdk.android/tweet-composer/1.0.3/res/drawable/tw__app_info_layout_border.xml"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable/invite_list_item_background.xml",
+        "source": "/Users/yaseen/fbase/app/src/main/res/drawable/invite_list_item_background.xml"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable/partially_rounded_corners_gray.xml",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/src/main/res/drawable/partially_rounded_corners_gray.xml"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable/tw__btn_composer_tweet.xml",
+        "source": "/Users/yaseen/fbase/app/build/intermediates/exploded-aar/com.twitter.sdk.android/tweet-composer/1.0.3/res/drawable/tw__btn_composer_tweet.xml"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable/tw__login_btn_default.xml",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/exploded-aar/com.twitter.sdk.android/twitter-core/1.6.4/res/drawable/tw__login_btn_default.xml"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable/tw__login_btn_light.xml",
+        "source": "/Users/yaseen/fbase/app/build/intermediates/exploded-aar/com.twitter.sdk.android/twitter-core/1.6.4/res/drawable/tw__login_btn_light.xml"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable/contact_border.xml",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/src/main/res/drawable/contact_border.xml"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable/com_facebook_send_button_icon.xml",
+        "source": "/Users/yaseen/fbase/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.15.0/res/drawable/com_facebook_send_button_icon.xml"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable/tw__transparent.xml",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/exploded-aar/com.twitter.sdk.android/twitter-core/1.6.4/res/drawable/tw__transparent.xml"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable/cancel_border.xml",
+        "source": "/Users/yaseen/fbase/app/src/main/res/drawable/cancel_border.xml"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable/rounded_border_share.xml",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/src/main/res/drawable/rounded_border_share.xml"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable/abc_item_background_holo_dark.xml",
+        "source": "/Users/yaseen/fbase/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/drawable/abc_item_background_holo_dark.xml"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable/people_recycler_gradient_right.xml",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/src/main/res/drawable/people_recycler_gradient_right.xml"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable/messenger_button_white_bg_round.xml",
+        "source": "/Users/yaseen/fbase/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.15.0/res/drawable/messenger_button_white_bg_round.xml"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable/tw__login_btn_pressed_light.xml",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/exploded-aar/com.twitter.sdk.android/twitter-core/1.6.4/res/drawable/tw__login_btn_pressed_light.xml"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable/squarecamera__cancel_drawable.xml",
+        "source": "/Users/yaseen/fbase/app/src/main/res/drawable/squarecamera__cancel_drawable.xml"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable/rounded_border.xml",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/src/main/res/drawable/rounded_border.xml"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable/rounded_corners_event.xml",
+        "source": "/Users/yaseen/fbase/app/src/main/res/drawable/rounded_corners_event.xml"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable/com_mixpanel_android_cta_button_highlight.xml",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/exploded-aar/com.mixpanel.android/mixpanel-android/4.9.2/res/drawable/com_mixpanel_android_cta_button_highlight.xml"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable/bottom_event_border.xml",
+        "source": "/Users/yaseen/fbase/app/src/main/res/drawable/bottom_event_border.xml"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable/squarecamera__cancel_drawable.xml",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/src/main/res/drawable/squarecamera__cancel_drawable.xml"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable/messenger_button_blue_bg_round.xml",
+        "source": "/Users/yaseen/fbase/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.15.0/res/drawable/messenger_button_blue_bg_round.xml"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable/icon_black.png",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/src/main/res/drawable/icon_black.png"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable/com_mixpanel_android_nocolor_list.xml",
+        "source": "/Users/yaseen/fbase/app/build/intermediates/exploded-aar/com.mixpanel.android/mixpanel-android/4.9.2/res/drawable/com_mixpanel_android_nocolor_list.xml"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable/abc_text_cursor_material.xml",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/drawable/abc_text_cursor_material.xml"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable/rounded_corner_purple.xml",
+        "source": "/Users/yaseen/fbase/app/src/main/res/drawable/rounded_corner_purple.xml"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_holo_dark.xml",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/drawable/abc_list_selector_holo_dark.xml"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_icon_dark_focused.xml",
+        "source": "/Users/yaseen/fbase/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.0.1/res/drawable/common_google_signin_btn_icon_dark_focused.xml"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable/progress_bar.xml",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/src/main/res/drawable/progress_bar.xml"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable/textlines.xml",
+        "source": "/Users/yaseen/fbase/app/src/main/res/drawable/textlines.xml"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable/rounded_green_background.xml",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/src/main/res/drawable/rounded_green_background.xml"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_icon_dark.xml",
+        "source": "/Users/yaseen/fbase/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.0.1/res/drawable/common_google_signin_btn_icon_dark.xml"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable/onboard_circle.xml",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/src/main/res/drawable/onboard_circle.xml"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable/rounded_gray_border.xml",
+        "source": "/Users/yaseen/fbase/app/src/main/res/drawable/rounded_gray_border.xml"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable/com_facebook_button_background.xml",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.15.0/res/drawable/com_facebook_button_background.xml"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable/rounded_corners_joined_button.xml",
+        "source": "/Users/yaseen/fbase/app/src/main/res/drawable/rounded_corners_joined_button.xml"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable/abc_seekbar_track_material.xml",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/drawable/abc_seekbar_track_material.xml"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable/border_rounded_top.xml",
+        "source": "/Users/yaseen/fbase/app/src/main/res/drawable/border_rounded_top.xml"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable/border_rounded_bottom.xml",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/src/main/res/drawable/border_rounded_bottom.xml"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable/tw__transparent.xml",
+        "source": "/Users/yaseen/fbase/app/build/intermediates/exploded-aar/com.twitter.sdk.android/twitter-core/1.6.4/res/drawable/tw__transparent.xml"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable/squarecamera__capture_photo_button.xml",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/src/main/res/drawable/squarecamera__capture_photo_button.xml"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable/abc_ic_ab_back_material.xml",
+        "source": "/Users/yaseen/fbase/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/drawable/abc_ic_ab_back_material.xml"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable/bottom_left_border.xml",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/src/main/res/drawable/bottom_left_border.xml"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable/rounded_corners_join_button.xml",
+        "source": "/Users/yaseen/fbase/app/src/main/res/drawable/rounded_corners_join_button.xml"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable/tw__install_button_border.xml",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/exploded-aar/com.twitter.sdk.android/tweet-composer/1.0.3/res/drawable/tw__install_button_border.xml"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable/abc_btn_colored_material.xml",
+        "source": "/Users/yaseen/fbase/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/drawable/abc_btn_colored_material.xml"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable/very_rounded_white_solid.xml",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/src/main/res/drawable/very_rounded_white_solid.xml"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable/abc_cab_background_internal_bg.xml",
+        "source": "/Users/yaseen/fbase/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/drawable/abc_cab_background_internal_bg.xml"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable/border_rounded_top.xml",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/src/main/res/drawable/border_rounded_top.xml"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable/abc_item_background_holo_light.xml",
+        "source": "/Users/yaseen/fbase/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/drawable/abc_item_background_holo_light.xml"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable/rounded_corners_button_update.xml",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/src/main/res/drawable/rounded_corners_button_update.xml"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable/abc_edit_text_material.xml",
+        "source": "/Users/yaseen/fbase/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/drawable/abc_edit_text_material.xml"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable/rounded_corners_joined_button.xml",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/src/main/res/drawable/rounded_corners_joined_button.xml"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable/partially_rounded_corners_white.xml",
+        "source": "/Users/yaseen/fbase/app/src/main/res/drawable/partially_rounded_corners_white.xml"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable/contact_border_darker.xml",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/src/main/res/drawable/contact_border_darker.xml"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable/com_mixpanel_android_arrowleft_states.xml",
+        "source": "/Users/yaseen/fbase/app/build/intermediates/exploded-aar/com.mixpanel.android/mixpanel-android/4.9.2/res/drawable/com_mixpanel_android_arrowleft_states.xml"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable/com_facebook_button_icon.xml",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.15.0/res/drawable/com_facebook_button_icon.xml"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable/com_facebook_button_like_background.xml",
+        "source": "/Users/yaseen/fbase/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.15.0/res/drawable/com_facebook_button_like_background.xml"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable/chat_gradient.xml",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/src/main/res/drawable/chat_gradient.xml"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_text_dark_focused.xml",
+        "source": "/Users/yaseen/fbase/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.0.1/res/drawable/common_google_signin_btn_text_dark_focused.xml"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_icon_light.xml",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.0.1/res/drawable/common_google_signin_btn_icon_light.xml"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable/squarecamera__capture_photo_button.xml",
+        "source": "/Users/yaseen/fbase/app/src/main/res/drawable/squarecamera__capture_photo_button.xml"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable/abc_spinner_textfield_background_material.xml",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/drawable/abc_spinner_textfield_background_material.xml"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable/progress_bar.xml",
+        "source": "/Users/yaseen/fbase/app/src/main/res/drawable/progress_bar.xml"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable/com_mixpanel_android_choice_first_states.xml",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/exploded-aar/com.mixpanel.android/mixpanel-android/4.9.2/res/drawable/com_mixpanel_android_choice_first_states.xml"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable/top_border.xml",
+        "source": "/Users/yaseen/fbase/app/src/main/res/drawable/top_border.xml"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable/rounded_corners_black_background.xml",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/src/main/res/drawable/rounded_corners_black_background.xml"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_holo_dark.xml",
+        "source": "/Users/yaseen/fbase/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/drawable/abc_list_selector_holo_dark.xml"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_icon_dark.xml",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.0.1/res/drawable/common_google_signin_btn_icon_dark.xml"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable/border_rounded_top_what_do_you_wanna_do.xml",
+        "source": "/Users/yaseen/fbase/app/src/main/res/drawable/border_rounded_top_what_do_you_wanna_do.xml"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable/textlines.xml",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/src/main/res/drawable/textlines.xml"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable/tooltip_background.xml",
+        "source": "/Users/yaseen/fbase/app/src/main/res/drawable/tooltip_background.xml"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable/abc_cab_background_internal_bg.xml",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/drawable/abc_cab_background_internal_bg.xml"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable/com_mixpanel_android_arrowleft_insets.xml",
+        "source": "/Users/yaseen/fbase/app/build/intermediates/exploded-aar/com.mixpanel.android/mixpanel-android/4.9.2/res/drawable/com_mixpanel_android_arrowleft_insets.xml"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable/abc_ic_ab_back_material.xml",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/drawable/abc_ic_ab_back_material.xml"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable/partially_rounded_corners_gray.xml",
+        "source": "/Users/yaseen/fbase/app/src/main/res/drawable/partially_rounded_corners_gray.xml"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable/abc_switch_thumb_material.xml",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/drawable/abc_switch_thumb_material.xml"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable/tw__login_btn_default.xml",
+        "source": "/Users/yaseen/fbase/app/build/intermediates/exploded-aar/com.twitter.sdk.android/twitter-core/1.6.4/res/drawable/tw__login_btn_default.xml"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable/abc_tab_indicator_material.xml",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/drawable/abc_tab_indicator_material.xml"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable/circle_border_light_gray.xml",
+        "source": "/Users/yaseen/fbase/app/src/main/res/drawable/circle_border_light_gray.xml"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable/com_mixpanel_android_choice_last_states.xml",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/exploded-aar/com.mixpanel.android/mixpanel-android/4.9.2/res/drawable/com_mixpanel_android_choice_last_states.xml"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable/com_facebook_button_background.xml",
+        "source": "/Users/yaseen/fbase/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.15.0/res/drawable/com_facebook_button_background.xml"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable/rounded_corners_modal.xml",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/src/main/res/drawable/rounded_corners_modal.xml"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable/bottom_listview_gradient_darker.xml",
+        "source": "/Users/yaseen/fbase/app/src/main/res/drawable/bottom_listview_gradient_darker.xml"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable/com_facebook_auth_dialog_header_background.xml",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.15.0/res/drawable/com_facebook_auth_dialog_header_background.xml"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable/rounded_corners_black_background.xml",
+        "source": "/Users/yaseen/fbase/app/src/main/res/drawable/rounded_corners_black_background.xml"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable/tw__login_btn_disabled.xml",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/exploded-aar/com.twitter.sdk.android/twitter-core/1.6.4/res/drawable/tw__login_btn_disabled.xml"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable/partially_rounded_corners_green.xml",
+        "source": "/Users/yaseen/fbase/app/src/main/res/drawable/partially_rounded_corners_green.xml"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable/abc_ic_clear_material.xml",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/drawable/abc_ic_clear_material.xml"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable/bottom_border.xml",
+        "source": "/Users/yaseen/fbase/app/src/main/res/drawable/bottom_border.xml"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable/phone_border.xml",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/src/main/res/drawable/phone_border.xml"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable/com_mixpanel_android_checkmark_states.xml",
+        "source": "/Users/yaseen/fbase/app/build/intermediates/exploded-aar/com.mixpanel.android/mixpanel-android/4.9.2/res/drawable/com_mixpanel_android_checkmark_states.xml"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable/rounded_corners_green_button.xml",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/src/main/res/drawable/rounded_corners_green_button.xml"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable/rounded_border_share.xml",
+        "source": "/Users/yaseen/fbase/app/src/main/res/drawable/rounded_border_share.xml"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable/rounded_corners_white_no_fill.xml",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/src/main/res/drawable/rounded_corners_white_no_fill.xml"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable/abc_ic_voice_search_api_material.xml",
+        "source": "/Users/yaseen/fbase/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/drawable/abc_ic_voice_search_api_material.xml"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable/abc_vector_test.xml",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/drawable/abc_vector_test.xml"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_icon_light_focused.xml",
+        "source": "/Users/yaseen/fbase/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.0.1/res/drawable/common_google_signin_btn_icon_light_focused.xml"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable/abc_seekbar_tick_mark_material.xml",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/drawable/abc_seekbar_tick_mark_material.xml"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable/rounded_corners_list_number.xml",
+        "source": "/Users/yaseen/fbase/app/src/main/res/drawable/rounded_corners_list_number.xml"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable/bottom_listview_gradient.xml",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/src/main/res/drawable/bottom_listview_gradient.xml"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable/contact_border.xml",
+        "source": "/Users/yaseen/fbase/app/src/main/res/drawable/contact_border.xml"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable/abc_btn_default_mtrl_shape.xml",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/drawable/abc_btn_default_mtrl_shape.xml"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_background_transition_holo_dark.xml",
+        "source": "/Users/yaseen/fbase/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/drawable/abc_list_selector_background_transition_holo_dark.xml"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable/rounded_corners_list_number_grey.xml",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/src/main/res/drawable/rounded_corners_list_number_grey.xml"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable/com_mixpanel_android_mini_inapp_rounded.xml",
+        "source": "/Users/yaseen/fbase/app/build/intermediates/exploded-aar/com.mixpanel.android/mixpanel-android/4.9.2/res/drawable/com_mixpanel_android_mini_inapp_rounded.xml"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable/abc_ic_menu_overflow_material.xml",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/drawable/abc_ic_menu_overflow_material.xml"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable/rounded_corners_white_no_fill.xml",
+        "source": "/Users/yaseen/fbase/app/src/main/res/drawable/rounded_corners_white_no_fill.xml"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable/abc_ic_search_api_material.xml",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/drawable/abc_ic_search_api_material.xml"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable/messenger_button_white_bg_selector.xml",
+        "source": "/Users/yaseen/fbase/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.15.0/res/drawable/messenger_button_white_bg_selector.xml"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable/bottom_listview_gradient_darker.xml",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/src/main/res/drawable/bottom_listview_gradient_darker.xml"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable/com_facebook_auth_dialog_background.xml",
+        "source": "/Users/yaseen/fbase/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.15.0/res/drawable/com_facebook_auth_dialog_background.xml"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable/partially_rounded_corners_green.xml",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/src/main/res/drawable/partially_rounded_corners_green.xml"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable/very_rounded_white_outline.xml",
+        "source": "/Users/yaseen/fbase/app/src/main/res/drawable/very_rounded_white_outline.xml"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable/abc_ic_arrow_drop_right_black_24dp.xml",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/drawable/abc_ic_arrow_drop_right_black_24dp.xml"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable/profile_bottom_bar_gradient.xml",
+        "source": "/Users/yaseen/fbase/app/src/main/res/drawable/profile_bottom_bar_gradient.xml"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable/messenger_button_white_bg_selector.xml",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.15.0/res/drawable/messenger_button_white_bg_selector.xml"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable/com_facebook_button_login_silver_background.xml",
+        "source": "/Users/yaseen/fbase/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.15.0/res/drawable/com_facebook_button_login_silver_background.xml"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable/rounded_corner_purple.xml",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/src/main/res/drawable/rounded_corner_purple.xml"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable/abc_ic_arrow_drop_right_black_24dp.xml",
+        "source": "/Users/yaseen/fbase/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/drawable/abc_ic_arrow_drop_right_black_24dp.xml"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable/tooltip_arrow.xml",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/src/main/res/drawable/tooltip_arrow.xml"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable/rounded_green_background_friend_added.xml",
+        "source": "/Users/yaseen/fbase/app/src/main/res/drawable/rounded_green_background_friend_added.xml"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable/chat_edittext_background.xml",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/src/main/res/drawable/chat_edittext_background.xml"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable/abc_switch_thumb_material.xml",
+        "source": "/Users/yaseen/fbase/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/drawable/abc_switch_thumb_material.xml"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable/abc_edit_text_material.xml",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/drawable/abc_edit_text_material.xml"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable/abc_cab_background_top_material.xml",
+        "source": "/Users/yaseen/fbase/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/drawable/abc_cab_background_top_material.xml"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable/rounded_corners_with_border.xml",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/src/main/res/drawable/rounded_corners_with_border.xml"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable/rounded_corners_person_modal.xml",
+        "source": "/Users/yaseen/fbase/app/src/main/res/drawable/rounded_corners_person_modal.xml"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable/rounded_corners_event.xml",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/src/main/res/drawable/rounded_corners_event.xml"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable/rounded_corners_list_number_grey.xml",
+        "source": "/Users/yaseen/fbase/app/src/main/res/drawable/rounded_corners_list_number_grey.xml"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable/com_facebook_button_like_background.xml",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.15.0/res/drawable/com_facebook_button_like_background.xml"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable/abc_ic_clear_material.xml",
+        "source": "/Users/yaseen/fbase/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/drawable/abc_ic_clear_material.xml"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable/com_mixpanel_android_choice_middle_states.xml",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/exploded-aar/com.mixpanel.android/mixpanel-android/4.9.2/res/drawable/com_mixpanel_android_choice_middle_states.xml"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_icon_light.xml",
+        "source": "/Users/yaseen/fbase/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.0.1/res/drawable/common_google_signin_btn_icon_light.xml"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable/bottom_border.xml",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/src/main/res/drawable/bottom_border.xml"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable/abc_tab_indicator_material.xml",
+        "source": "/Users/yaseen/fbase/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/drawable/abc_tab_indicator_material.xml"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable/partially_rounded_corners_white.xml",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/src/main/res/drawable/partially_rounded_corners_white.xml"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable/abc_btn_check_material.xml",
+        "source": "/Users/yaseen/fbase/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/drawable/abc_btn_check_material.xml"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable/profile_bottom_bar_gradient.xml",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/src/main/res/drawable/profile_bottom_bar_gradient.xml"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable/com_mixpanel_android_arrowright_states.xml",
+        "source": "/Users/yaseen/fbase/app/build/intermediates/exploded-aar/com.mixpanel.android/mixpanel-android/4.9.2/res/drawable/com_mixpanel_android_arrowright_states.xml"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_text_light.xml",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.0.1/res/drawable/common_google_signin_btn_text_light.xml"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable/very_rounded_corners.xml",
+        "source": "/Users/yaseen/fbase/app/src/main/res/drawable/very_rounded_corners.xml"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable/purple_profile_header_button.xml",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/src/main/res/drawable/purple_profile_header_button.xml"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable/abc_ic_menu_overflow_material.xml",
+        "source": "/Users/yaseen/fbase/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/drawable/abc_ic_menu_overflow_material.xml"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable/abc_cab_background_top_material.xml",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/drawable/abc_cab_background_top_material.xml"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable/rounded_corners_button_modal.xml",
+        "source": "/Users/yaseen/fbase/app/src/main/res/drawable/rounded_corners_button_modal.xml"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable/cancel_border.xml",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/src/main/res/drawable/cancel_border.xml"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable/border_rounded_bottom.xml",
+        "source": "/Users/yaseen/fbase/app/src/main/res/drawable/border_rounded_bottom.xml"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable/abc_ratingbar_indicator_material.xml",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/drawable/abc_ratingbar_indicator_material.xml"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable/abc_btn_borderless_material.xml",
+        "source": "/Users/yaseen/fbase/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/drawable/abc_btn_borderless_material.xml"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable/abc_ratingbar_small_material.xml",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/drawable/abc_ratingbar_small_material.xml"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable/tw__login_btn_text_color_light.xml",
+        "source": "/Users/yaseen/fbase/app/build/intermediates/exploded-aar/com.twitter.sdk.android/twitter-core/1.6.4/res/drawable/tw__login_btn_text_color_light.xml"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable/abc_textfield_search_material.xml",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/drawable/abc_textfield_search_material.xml"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable/rounded_corners_green_button.xml",
+        "source": "/Users/yaseen/fbase/app/src/main/res/drawable/rounded_corners_green_button.xml"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_icon_dark_focused.xml",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.0.1/res/drawable/common_google_signin_btn_icon_dark_focused.xml"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable/phone_border.xml",
+        "source": "/Users/yaseen/fbase/app/src/main/res/drawable/phone_border.xml"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable/tw__login_btn_pressed.xml",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/exploded-aar/com.twitter.sdk.android/twitter-core/1.6.4/res/drawable/tw__login_btn_pressed.xml"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable/com_facebook_auth_dialog_header_background.xml",
+        "source": "/Users/yaseen/fbase/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.15.0/res/drawable/com_facebook_auth_dialog_header_background.xml"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable/abc_ic_voice_search_api_material.xml",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/drawable/abc_ic_voice_search_api_material.xml"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable/rounded_blue_border.xml",
+        "source": "/Users/yaseen/fbase/app/src/main/res/drawable/rounded_blue_border.xml"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable/rounded_gray_border.xml",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/src/main/res/drawable/rounded_gray_border.xml"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable/abc_ic_search_api_material.xml",
+        "source": "/Users/yaseen/fbase/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/drawable/abc_ic_search_api_material.xml"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable/abc_seekbar_thumb_material.xml",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/drawable/abc_seekbar_thumb_material.xml"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable/faded_black_gradient.xml",
+        "source": "/Users/yaseen/fbase/app/src/main/res/drawable/faded_black_gradient.xml"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable/tw__login_btn_light.xml",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/exploded-aar/com.twitter.sdk.android/twitter-core/1.6.4/res/drawable/tw__login_btn_light.xml"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable/com_facebook_button_icon.xml",
+        "source": "/Users/yaseen/fbase/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.15.0/res/drawable/com_facebook_button_icon.xml"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_text_dark.xml",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.0.1/res/drawable/common_google_signin_btn_text_dark.xml"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable/com_mixpanel_android_cta_button.xml",
+        "source": "/Users/yaseen/fbase/app/build/intermediates/exploded-aar/com.mixpanel.android/mixpanel-android/4.9.2/res/drawable/com_mixpanel_android_cta_button.xml"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable/messenger_button_white_bg_round.xml",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.15.0/res/drawable/messenger_button_white_bg_round.xml"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable/rounded_corners_with_border.xml",
+        "source": "/Users/yaseen/fbase/app/src/main/res/drawable/rounded_corners_with_border.xml"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable/rounded_corners_list_number.xml",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/src/main/res/drawable/rounded_corners_list_number.xml"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable/rounded_corners_modal.xml",
+        "source": "/Users/yaseen/fbase/app/src/main/res/drawable/rounded_corners_modal.xml"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable/faded_black_gradient.xml",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/src/main/res/drawable/faded_black_gradient.xml"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable/abc_ratingbar_indicator_material.xml",
+        "source": "/Users/yaseen/fbase/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/drawable/abc_ratingbar_indicator_material.xml"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable/com_mixpanel_android_arrowleft_insets.xml",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/exploded-aar/com.mixpanel.android/mixpanel-android/4.9.2/res/drawable/com_mixpanel_android_arrowleft_insets.xml"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable/bottom_border_light.xml",
+        "source": "/Users/yaseen/fbase/app/src/main/res/drawable/bottom_border_light.xml"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable/abc_btn_colored_material.xml",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/drawable/abc_btn_colored_material.xml"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable/com_mixpanel_android_choice_first_states.xml",
+        "source": "/Users/yaseen/fbase/app/build/intermediates/exploded-aar/com.mixpanel.android/mixpanel-android/4.9.2/res/drawable/com_mixpanel_android_choice_first_states.xml"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable/rounded_corner_orange.xml",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/src/main/res/drawable/rounded_corner_orange.xml"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_text_dark.xml",
+        "source": "/Users/yaseen/fbase/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.0.1/res/drawable/common_google_signin_btn_text_dark.xml"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable/bottom_event_border.xml",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/src/main/res/drawable/bottom_event_border.xml"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable/abc_textfield_search_material.xml",
+        "source": "/Users/yaseen/fbase/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/drawable/abc_textfield_search_material.xml"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable/com_facebook_button_login_silver_background.xml",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.15.0/res/drawable/com_facebook_button_login_silver_background.xml"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable/tw__login_btn.xml",
+        "source": "/Users/yaseen/fbase/app/build/intermediates/exploded-aar/com.twitter.sdk.android/twitter-core/1.6.4/res/drawable/tw__login_btn.xml"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable/rounded_corners_button_modal.xml",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/src/main/res/drawable/rounded_corners_button_modal.xml"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_text_light.xml",
+        "source": "/Users/yaseen/fbase/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.0.1/res/drawable/common_google_signin_btn_text_light.xml"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_background_transition_holo_light.xml",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/drawable/abc_list_selector_background_transition_holo_light.xml"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable/abc_ratingbar_small_material.xml",
+        "source": "/Users/yaseen/fbase/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/drawable/abc_ratingbar_small_material.xml"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable/com_mixpanel_android_arrowright_insets.xml",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/exploded-aar/com.mixpanel.android/mixpanel-android/4.9.2/res/drawable/com_mixpanel_android_arrowright_insets.xml"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable/tooltip_arrow.xml",
+        "source": "/Users/yaseen/fbase/app/src/main/res/drawable/tooltip_arrow.xml"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable/rounded_corners.xml",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/src/main/res/drawable/rounded_corners.xml"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable/abc_seekbar_tick_mark_material.xml",
+        "source": "/Users/yaseen/fbase/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/drawable/abc_seekbar_tick_mark_material.xml"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable/abc_dialog_material_background.xml",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/drawable/abc_dialog_material_background.xml"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable/abc_dialog_material_background.xml",
+        "source": "/Users/yaseen/fbase/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/drawable/abc_dialog_material_background.xml"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable/tw__login_btn.xml",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/exploded-aar/com.twitter.sdk.android/twitter-core/1.6.4/res/drawable/tw__login_btn.xml"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable/rounded_corners.xml",
+        "source": "/Users/yaseen/fbase/app/src/main/res/drawable/rounded_corners.xml"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable/invite_list_item_background.xml",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/src/main/res/drawable/invite_list_item_background.xml"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable/rounded_corner_open_invite_view.xml",
+        "source": "/Users/yaseen/fbase/app/src/main/res/drawable/rounded_corner_open_invite_view.xml"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable/rounded_corners_join_button.xml",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/src/main/res/drawable/rounded_corners_join_button.xml"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable/rounded_green_background_less_radius.xml",
+        "source": "/Users/yaseen/fbase/app/src/main/res/drawable/rounded_green_background_less_radius.xml"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable/com_mixpanel_android_text_answer_border.xml",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/exploded-aar/com.mixpanel.android/mixpanel-android/4.9.2/res/drawable/com_mixpanel_android_text_answer_border.xml"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable/com_mixpanel_android_text_answer_border.xml",
+        "source": "/Users/yaseen/fbase/app/build/intermediates/exploded-aar/com.mixpanel.android/mixpanel-android/4.9.2/res/drawable/com_mixpanel_android_text_answer_border.xml"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable/messenger_button_blue_bg_round.xml",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.15.0/res/drawable/messenger_button_blue_bg_round.xml"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable/com_mixpanel_android_arrowright_insets.xml",
+        "source": "/Users/yaseen/fbase/app/build/intermediates/exploded-aar/com.mixpanel.android/mixpanel-android/4.9.2/res/drawable/com_mixpanel_android_arrowright_insets.xml"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable/tw__btn_composer_tweet.xml",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/exploded-aar/com.twitter.sdk.android/tweet-composer/1.0.3/res/drawable/tw__btn_composer_tweet.xml"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable/rounded_corners_orange.xml",
+        "source": "/Users/yaseen/fbase/app/src/main/res/drawable/rounded_corners_orange.xml"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable/rounded_green_background_less_radius.xml",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/src/main/res/drawable/rounded_green_background_less_radius.xml"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_text_light_focused.xml",
+        "source": "/Users/yaseen/fbase/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.0.1/res/drawable/common_google_signin_btn_text_light_focused.xml"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable/circle_border_light_gray.xml",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/src/main/res/drawable/circle_border_light_gray.xml"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable/people_recycler_gradient_right.xml",
+        "source": "/Users/yaseen/fbase/app/src/main/res/drawable/people_recycler_gradient_right.xml"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable/tw__login_btn_default_light.xml",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/exploded-aar/com.twitter.sdk.android/twitter-core/1.6.4/res/drawable/tw__login_btn_default_light.xml"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable/tw__login_btn_pressed_light.xml",
+        "source": "/Users/yaseen/fbase/app/build/intermediates/exploded-aar/com.twitter.sdk.android/twitter-core/1.6.4/res/drawable/tw__login_btn_pressed_light.xml"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable/com_mixpanel_android_arrowright_states.xml",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/exploded-aar/com.mixpanel.android/mixpanel-android/4.9.2/res/drawable/com_mixpanel_android_arrowright_states.xml"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable/squarecamera__save_photo_drawable.xml",
+        "source": "/Users/yaseen/fbase/app/src/main/res/drawable/squarecamera__save_photo_drawable.xml"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable/search_border.xml",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/src/main/res/drawable/search_border.xml"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable/abc_seekbar_track_material.xml",
+        "source": "/Users/yaseen/fbase/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/drawable/abc_seekbar_track_material.xml"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable/tw__login_btn_text_color_light.xml",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/exploded-aar/com.twitter.sdk.android/twitter-core/1.6.4/res/drawable/tw__login_btn_text_color_light.xml"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable/icon_black.png",
+        "source": "/Users/yaseen/fbase/app/src/main/res/drawable/icon_black.png"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable/squarecamera__save_photo_drawable.xml",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/src/main/res/drawable/squarecamera__save_photo_drawable.xml"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable/bottom_left_border.xml",
+        "source": "/Users/yaseen/fbase/app/src/main/res/drawable/bottom_left_border.xml"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_icon_light_focused.xml",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.0.1/res/drawable/common_google_signin_btn_icon_light_focused.xml"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable/tw__app_info_layout_border.xml",
+        "source": "/Users/yaseen/fbase/app/build/intermediates/exploded-aar/com.twitter.sdk.android/tweet-composer/1.0.3/res/drawable/tw__app_info_layout_border.xml"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable/com_facebook_button_send_background.xml",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.15.0/res/drawable/com_facebook_button_send_background.xml"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable/tw__login_btn_pressed.xml",
+        "source": "/Users/yaseen/fbase/app/build/intermediates/exploded-aar/com.twitter.sdk.android/twitter-core/1.6.4/res/drawable/tw__login_btn_pressed.xml"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable/rounded_corners_person_modal.xml",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/src/main/res/drawable/rounded_corners_person_modal.xml"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable/purple_profile_header_button.xml",
+        "source": "/Users/yaseen/fbase/app/src/main/res/drawable/purple_profile_header_button.xml"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable/border_rounded_top_what_do_you_wanna_do.xml",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/src/main/res/drawable/border_rounded_top_what_do_you_wanna_do.xml"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable/rounded_green_background.xml",
+        "source": "/Users/yaseen/fbase/app/src/main/res/drawable/rounded_green_background.xml"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable/com_mixpanel_android_arrowleft_states.xml",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/exploded-aar/com.mixpanel.android/mixpanel-android/4.9.2/res/drawable/com_mixpanel_android_arrowleft_states.xml"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable/contact_border_darker.xml",
+        "source": "/Users/yaseen/fbase/app/src/main/res/drawable/contact_border_darker.xml"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_text_light_focused.xml",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.0.1/res/drawable/common_google_signin_btn_text_light_focused.xml"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable/abc_text_cursor_material.xml",
+        "source": "/Users/yaseen/fbase/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/drawable/abc_text_cursor_material.xml"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable/com_facebook_auth_dialog_cancel_background.xml",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.15.0/res/drawable/com_facebook_auth_dialog_cancel_background.xml"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable/rounded_corner_orange.xml",
+        "source": "/Users/yaseen/fbase/app/src/main/res/drawable/rounded_corner_orange.xml"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable/abc_ratingbar_material.xml",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/drawable/abc_ratingbar_material.xml"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable/rounded_solid_blue.xml",
+        "source": "/Users/yaseen/fbase/app/src/main/res/drawable/rounded_solid_blue.xml"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable/rounded_green_background_friend_added.xml",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/src/main/res/drawable/rounded_green_background_friend_added.xml"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable/com_mixpanel_android_cta_button_highlight.xml",
+        "source": "/Users/yaseen/fbase/app/build/intermediates/exploded-aar/com.mixpanel.android/mixpanel-android/4.9.2/res/drawable/com_mixpanel_android_cta_button_highlight.xml"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable/very_rounded_white_outline.xml",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/src/main/res/drawable/very_rounded_white_outline.xml"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable/abc_spinner_textfield_background_material.xml",
+        "source": "/Users/yaseen/fbase/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/drawable/abc_spinner_textfield_background_material.xml"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable/rounded_solid_blue.xml",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/src/main/res/drawable/rounded_solid_blue.xml"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable/com_facebook_auth_dialog_cancel_background.xml",
+        "source": "/Users/yaseen/fbase/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.15.0/res/drawable/com_facebook_auth_dialog_cancel_background.xml"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable/very_rounded_corners.xml",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/src/main/res/drawable/very_rounded_corners.xml"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable/abc_ic_go_search_api_material.xml",
+        "source": "/Users/yaseen/fbase/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/drawable/abc_ic_go_search_api_material.xml"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable/abc_ic_go_search_api_material.xml",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/drawable/abc_ic_go_search_api_material.xml"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable/very_rounded_white_solid.xml",
+        "source": "/Users/yaseen/fbase/app/src/main/res/drawable/very_rounded_white_solid.xml"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_background_transition_holo_dark.xml",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/drawable/abc_list_selector_background_transition_holo_dark.xml"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable/abc_seekbar_thumb_material.xml",
+        "source": "/Users/yaseen/fbase/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/drawable/abc_seekbar_thumb_material.xml"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable/rounded_corners_orange.xml",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/src/main/res/drawable/rounded_corners_orange.xml"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable/com_mixpanel_android_choice_last_states.xml",
+        "source": "/Users/yaseen/fbase/app/build/intermediates/exploded-aar/com.mixpanel.android/mixpanel-android/4.9.2/res/drawable/com_mixpanel_android_choice_last_states.xml"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable/chat_background.xml",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/src/main/res/drawable/chat_background.xml"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable/com_mixpanel_android_choice_middle_states.xml",
+        "source": "/Users/yaseen/fbase/app/build/intermediates/exploded-aar/com.mixpanel.android/mixpanel-android/4.9.2/res/drawable/com_mixpanel_android_choice_middle_states.xml"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable/com_mixpanel_android_mini_inapp_rounded.xml",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/exploded-aar/com.mixpanel.android/mixpanel-android/4.9.2/res/drawable/com_mixpanel_android_mini_inapp_rounded.xml"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable/tw__login_btn_default_light.xml",
+        "source": "/Users/yaseen/fbase/app/build/intermediates/exploded-aar/com.twitter.sdk.android/twitter-core/1.6.4/res/drawable/tw__login_btn_default_light.xml"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable/rounded_corner_green.xml",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/src/main/res/drawable/rounded_corner_green.xml"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable/com_facebook_button_send_background.xml",
+        "source": "/Users/yaseen/fbase/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.15.0/res/drawable/com_facebook_button_send_background.xml"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable/com_mixpanel_android_nocolor_list.xml",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/exploded-aar/com.mixpanel.android/mixpanel-android/4.9.2/res/drawable/com_mixpanel_android_nocolor_list.xml"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable/tw__install_button_border.xml",
+        "source": "/Users/yaseen/fbase/app/build/intermediates/exploded-aar/com.twitter.sdk.android/tweet-composer/1.0.3/res/drawable/tw__install_button_border.xml"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable/com_mixpanel_android_checkmark_states.xml",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/exploded-aar/com.mixpanel.android/mixpanel-android/4.9.2/res/drawable/com_mixpanel_android_checkmark_states.xml"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable/rounded_border.xml",
+        "source": "/Users/yaseen/fbase/app/src/main/res/drawable/rounded_border.xml"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable/abc_btn_radio_material.xml",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/drawable/abc_btn_radio_material.xml"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable/abc_btn_default_mtrl_shape.xml",
+        "source": "/Users/yaseen/fbase/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/drawable/abc_btn_default_mtrl_shape.xml"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable/messenger_button_blue_bg_selector.xml",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.15.0/res/drawable/messenger_button_blue_bg_selector.xml"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable/bottom_listview_gradient.xml",
+        "source": "/Users/yaseen/fbase/app/src/main/res/drawable/bottom_listview_gradient.xml"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable/top_border.xml",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/src/main/res/drawable/top_border.xml"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable/tw__login_btn_disabled.xml",
+        "source": "/Users/yaseen/fbase/app/build/intermediates/exploded-aar/com.twitter.sdk.android/twitter-core/1.6.4/res/drawable/tw__login_btn_disabled.xml"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_text_dark_focused.xml",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.0.1/res/drawable/common_google_signin_btn_text_dark_focused.xml"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_background_transition_holo_light.xml",
+        "source": "/Users/yaseen/fbase/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/drawable/abc_list_selector_background_transition_holo_light.xml"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable/rounded_corners_white.xml",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/src/main/res/drawable/rounded_corners_white.xml"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable/search_border.xml",
+        "source": "/Users/yaseen/fbase/app/src/main/res/drawable/search_border.xml"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable/rounded_blue_border.xml",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/src/main/res/drawable/rounded_blue_border.xml"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable/onboard_circle.xml",
+        "source": "/Users/yaseen/fbase/app/src/main/res/drawable/onboard_circle.xml"
     }
 ]

@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-xhdpi-v4/values-xhdpi-v4.xml",
+        "outputFile": "/Users/yaseen/fbase/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-xhdpi-v4/values-xhdpi-v4.xml",
         "map": [
             {
                 "to": {
@@ -11,7 +11,7 @@
                     "endOffset": 105
                 },
                 "from": {
-                    "file": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/exploded-aar/com.twitter.sdk.android/twitter-core/1.6.4/res/values-xhdpi/values-xhdpi.xml",
+                    "file": "/Users/yaseen/fbase/app/build/intermediates/exploded-aar/com.twitter.sdk.android/twitter-core/1.6.4/res/values-xhdpi/values-xhdpi.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,

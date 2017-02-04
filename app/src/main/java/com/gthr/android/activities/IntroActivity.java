@@ -3,6 +3,7 @@ package com.gthr.android.activities;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.util.Log;
+import android.widget.Toast;
 
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
@@ -31,11 +32,10 @@ public class IntroActivity extends ApplicationActivity  {
                 FirebaseUser user = firebaseAuth.getCurrentUser();
                 if (user != null) {
                     // User is signed in
-                    Log.d("YEYYY", "YESSS");
-
+                    Toast.makeText(IntroActivity.this, "YESSSSSSSSS", Toast.LENGTH_SHORT).show();
                 } else {
                     // User is signed out
-                    Log.d("NO", ":(");
+                    Toast.makeText(IntroActivity.this, "NOPEEEEEEE", Toast.LENGTH_SHORT).show();
                 }
             }
         };
@@ -50,9 +50,9 @@ public class IntroActivity extends ApplicationActivity  {
                         // the auth state listener will be notified and logic to handle the
                         // signed in user can be handled in the listener.
                         if (!task.isSuccessful()){
-                            Log.d("NO", ":(");
+                            Toast.makeText(IntroActivity.this, "NOPEEEEEEE", Toast.LENGTH_SHORT).show();
                         } else {
-                            Log.d("YEYYY", "YESSS");
+                            Toast.makeText(IntroActivity.this, "YESSSSSSSSS", Toast.LENGTH_SHORT).show();
 
                         }
                     }

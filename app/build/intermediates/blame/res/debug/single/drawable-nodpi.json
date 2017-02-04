@@ -1,30 +1,30 @@
 [
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable-nodpi/com_mixpanel_android_rounded_top.9.png",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/exploded-aar/com.mixpanel.android/mixpanel-android/4.9.2/res/drawable-nodpi/com_mixpanel_android_rounded_top.9.png"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable-nodpi/com_mixpanel_android_square.9.png",
+        "source": "/Users/yaseen/fbase/app/build/intermediates/exploded-aar/com.mixpanel.android/mixpanel-android/4.9.2/res/drawable-nodpi/com_mixpanel_android_square.9.png"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable-nodpi/com_mixpanel_android_rounded_bottom_selected.9.png",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/exploded-aar/com.mixpanel.android/mixpanel-android/4.9.2/res/drawable-nodpi/com_mixpanel_android_rounded_bottom_selected.9.png"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable-nodpi/com_mixpanel_android_rounded_top_selected.9.png",
+        "source": "/Users/yaseen/fbase/app/build/intermediates/exploded-aar/com.mixpanel.android/mixpanel-android/4.9.2/res/drawable-nodpi/com_mixpanel_android_rounded_top_selected.9.png"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable-nodpi/com_mixpanel_android_rounded_top_selected.9.png",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/exploded-aar/com.mixpanel.android/mixpanel-android/4.9.2/res/drawable-nodpi/com_mixpanel_android_rounded_top_selected.9.png"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable-nodpi/com_mixpanel_android_rounded_top.9.png",
+        "source": "/Users/yaseen/fbase/app/build/intermediates/exploded-aar/com.mixpanel.android/mixpanel-android/4.9.2/res/drawable-nodpi/com_mixpanel_android_rounded_top.9.png"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable-nodpi/com_mixpanel_android_close.png",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/exploded-aar/com.mixpanel.android/mixpanel-android/4.9.2/res/drawable-nodpi/com_mixpanel_android_close.png"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable-nodpi/com_mixpanel_android_close.png",
+        "source": "/Users/yaseen/fbase/app/build/intermediates/exploded-aar/com.mixpanel.android/mixpanel-android/4.9.2/res/drawable-nodpi/com_mixpanel_android_close.png"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable-nodpi/com_mixpanel_android_square.9.png",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/exploded-aar/com.mixpanel.android/mixpanel-android/4.9.2/res/drawable-nodpi/com_mixpanel_android_square.9.png"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable-nodpi/com_mixpanel_android_square_selected.9.png",
+        "source": "/Users/yaseen/fbase/app/build/intermediates/exploded-aar/com.mixpanel.android/mixpanel-android/4.9.2/res/drawable-nodpi/com_mixpanel_android_square_selected.9.png"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable-nodpi/com_mixpanel_android_rounded_bottom.9.png",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/exploded-aar/com.mixpanel.android/mixpanel-android/4.9.2/res/drawable-nodpi/com_mixpanel_android_rounded_bottom.9.png"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable-nodpi/com_mixpanel_android_rounded_bottom.9.png",
+        "source": "/Users/yaseen/fbase/app/build/intermediates/exploded-aar/com.mixpanel.android/mixpanel-android/4.9.2/res/drawable-nodpi/com_mixpanel_android_rounded_bottom.9.png"
     },
     {
-        "merged": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/res/merged/debug/drawable-nodpi/com_mixpanel_android_square_selected.9.png",
-        "source": "/Users/yaseen/CSCI/Gather-App/gather-android/app/build/intermediates/exploded-aar/com.mixpanel.android/mixpanel-android/4.9.2/res/drawable-nodpi/com_mixpanel_android_square_selected.9.png"
+        "merged": "/Users/yaseen/fbase/app/build/intermediates/res/merged/debug/drawable-nodpi/com_mixpanel_android_rounded_bottom_selected.9.png",
+        "source": "/Users/yaseen/fbase/app/build/intermediates/exploded-aar/com.mixpanel.android/mixpanel-android/4.9.2/res/drawable-nodpi/com_mixpanel_android_rounded_bottom_selected.9.png"
     }
 ]
